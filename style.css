@@ -1,0 +1,153 @@
+/* ===== 粉红+白色主题 ===== */
+:root {
+    --pink-light: #ffe4ec;
+    --pink-main: #ff8fab;
+    --pink-deep: #ff5c8a;
+    --white: #ffffff;
+    --text: #5a3a45;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    background-color: var(--pink-light);
+    color: var(--text);
+    line-height: 1.7;
+}
+
+/* ===== 顶部导航栏 ===== */
+nav {
+    background-color: var(--pink-main);
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    box-shadow: 0 2px 8px rgba(255, 92, 138, 0.3);
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 14px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+nav a:hover { background-color: var(--pink-deep); }
+nav a.active { background-color: var(--pink-deep); font-weight: bold; }
+
+/* ===== 页面主体 ===== */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: var(--white);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(255, 143, 171, 0.2);
+}
+
+h1 {
+    color: var(--pink-deep);
+    font-size: 26px;
+    margin-bottom: 20px;
+    border-left: 6px solid var(--pink-main);
+    padding-left: 14px;
+}
+
+h2 {
+    color: var(--pink-main);
+    font-size: 20px;
+    margin: 24px 0 12px;
+}
+
+p { margin-bottom: 12px; }
+
+/* ===== 表格 ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+th {
+    background-color: var(--pink-main);
+    color: var(--white);
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid var(--pink-light);
+}
+
+tr:hover td { background-color: var(--pink-light); }
+
+/* ===== 卡片 ===== */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: var(--pink-light);
+    border-radius: 12px;
+    padding: 18px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: border 0.2s;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card:hover { border-color: var(--pink-main); }
+
+.card .avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--pink-main);
+    color: var(--white);
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    overflow: hidden;
+}
+
+.card .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+.card .name { font-weight: bold; color: var(--pink-deep); }
+
+/* ===== 占位提示 ===== */
+.placeholder {
+    background-color: var(--pink-light);
+    border: 2px dashed var(--pink-main);
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    color: var(--pink-deep);
+    margin-top: 20px;
+}
+
+/* ===== 页脚 ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--pink-deep);
+    font-size: 13px;
+}

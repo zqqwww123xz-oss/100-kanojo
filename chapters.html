@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>章节 · 超百女友数据站</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .btn {
+            padding: 10px 18px;
+            border: none;
+            border-radius: 10px;
+            background: var(--pink-main);
+            color: var(--white);
+            font-size: 15px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn:hover { background: var(--pink-deep); }
+        .btn.ghost {
+            background: var(--white);
+            color: var(--pink-deep);
+            border: 2px solid var(--pink-main);
+        }
+        .btn.ghost:hover { background: var(--pink-light); }
+
+        .clickable { cursor: pointer; }
+
+        /* ===== 搜索栏 ===== */
+        .toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 16px 0;
+        }
+        .toolbar input[type="text"] {
+            flex: 1;
+            min-width: 180px;
+            padding: 10px 14px;
+            border: 2px solid var(--pink-main);
+            border-radius: 10px;
+            font-size: 15px;
+            outline: none;
+            background: var(--white);
+            color: var(--text);
+        }
+        .toolbar input[type="text"]:focus { border-color: var(--pink-deep); }
+
+        .search-hint {
+            font-size: 12px;
+            color: #a07a86;
+            margin: -8px 0 12px;
+        }
+        .search-hint code {
+            background: var(--pink-light);
+            color: var(--pink-deep);
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+        }
+
+        /* ===== 面板 ===== */
+        .panel {
+            background: var(--white);
+            border: 2px solid var(--pink-light);
+            border-radius: 12px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .panel-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 20px;
+            margin: 0;
+            background: var(--pink-light);
+            color: var(--pink-deep);
+            font-size: 17px;
+            cursor: pointer;
+            user-select: none;
+        }
+        .panel-head:hover { background: #ffd6e3; }
+        .panel-head .arrow {
+            display: inline-block;
+            transition: transform 0.2s;
+            font-size: 12px;
+        }
+        .panel.collapsed .panel-head .arrow { transform: rotate(-90deg); }
+        .panel.collapsed .panel-body { display: none; }
+        .panel-body { padding: 20px; }
+
+        /* ===== 标签分组（只读） ===== */
+        .tag-group { margin-bottom: 18px; }
+        .tag-group:last-child { margin-bottom: 0; }
+
+        .tag-group-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 8px 12px;
+            background: var(--pink-light);
+            border-radius: 8px;
+            font-weight: bold;
+            color: var(--pink-deep);
+            font-size: 15px;
+            cursor: pointer;
+            user-select: none;
+            flex-wrap: wrap;
+        }
+        .tag-group-head:hover { background: #ffd6e3; }
+        .tag-group-head .group-title {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .tag-group.collapsed .tag-group-body { display: none; }
+        .tag-group.collapsed .tag-group-head .arrow { transform: rotate(-90deg); }
+        .tag-group-head .arrow {
+            display: inline-block;
+            transition: transform 0.2s;
+            font-size: 11px;
+        }
+        .tag-group-body { padding: 12px 4px 4px; }
+
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            min-height: 30px;
+        }
+
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: filter 0.15s;
+            user-select: none;
+        }
+        .tag:hover { filter: brightness(0.92); }
+
+        .empty {
+            color: #b9909c;
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        /* ===== 分页 ===== */
+        .count-hint {
+            font-size: 14px;
+            color: var(--pink-deep);
+            margin-bottom: 10px;
+        }
+        .count-hint .neg {
+            color: #c94a4a;
+            font-weight: bold;
+        }
+        .count-hint .pos {
+            color: var(--pink-deep);
+            font-weight: bold;
+        }
+
+        .big-pagination {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin: 12px 0 6px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed var(--pink-light);
+        }
+        .big-page-btn {
+            padding: 6px 14px;
+            border: 2px solid var(--pink-deep);
+            background: var(--white);
+            color: var(--pink-deep);
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .big-page-btn:hover { background: #ffd6e3; }
+        .big-page-btn.active {
+            background: var(--pink-deep);
+            color: var(--white);
+        }
+
+        .pagination {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin: 8px 0 18px;
+        }
+        .page-btn {
+            padding: 6px 14px;
+            border: 2px solid var(--pink-main);
+            background: var(--white);
+            color: var(--pink-deep);
+            border-radius: 8px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .page-btn:hover { background: #ffd6e3; }
+        .page-btn.active {
+            background: var(--pink-main);
+            color: var(--white);
+            border-color: var(--pink-main);
+            font-weight: bold;
+        }
+
+        /* ===== 章节卡片 ===== */
+        .chapter-item {
+            background: var(--white);
+            border: 2px solid var(--pink-light);
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-bottom: 12px;
+            transition: border 0.2s;
+        }
+        .chapter-item:hover { border-color: var(--pink-main); }
+
+        .chapter-head {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .chapter-num {
+            font-weight: bold;
+            color: var(--pink-deep);
+            font-size: 15px;
+        }
+        .chapter-badges {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: bold;
+            transition: filter 0.15s;
+        }
+        .badge.clickable:hover { filter: brightness(0.9); }
+        .badge.cat-main {
+            background: #d4f5e0;
+            color: #2a7a4a;
+        }
+        .badge.cat-extra {
+            background: #f5ead4;
+            color: #8a6320;
+        }
+
+        .chapter-title { margin: 8px 0 12px; }
+        .title-jp {
+            font-size: 12px;
+            color: #a07a86;
+            line-height: 1.4;
+        }
+        .title-cn {
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--pink-deep);
+            line-height: 1.4;
+        }
+
+        .chars-section {
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px dashed var(--pink-light);
+        }
+        .chars-label {
+            font-size: 12px;
+            color: #a07a86;
+            margin-right: 6px;
+        }
+
+        .mini-tag {
+            display: inline-block;
+            padding: 2px 10px;
+            margin: 2px 4px 2px 0;
+            border-radius: 12px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: filter 0.15s;
+            user-select: none;
+        }
+        .mini-tag:hover { filter: brightness(0.9); }
+
+        .empty-hint {
+            text-align: center;
+            color: var(--pink-deep);
+            padding: 30px;
+            background: var(--pink-light);
+            border-radius: 12px;
+        }
+
+        .loading-hint {
+            text-align: center;
+            color: var(--pink-deep);
+            padding: 40px;
+            font-size: 15px;
+        }
+
+        .error-hint {
+            text-align: center;
+            color: #c94a4a;
+            padding: 30px;
+            background: #ffe4ec;
+            border: 2px solid #ff8fab;
+            border-radius: 12px;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">首页</a>
+    <a href="chapters.html" class="active">章节</a>
+    <a href="characters.html">人物</a>
+</nav>
+
+<main>
+    <h1>📖 章节</h1>
+
+    <div class="toolbar">
+        <input type="text" id="searchInput" placeholder="搜索：羽香里  排除：-团建回（多个词用空格分隔）">
+        <button class="btn" onclick="doSearch()">搜索</button>
+        <button class="btn ghost" onclick="clearSearch()">清除</button>
+    </div>
+    <div class="search-hint">
+        用法：<code>羽香里 个人回</code> → 同时包含两个标签 &nbsp;·&nbsp;
+        <code>-团建回</code> → 不含该标签 &nbsp;·&nbsp;
+        <code>羽香里 -番外</code> → 含羽香里且不含番外
+    </div>
+
+    <!-- 标签总览（只读） -->
+    <section class="panel">
+        <h2 class="panel-head" onclick="togglePanel(this)">
+            <span>🏷️ 标签总览</span>
+            <span class="arrow">▼</span>
+        </h2>
+        <div class="panel-body">
+
+            <div class="tag-group">
+                <div class="tag-group-head" onclick="toggleGroup(this)">
+                    <span class="group-title">📚 题材</span>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="tag-group-body">
+                    <div class="tag-list" id="tagList-types"></div>
+                </div>
+            </div>
+
+            <div class="tag-group">
+                <div class="tag-group-head" onclick="toggleGroup(this)">
+                    <span class="group-title">⭐ 主要人物</span>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="tag-group-body">
+                    <div class="tag-list" id="tagList-mainChars"></div>
+                </div>
+            </div>
+
+            <div class="tag-group">
+                <div class="tag-group-head" onclick="toggleGroup(this)">
+                    <span class="group-title">👥 次要人物</span>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="tag-group-body">
+                    <div class="tag-list" id="tagList-minorChars"></div>
+                </div>
+            </div>
+
+            <div class="tag-group">
+                <div class="tag-group-head" onclick="toggleGroup(this)">
+                    <span class="group-title">🔖 其他</span>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="tag-group-body">
+                    <div class="tag-list" id="tagList-otherTags"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <h2>📚 章节列表</h2>
+    <div class="count-hint" id="countHint"></div>
+    <div class="big-pagination" id="bigPagination"></div>
+    <div class="pagination" id="pagination"></div>
+    <div id="chapterList">
+        <div class="loading-hint">正在加载 chapters-data.json ...</div>
+    </div>
+
+</main>
+
+<footer>粉丝向非官方数据站 · 仅用于学习交流</footer>
+
+<script>
+/* =====================================================
+   数据层（只读）
+===================================================== */
+const GROUPS = ['types', 'mainChars', 'minorChars', 'otherTags'];
+const SMALL_PAGE_SIZE = 10;
+const BIG_PAGE_SIZE   = 100;
+
+let data = null;
+let dataLoaded = false;
+let dataError = '';
+
+function defaultColors() {
+    return {
+        types:      { bg: '#ffe4ec', text: '#ff5c8a' },
+        mainChars:  { bg: '#ff8fab', text: '#ffffff' },
+        minorChars: { bg: '#f5ead4', text: '#8a6320' },
+        otherTags:  { bg: '#e4ecff', text: '#5c6a8a' }
+    };
+}
+function defaultTagColors() {
+    return { types: {}, mainChars: {}, minorChars: {}, otherTags: {} };
+}
+
+/* 从同目录读取 chapters-data.json */
+async function loadDataFromJson() {
+    try {
+        const res = await fetch('chapters-data.json', { cache: 'no-cache' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const d = await res.json();
+
+        const colors = Object.assign(defaultColors(), d.colors || {});
+        GROUPS.forEach(k => {
+            if (!colors[k]) colors[k] = defaultColors()[k];
+        });
+        const tagColors = Object.assign(defaultTagColors(), d.tagColors || {});
+        GROUPS.forEach(k => { if (!tagColors[k]) tagColors[k] = {}; });
+
+        data = {
+            types: d.types || [],
+            mainChars: d.mainChars || [],
+            minorChars: d.minorChars || [],
+            otherTags: d.otherTags || [],
+            chapters: d.chapters || [],
+            colors: colors,
+            tagColors: tagColors
+        };
+        dataLoaded = true;
+    } catch (e) {
+        dataError = e.message;
+        dataLoaded = false;
+        data = {
+            types: [], mainChars: [], minorChars: [], otherTags: [],
+            chapters: [],
+            colors: defaultColors(),
+            tagColors: defaultTagColors()
+        };
+    }
+}
+
+/* 获取某个标签的有效颜色 */
+function getTagColor(key, tag) {
+    const override = data.tagColors[key] && data.tagColors[key][tag];
+    if (override && override.bg && override.text) return override;
+    return data.colors[key];
+}
+
+/* =====================================================
+   分页状态
+===================================================== */
+let currentBigPage = 0;
+let currentSmallPage = 0;
+
+/* =====================================================
+   折叠
+===================================================== */
+function togglePanel(headEl) { headEl.parentElement.classList.toggle('collapsed'); }
+function toggleGroup(headEl) { headEl.parentElement.classList.toggle('collapsed'); }
+
+/* =====================================================
+   标签总览（只读）
+===================================================== */
+function renderTagManager() {
+    GROUPS.forEach(key => {
+        const box = document.getElementById('tagList-' + key);
+        box.innerHTML = '';
+        if (!data[key] || data[key].length === 0) {
+            box.innerHTML = '<span class="empty">暂无标签</span>';
+            return;
+        }
+        data[key].forEach(tag => {
+            const el = document.createElement('span');
+            el.className = 'tag';
+            el.textContent = tag;
+            el.title = '点击搜索该标签';
+            const color = getTagColor(key, tag);
+            el.style.background = color.bg;
+            el.style.color = color.text;
+            el.onclick = () => searchByTag(tag);
+            box.appendChild(el);
+        });
+    });
+}
+
+/* =====================================================
+   点击标签 → 搜索
+===================================================== */
+function searchByTag(tag) {
+    if (!tag) return;
+    document.getElementById('searchInput').value = tag;
+    currentBigPage = 0;
+    currentSmallPage = 0;
+    doSearch();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/* =====================================================
+   搜索词解析（支持 - 排除）
+===================================================== */
+function parseSearchTerms() {
+    const raw = document.getElementById('searchInput').value.trim();
+    if (!raw) return [];
+    return raw.split(/\s+/).filter(Boolean).map(t => {
+        if (t.startsWith('-') && t.length > 1) {
+            return { term: t.slice(1), negate: true };
+        }
+        return { term: t, negate: false };
+    });
+}
+
+function matchChapterRaw(c, term) {
+    if (String(c.number) === term) return true;
+    if (c.titleCN && c.titleCN.includes(term)) return true;
+    if (c.titleJP && c.titleJP.includes(term)) return true;
+    if (c.type && c.type.includes(term)) return true;
+    if (c.category && c.category.includes(term)) return true;
+    if (c.mainChars.some(t => t.includes(term))) return true;
+    if (c.minorChars.some(t => t.includes(term))) return true;
+    if ((c.otherTags || []).some(t => t.includes(term))) return true;
+    return false;
+}
+
+function matchTerm(c, termObj) {
+    const hit = matchChapterRaw(c, termObj.term);
+    return termObj.negate ? !hit : hit;
+}
+
+/* =====================================================
+   渲染章节列表
+===================================================== */
+function renderChapters(terms = []) {
+    const list = document.getElementById('chapterList');
+    const smallPagination = document.getElementById('pagination');
+    const bigPagination = document.getElementById('bigPagination');
+    const hint = document.getElementById('countHint');
+
+    // 数据加载失败
+    if (!dataLoaded) {
+        hint.innerHTML = '';
+        bigPagination.innerHTML = '';
+        smallPagination.innerHTML = '';
+        list.innerHTML = `
+            <div class="error-hint">
+                ⚠️ 无法加载 <b>chapters-data.json</b><br>
+                ${dataError ? '错误信息：' + escapeHtml(dataError) : ''}<br>
+                <br>
+                请确认：<br>
+                1. <code>chapters-data.json</code> 与 <code>chapters.html</code> 在<b>同一文件夹</b><br>
+                2. 文件名完全一致（区分大小写）<br>
+                3. 不是用本地 <code>file://</code> 打开的（需通过 http/https 访问）
+            </div>
+        `;
+        return;
+    }
+
+    let chapters = data.chapters;
+    const isSearching = terms.length > 0;
+
+    if (isSearching) {
+        chapters = chapters.filter(c => terms.every(t => matchTerm(c, t)));
+    }
+
+    const termsHtml = terms.map(t =>
+        t.negate
+            ? `<span class="neg">-${escapeHtml(t.term)}</span>`
+            : `<span class="pos">${escapeHtml(t.term)}</span>`
+    ).join('、');
+
+    if (chapters.length === 0) {
+        const msg = isSearching
+            ? `搜索到 0 个章节（关键词：${termsHtml}）`
+            : '暂无章节';
+        hint.innerHTML = isSearching ? msg : '';
+        list.innerHTML = `<div class="empty-hint">${isSearching ? msg : '暂无章节'}</div>`;
+        smallPagination.innerHTML = '';
+        bigPagination.innerHTML = '';
+        return;
+    }
+
+    const totalBigPages = Math.ceil(chapters.length / BIG_PAGE_SIZE);
+    if (currentBigPage >= totalBigPages) currentBigPage = totalBigPages - 1;
+    if (currentBigPage < 0) currentBigPage = 0;
+
+    const bigStart = currentBigPage * BIG_PAGE_SIZE;
+    const bigEnd = Math.min(bigStart + BIG_PAGE_SIZE, chapters.length);
+    const bigChapters = chapters.slice(bigStart, bigEnd);
+
+    const totalSmallPages = Math.ceil(bigChapters.length / SMALL_PAGE_SIZE);
+    if (currentSmallPage >= totalSmallPages) currentSmallPage = totalSmallPages - 1;
+    if (currentSmallPage < 0) currentSmallPage = 0;
+
+    bigPagination.innerHTML = '';
+    if (totalBigPages > 1) {
+        for (let i = 0; i < totalBigPages; i++) {
+            const btn = document.createElement('button');
+            btn.className = 'big-page-btn' + (i === currentBigPage ? ' active' : '');
+            const s = i * BIG_PAGE_SIZE + 1;
+            const e = Math.min((i + 1) * BIG_PAGE_SIZE, chapters.length);
+            btn.textContent = `大页 ${i + 1}（${s}-${e}）`;
+            btn.onclick = () => {
+                currentBigPage = i;
+                currentSmallPage = 0;
+                renderChapters(terms);
+            };
+            bigPagination.appendChild(btn);
+        }
+    }
+
+    smallPagination.innerHTML = '';
+    for (let i = 0; i < totalSmallPages; i++) {
+        const btn = document.createElement('button');
+        btn.className = 'page-btn' + (i === currentSmallPage ? ' active' : '');
+        const s = bigStart + i * SMALL_PAGE_SIZE + 1;
+        const e = Math.min(bigStart + (i + 1) * SMALL_PAGE_SIZE, chapters.length);
+        btn.textContent = `${s}-${e}`;
+        btn.onclick = () => {
+            currentSmallPage = i;
+            renderChapters(terms);
+        };
+        smallPagination.appendChild(btn);
+    }
+
+    const smallStart = currentSmallPage * SMALL_PAGE_SIZE;
+    const smallEnd = Math.min(smallStart + SMALL_PAGE_SIZE, bigChapters.length);
+    const currentChapters = bigChapters.slice(smallStart, smallEnd);
+
+    list.innerHTML = '';
+    currentChapters.forEach(c => list.appendChild(buildChapterCard(c)));
+
+    let hintText = isSearching
+        ? `搜索到 ${chapters.length} 个章节（关键词：${termsHtml}）`
+        : `共 ${chapters.length} 个章节`;
+    const globalStart = bigStart + smallStart + 1;
+    const globalEnd = bigStart + smallStart + currentChapters.length;
+    hintText += ` · 当前显示第 ${globalStart}-${globalEnd} 项`;
+    if (totalBigPages > 1) hintText += `（大页 ${currentBigPage + 1}/${totalBigPages}）`;
+    hint.innerHTML = hintText;
+}
+
+function buildChapterCard(c) {
+    const item = document.createElement('div');
+    item.className = 'chapter-item';
+
+    const mainHtml = renderMiniTags(c.mainChars, 'mainChars', '主要人物');
+    const minorHtml = renderMiniTags(c.minorChars, 'minorChars', '次要人物');
+    const otherHtml = renderMiniTags(c.otherTags || [], 'otherTags', '其他');
+
+    const typeColor = c.type ? getTagColor('types', c.type) : null;
+    const typeBadge = c.type
+        ? `<span class="badge clickable" data-tag="${escapeAttr(c.type)}" style="background:${typeColor.bg};color:${typeColor.text};" title="点击搜索该题材">${escapeHtml(c.type)}</span>`
+        : '';
+    const catBadge = `<span class="badge ${c.category === '番外' ? 'cat-extra' : 'cat-main'} clickable" data-tag="${escapeAttr(c.category)}" title="点击搜索该分类">${escapeHtml(c.category)}</span>`;
+
+    item.innerHTML = `
+        <div class="chapter-head">
+            <span class="chapter-num">第 ${c.number} 话</span>
+            <div class="chapter-badges">${typeBadge}${catBadge}</div>
+        </div>
+        <div class="chapter-title">
+            <div class="title-jp">${escapeHtml(c.titleJP || '')}</div>
+            <div class="title-cn">${escapeHtml(c.titleCN)}</div>
+        </div>
+        ${mainHtml}${minorHtml}${otherHtml}
+    `;
+
+    item.querySelectorAll('.clickable[data-tag]').forEach(el => {
+        el.onclick = () => searchByTag(el.dataset.tag);
+    });
+
+    return item;
+}
+
+function renderMiniTags(tags, key, label) {
+    if (!tags || tags.length === 0) return '';
+    const html = tags.map(t => {
+        const c = getTagColor(key, t);
+        return `<span class="mini-tag clickable" style="background:${c.bg};color:${c.text};" data-tag="${escapeAttr(t)}" title="点击搜索该标签">${escapeHtml(t)}</span>`;
+    }).join('');
+    return `<div class="chars-section"><span class="chars-label">${label}：</span>${html}</div>`;
+}
+
+/* =====================================================
+   搜索动作
+===================================================== */
+function doSearch() {
+    renderChapters(parseSearchTerms());
+}
+function clearSearch() {
+    document.getElementById('searchInput').value = '';
+    currentBigPage = 0;
+    currentSmallPage = 0;
+    renderChapters();
+}
+document.getElementById('searchInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+        currentBigPage = 0;
+        currentSmallPage = 0;
+        doSearch();
+    }
+});
+
+/* =====================================================
+   工具
+===================================================== */
+function escapeHtml(s) {
+    return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+function escapeAttr(s) { return escapeHtml(s); }
+
+/* =====================================================
+   初始化
+===================================================== */
+(async function init() {
+    await loadDataFromJson();
+    renderTagManager();
+    renderChapters();
+})();
+</script>
+
+</body>
+</html>

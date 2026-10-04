@@ -1,15 +1,16 @@
 {
   "types": [
-    "参战回",
-    "团建回",
-    "大事件",
-    "个人主线回",
-    "个人约会回",
-    "双人约会回",
-    "三人约会回",
-    "双人女友回",
-    "多人女友回",
-    "其他个人回"
+    "团建",
+    "个人",
+    "双人",
+    "三人",
+    "多人",
+    "参战",
+    "约会",
+    "女友（互动）",
+    "单元剧",
+    "其他",
+    "主线"
   ],
   "mainChars": [
     "爱城恋太郎",
@@ -34,7 +35,22 @@
     "中二诗人",
     "女井户妹",
     "盆能寺百八",
-    "灰尾凛"
+    "灰尾凛",
+    "一二三数",
+    "火保耶拉",
+    "猫成珠",
+    "才奇姬歌（奇姬）",
+    "出井祭李",
+    "宇佐美椎奈",
+    "雪房田梦留",
+    "辈先",
+    "根向井宁梦",
+    "端须莲叶",
+    "守北季鞠",
+    "双天彗流",
+    "千优慈相",
+    "三白小小枝",
+    "伏田兰那"
   ],
   "minorChars": [
     "友人A",
@@ -43,8 +59,8 @@
     "好本静妈妈",
     "优君",
     "吴莉罗总长（大猩猩）",
-    "有钱人家的猫",
-    "有钱人家的狗",
+    "亚尔斯(有钱人家的猫)",
+    "波奇（有钱人家的狗）",
     "花园香(羽香里爸爸)",
     "女主持",
     "企鹅太郎",
@@ -63,39 +79,86 @@
     "拉面店老板",
     "妹的祖母（女仆）",
     "出版社大佬",
-    "凛的父（母）亲"
+    "凛的父（母）亲",
+    "耶拉爸爸",
+    "很强的医生",
+    "唐人（唐音弟弟）",
+    "宁梦（爷爷奶奶）",
+    "汪太郎",
+    "中村"
   ],
   "otherTags": [
+    "第1卷",
+    "第2卷",
+    "第3卷",
+    "第4卷",
+    "第5卷",
+    "第6卷",
+    "第7卷",
+    "第8卷",
+    "第9卷",
+    "第10卷",
+    "第11卷",
+    "第12卷",
+    "第13卷",
+    "第14卷",
+    "第15卷",
+    "第16卷",
+    "第17卷",
+    "第18卷",
+    "第19卷",
+    "第20卷",
+    "第21卷",
+    "第22卷",
+    "第23卷",
+    "第24卷",
+    "第25卷",
+    "第26卷",
+    "第27卷",
     "楠莉正常状态",
     "恋太郎女装",
     "恋太郎换装",
     "知与掉眼镜",
     "芽衣睁眼",
-    "骑士华幼化"
+    "骑士华幼化",
+    "百人女友特有的极端天气"
   ],
   "chapters": [
     {
       "number": 1,
       "titleCN": "花园同学和羽香里同学",
       "titleJP": "花園さんと院田さん",
-      "type": "参战回",
+      "types": [
+        "双人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
-        "院田唐音",
-        "花园羽香里"
+        "花园羽香里",
+        "院田唐音"
       ],
       "minorChars": [
         "友人A",
         "恋爱神社的神明"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第1卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音"
+      ],
+      "groups": []
     },
     {
       "number": 2,
       "titleCN": "第一次的啾",
       "titleJP": "はじめてのチュウ",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -105,13 +168,20 @@
       "minorChars": [
         "教导主任"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第1卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 3,
       "titleCN": "好本同学",
       "titleJP": "好本さん",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -123,13 +193,22 @@
         "恋爱神社的神明",
         "好本静妈妈"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第1卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "好本静"
+      ],
+      "groups": []
     },
     {
       "number": 4,
       "titleCN": "还以为是卿卿我我回，却……",
       "titleJP": "いちゃいちゃ回と思いきや",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -138,13 +217,19 @@
         "好本静"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第1卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 5,
       "titleCN": "其实，是更加卿卿我我回",
       "titleJP": "その実、もっといちゃいちゃ回",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -153,13 +238,39 @@
         "好本静"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第1卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 5.5,
+      "titleCN": "恋太郎的初恋",
+      "titleJP": "恋太郎の初恋",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "爱城恋太郎",
+        "院田唐音",
+        "花园羽香里",
+        "好本静"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第1卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 6,
       "titleCN": "荣逢同学",
       "titleJP": "栄逢さん",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -169,26 +280,45 @@
         "好本静"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第2卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "荣逢凪乃"
+      ],
+      "groups": []
     },
     {
       "number": 7,
       "titleCN": "AI少女的无意义日常",
       "titleJP": "AI少女の無意義な日々",
-      "type": "个人约会回",
+      "types": [
+        "个人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
         "荣逢凪乃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第2卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "荣逢凪乃"
+      ],
+      "groups": []
     },
     {
       "number": 8,
       "titleCN": "大家最喜欢的泳装回",
       "titleJP": "みんな大好き水着回",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -198,13 +328,19 @@
         "荣逢凪乃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第2卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 9,
       "titleCN": "水疗度假村的情侣们",
       "titleJP": "スパリゾートの恋人たち",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -214,29 +350,47 @@
         "荣逢凪乃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第2卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 10,
       "titleCN": "化学室里的神秘学姐",
       "titleJP": "化学室にいた謎の先輩",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
         "药膳楠莉",
-        "荣逢凪乃"
+        "荣逢凪乃",
+        "花园羽香里",
+        "院田唐音",
+        "好本静"
       ],
       "minorChars": [],
       "otherTags": [
-        "楠莉正常状态"
-      ]
+        "楠莉正常状态",
+        "第2卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "药膳楠莉"
+      ],
+      "groups": []
     },
     {
       "number": 11,
       "titleCN": "初次见面的药物少女",
       "titleJP": "はじめましてのお薬少女",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -247,13 +401,22 @@
         "药膳楠莉"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第2卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "药膳楠莉"
+      ],
+      "groups": []
     },
     {
       "number": 12,
       "titleCN": "接吻丧尸♡大恐慌",
       "titleJP": "キスゾンビ♡パニック",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -266,13 +429,22 @@
       "minorChars": [
         "教导主任"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第2卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "药膳楠莉"
+      ],
+      "groups": []
     },
     {
       "number": 13,
       "titleCN": "因为喜欢那样的前辈",
       "titleJP": "そんな先輩が好きだから",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "花园羽香里",
@@ -284,14 +456,22 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "楠莉正常状态"
-      ]
+        "楠莉正常状态",
+        "第2卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "药膳楠莉"
+      ],
+      "groups": []
     },
     {
       "number": 14,
       "titleCN": "赌上爱与灵魂的圣战",
       "titleJP": "愛と魂をかけた聖戦",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -307,14 +487,41 @@
         "吴莉罗总长（大猩猩）"
       ],
       "otherTags": [
-        "楠莉正常状态"
-      ]
+        "楠莉正常状态",
+        "第2卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 14.5,
+      "titleCN": "胸部猜谜游戏",
+      "titleJP": "おむね当てゲーム",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第2卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 15,
       "titleCN": "告别的理由",
       "titleJP": "さよならの理由",
-      "type": "个人主线回",
+      "types": [
+        "个人",
+        "主线"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -326,13 +533,23 @@
         "花园羽羽里"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第3卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽香里"
+      ],
+      "groups": []
     },
     {
       "number": 16,
       "titleCN": "爱情任务・不可能完成",
       "titleJP": "ラブミッション・インポッシブル",
-      "type": "个人主线回",
+      "types": [
+        "个人",
+        "主线"
+      ],
       "category": "正片",
       "mainChars": [
         "花园羽香里",
@@ -344,16 +561,27 @@
         "花园羽羽里"
       ],
       "minorChars": [
-        "有钱人家的猫",
-        "有钱人家的狗"
+        "亚尔斯(有钱人家的猫)",
+        "波奇（有钱人家的狗）"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第3卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽香里"
+      ],
+      "groups": []
     },
     {
       "number": 17,
       "titleCN": "羽香里的母亲大人",
       "titleJP": "羽香里のお母様",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战",
+        "主线"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -365,13 +593,24 @@
         "药膳楠莉"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第3卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "花园羽羽里"
+      ],
+      "groups": []
     },
     {
       "number": 18,
       "titleCN": "寻找说谎者的魔女审判",
       "titleJP": "嘘吐き探しの魔女裁判",
-      "type": "个人主线回",
+      "types": [
+        "个人",
+        "主线"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -381,13 +620,23 @@
         "铭户芽衣"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第3卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽香里"
+      ],
+      "groups": []
     },
     {
       "number": 19,
       "titleCN": "哪怕拼上这条命",
       "titleJP": "この命にかえても",
-      "type": "个人主线回",
+      "types": [
+        "个人",
+        "主线"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -399,13 +648,22 @@
         "花园羽羽里"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第3卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽香里"
+      ],
+      "groups": []
     },
     {
       "number": 20,
       "titleCN": "既然说了要做，就全力做的福利回",
       "titleJP": "やると言ったからには全力でご褒美回をやる",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -421,14 +679,19 @@
       "otherTags": [
         "楠莉正常状态",
         "恋太郎女装",
-        "恋太郎换装"
-      ]
+        "恋太郎换装",
+        "第3卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 21,
       "titleCN": "就算跨话数也要做福利。这才叫全力以赴",
       "titleJP": "話数を跨ごうがやる。これが全力でやるという事だ",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -441,16 +704,23 @@
         "铭户芽衣"
       ],
       "minorChars": [
-        "有钱人家的猫",
-        "有钱人家的狗"
+        "亚尔斯(有钱人家的猫)",
+        "波奇（有钱人家的狗）"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第3卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 22,
       "titleCN": "花园家的各位",
       "titleJP": "花園家の人達",
-      "type": "个人约会回",
+      "types": [
+        "个人",
+        "其他"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -465,13 +735,22 @@
       "minorChars": [
         "花园香(羽香里爸爸)"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第3卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽羽里"
+      ],
+      "groups": []
     },
     {
       "number": 23,
       "titleCN": "他的名字是。",
       "titleJP": "彼の名は。",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -483,13 +762,44 @@
         "花园羽羽里"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第3卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 23.5,
+      "titleCN": "羽羽里想被撒娇",
+      "titleJP": "羽々里さんは甘えられたい",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第3卷"
+      ],
+      "highlightChars": [
+        "花园羽羽里"
+      ],
+      "groups": []
     },
     {
       "number": 24,
       "titleCN": "肚子饿的后辈",
       "titleJP": "はらぺこの後輩",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -503,13 +813,22 @@
         "原贺胡桃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第4卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "原贺胡桃"
+      ],
+      "groups": []
     },
     {
       "number": 25,
       "titleCN": "开幕！美食节",
       "titleJP": "開幕！フードフェスティバル",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -526,13 +845,22 @@
         "吴莉罗总长（大猩猩）",
         "女主持"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第4卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "原贺胡桃"
+      ],
+      "groups": []
     },
     {
       "number": 26,
       "titleCN": "激斗！美食节",
       "titleJP": "激闘！フードフェスティバル",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -549,13 +877,27 @@
         "优君",
         "吴莉罗总长（大猩猩）"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第4卷"
+      ],
+      "highlightChars": [
+        "好本静",
+        "花园羽香里",
+        "荣逢凪乃",
+        "院田唐音",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃"
+      ],
+      "groups": []
     },
     {
       "number": 27,
       "titleCN": "决战！美食节",
       "titleJP": "決着！フードフェスティバル",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -572,13 +914,28 @@
         "优君",
         "女主持"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第4卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃"
+      ],
+      "groups": []
     },
     {
       "number": 28,
       "titleCN": "大家以前都是小宝宝",
       "titleJP": "みんな昔は赤ちゃんだった",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -592,13 +949,22 @@
         "原贺胡桃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第4卷"
+      ],
+      "highlightChars": [
+        "花园羽香里",
+        "花园羽羽里"
+      ],
+      "groups": []
     },
     {
       "number": 29,
       "titleCN": "企鹅太郎的大冒险",
       "titleJP": "ペン太郎の大冒険",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -616,14 +982,22 @@
         "教导主任"
       ],
       "otherTags": [
-        "楠莉正常状态"
-      ]
+        "楠莉正常状态",
+        "第4卷"
+      ],
+      "highlightChars": [
+        "药膳楠莉"
+      ],
+      "groups": []
     },
     {
       "number": 30,
       "titleCN": "总是微笑的女仆小姐",
       "titleJP": "いつも笑顔のメイドさん",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -638,14 +1012,23 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "芽衣睁眼"
-      ]
+        "芽衣睁眼",
+        "第4卷"
+      ],
+      "highlightChars": [
+        "铭户芽衣",
+        "爱城恋太郎"
+      ],
+      "groups": []
     },
     {
       "number": 31,
       "titleCN": "一日主人体验♥",
       "titleJP": "一日ご主人様体験♥",
-      "type": "个人约会回",
+      "types": [
+        "个人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -656,14 +1039,22 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "芽衣睁眼"
-      ]
+        "芽衣睁眼",
+        "第4卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "铭户芽衣"
+      ],
+      "groups": []
     },
     {
       "number": 32,
       "titleCN": "湿漉漉女仆派对",
       "titleJP": "ぬれぬれメイドパーティー",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -678,14 +1069,46 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "恋太郎换装"
-      ]
+        "恋太郎换装",
+        "第4卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 32.5,
+      "titleCN": "芽衣与羽羽里的相遇",
+      "titleJP": "芽衣と羽々里の出会い",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "铭户芽衣",
+        "原贺胡桃"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第4卷"
+      ],
+      "highlightChars": [
+        "铭户芽衣"
+      ],
+      "groups": []
     },
     {
       "number": 33,
       "titleCN": "须藤同学",
       "titleJP": "須藤さん",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -700,13 +1123,22 @@
         "须藤育"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第5卷"
+      ],
+      "highlightChars": [
+        "须藤育",
+        "爱城恋太郎"
+      ],
+      "groups": []
     },
     {
       "number": 34,
       "titleCN": "恋太郎监督・热血与爱的指导",
       "titleJP": "恋太郎監督の熱血愛指導",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -721,13 +1153,19 @@
         "原贺胡桃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第5卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 35,
       "titleCN": "才、才不是因为有9个人就搞棒球那种简单粗暴的套路呢‼",
       "titleJP": "きゅ、9人だから野球だとか安直なアレじゃないんだからねっ‼",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -745,13 +1183,19 @@
         "侏罗纪高中棒球部",
         "行啊行啊三姐妹(以及她们的爸爸)"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第5卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 36,
       "titleCN": "向你的本垒打起誓",
       "titleJP": "君のホームランに誓う",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -769,35 +1213,19 @@
         "侏罗纪高中棒球部"
       ],
       "otherTags": [
-        "楠莉正常状态"
-      ]
+        "楠莉正常状态",
+        "第5卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 37,
       "titleCN": "喜欢喜欢超喜欢♥",
       "titleJP": "好き好き大好き♥",
-      "type": "团建回",
-      "category": "正片",
-      "mainChars": [
-        "爱城恋太郎",
-        "须藤育",
-        "花园羽香里",
-        "院田唐音",
-        "好本静",
-        "荣逢凪乃",
-        "药膳楠莉",
-        "花园羽羽里",
-        "铭户芽衣",
-        "原贺胡桃"
+      "types": [
+        "团建"
       ],
-      "minorChars": [],
-      "otherTags": []
-    },
-    {
-      "number": 38,
-      "titleCN": "卡拉OK危机",
-      "titleJP": "カラオケ・クライシス",
-      "type": "团建回",
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -813,14 +1241,49 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "芽衣睁眼"
-      ]
+        "第5卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 38,
+      "titleCN": "卡拉OK危机",
+      "titleJP": "カラオケ・クライシス",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "须藤育",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "铭户芽衣",
+        "原贺胡桃"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "芽衣睁眼",
+        "第5卷"
+      ],
+      "highlightChars": [
+        "好本静"
+      ],
+      "groups": []
     },
     {
       "number": 39,
       "titleCN": "美杉前辈",
       "titleJP": "美杉先輩",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -830,14 +1293,22 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "恋太郎换装"
-      ]
+        "恋太郎换装",
+        "第5卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "美杉美美美"
+      ],
+      "groups": []
     },
     {
       "number": 40,
       "titleCN": "无法忘怀的过去",
       "titleJP": "忘れ得ぬ過去",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -854,14 +1325,22 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "恋太郎换装"
-      ]
+        "恋太郎换装",
+        "第5卷"
+      ],
+      "highlightChars": [
+        "美杉美美美",
+        "荣逢凪乃"
+      ],
+      "groups": []
     },
     {
       "number": 41,
       "titleCN": "美美学姐的美丽指南（大概）",
       "titleJP": "美々美先輩の美しさ指南（多分）",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "须藤育",
@@ -877,13 +1356,38 @@
         "原贺胡桃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第5卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 41.5,
+      "titleCN": "就这样怪物诞生了",
+      "titleJP": "こうしてモンスターは生まれた",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "须藤育"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第5卷"
+      ],
+      "highlightChars": [
+        "须藤育"
+      ],
+      "groups": []
     },
     {
       "number": 42,
       "titleCN": "随处可见的普通换发型回",
       "titleJP": "どこにでもある ただのヘアチェンジ回",
-      "type": "大事件",
+      "types": [
+        "个人",
+        "其他"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -901,13 +1405,23 @@
       "minorChars": [
         "教导主任"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第6卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽羽里"
+      ],
+      "groups": []
     },
     {
       "number": 43,
       "titleCN": "你终结了世界，然后……",
       "titleJP": "あなたがセカイを終わらせて、そして",
-      "type": "大事件",
+      "types": [
+        "其他",
+        "个人"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -928,13 +1442,23 @@
         "优君",
         "花园香(羽香里爸爸)"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第6卷"
+      ],
+      "highlightChars": [
+        "花园羽羽里",
+        "爱城恋太郎"
+      ],
+      "groups": []
     },
     {
       "number": 44,
       "titleCN": "想要吃你的牛舌",
       "titleJP": "君の牛タンをたべたい",
-      "type": "团建回",
+      "types": [
+        "个人",
+        "其他"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -950,13 +1474,22 @@
         "原贺胡桃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第6卷"
+      ],
+      "highlightChars": [
+        "原贺胡桃"
+      ],
+      "groups": []
     },
     {
       "number": 45,
       "titleCN": "华暮同学",
       "titleJP": "華暮さん",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "华暮爱爱",
@@ -973,13 +1506,22 @@
         "原贺胡桃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第6卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "华暮爱爱"
+      ],
+      "groups": []
     },
     {
       "number": 46,
       "titleCN": "鬼抓人！校内捉迷藏",
       "titleJP": "鬼キュン!校内かくれんぼ",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -998,13 +1540,20 @@
       "minorChars": [
         "教导主任"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第6卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 47,
       "titleCN": "芽衣小姐的礼物大作战",
       "titleJP": "芽衣さんのプレゼント大作戦",
-      "type": "个人约会回",
+      "types": [
+        "个人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1026,14 +1575,23 @@
       "otherTags": [
         "恋太郎女装",
         "恋太郎换装",
-        "芽衣睁眼"
-      ]
+        "芽衣睁眼",
+        "第6卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "铭户芽衣"
+      ],
+      "groups": []
     },
     {
       "number": 48,
       "titleCN": "失落的傲娇",
       "titleJP": "失われしツンデレ",
-      "type": "个人主线回",
+      "types": [
+        "个人",
+        "主线"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1050,13 +1608,23 @@
         "原贺胡桃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第6卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "院田唐音"
+      ],
+      "groups": []
     },
     {
       "number": 49,
       "titleCN": "夺回傲娇",
       "titleJP": "取り戻せツンデレ",
-      "type": "个人主线回",
+      "types": [
+        "个人",
+        "主线"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1074,13 +1642,23 @@
         "女井户妹"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第6卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "院田唐音"
+      ],
+      "groups": []
     },
     {
       "number": 50,
       "titleCN": "值得爱的傲娇",
       "titleJP": "愛すべきツンデレ",
-      "type": "个人主线回",
+      "types": [
+        "个人",
+        "主线"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1097,13 +1675,41 @@
         "原贺胡桃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第6卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "院田唐音"
+      ],
+      "groups": []
+    },
+    {
+      "number": 50.5,
+      "titleCN": "第一次视觉诱导",
+      "titleJP": "はじめてのみすでぃれくしょん",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "华暮爱爱"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第6卷"
+      ],
+      "highlightChars": [
+        "华暮爱爱"
+      ],
+      "groups": []
     },
     {
       "number": 51,
       "titleCN": "知与酱",
       "titleJP": "知与ちゃん",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "伊院知与",
@@ -1113,14 +1719,22 @@
         "伊院弘（舅舅）"
       ],
       "otherTags": [
-        "知与掉眼镜"
-      ]
+        "知与掉眼镜",
+        "第7卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "伊院知与"
+      ],
+      "groups": []
     },
     {
       "number": 52,
       "titleCN": "知与酱的家族指导",
       "titleJP": "知与ちゃんのファミリー指導",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1139,14 +1753,19 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "知与掉眼镜"
-      ]
+        "知与掉眼镜",
+        "第7卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 53,
       "titleCN": "周日晨间动画大概就是这样",
       "titleJP": "ニチアサは大体これ",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1165,14 +1784,20 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "恋太郎换装"
-      ]
+        "恋太郎换装",
+        "第7卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 54,
       "titleCN": "恋太郎家族的校内接吻禁止令",
       "titleJP": "恋太郎ファミリーの校内キス禁止令",
-      "type": "团建回",
+      "types": [
+        "个人",
+        "其他"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1193,14 +1818,22 @@
         "教导主任"
       ],
       "otherTags": [
-        "芽衣睁眼"
-      ]
+        "芽衣睁眼",
+        "第7卷"
+      ],
+      "highlightChars": [
+        "伊院知与"
+      ],
+      "groups": []
     },
     {
       "number": 55,
       "titleCN": "大家都喜闻乐见的修行回",
       "titleJP": "皆大好き修行回",
-      "type": "团建回",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1220,13 +1853,23 @@
       "minorChars": [
         "雉根田兔留留（报社部部长）"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第7卷"
+      ],
+      "highlightChars": [
+        "华暮爱爱",
+        "美杉美美美",
+        "爱城恋太郎"
+      ],
+      "groups": []
     },
     {
       "number": 56,
       "titleCN": "膝枕王者决定战",
       "titleJP": "膝枕王者決定戦",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1244,13 +1887,20 @@
         "原贺胡桃"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第7卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 57,
       "titleCN": "娜迪老师",
       "titleJP": "ナディー先生",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1262,13 +1912,22 @@
         "娜迪（大和抚子）"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第7卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "娜迪（大和抚子）"
+      ],
+      "groups": []
     },
     {
       "number": 58,
       "titleCN": "娜迪老师的自由时间",
       "titleJP": "ナディー先生の自由の時間",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1288,14 +1947,19 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "恋太郎换装"
-      ]
+        "恋太郎换装",
+        "第7卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 59,
       "titleCN": "大头贴机・越狱",
       "titleJP": "プリ(ズン)・ブレイク",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "花园羽香里",
@@ -1319,14 +1983,41 @@
       ],
       "otherTags": [
         "楠莉正常状态",
-        "知与掉眼镜"
-      ]
+        "知与掉眼镜",
+        "第7卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 59.5,
+      "titleCN": "大和抚子少女与毁灭性英语的觉醒",
+      "titleJP": "撫子少女と壊滅的イングリッシュの目覚め",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "娜迪（大和抚子）",
+        "好本静",
+        "药膳楠莉",
+        "原贺胡桃"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第7卷"
+      ],
+      "highlightChars": [
+        "娜迪（大和抚子）"
+      ],
+      "groups": []
     },
     {
       "number": 60,
       "titleCN": "假小子女友",
       "titleJP": "ボーイッシュな彼女",
-      "type": "个人约会回",
+      "types": [
+        "个人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1345,13 +2036,23 @@
         "娜迪（大和抚子）"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第8卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "须藤育"
+      ],
+      "groups": []
     },
     {
       "number": 61,
       "titleCN": "第一次的小不点购物回",
       "titleJP": "初めてのおつ回",
-      "type": "三人约会回",
+      "types": [
+        "三人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1363,14 +2064,24 @@
         "企鹅太郎"
       ],
       "otherTags": [
-        "知与掉眼镜"
-      ]
+        "知与掉眼镜",
+        "第8卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "好本静",
+        "药膳楠莉",
+        "伊院知与"
+      ],
+      "groups": []
     },
     {
       "number": 62,
       "titleCN": "恋太郎家族偶像化计划",
       "titleJP": "恋太郎ファミリーアイドル化計画",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1391,13 +2102,19 @@
       "minorChars": [
         "九织蒂娜（偶像教练）"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第8卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 63,
       "titleCN": "然后，迈向新的舞台",
       "titleJP": "そして新たなるステージへ",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1422,13 +2139,20 @@
         "优君",
         "侏罗纪高中棒球部"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第8卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 64,
       "titleCN": "优敷同学",
       "titleJP": "優敷さん",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "优敷山女",
@@ -1439,13 +2163,22 @@
         "教导主任",
         "山女爸爸"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第8卷"
+      ],
+      "highlightChars": [
+        "优敷山女",
+        "爱城恋太郎"
+      ],
+      "groups": []
     },
     {
       "number": 65,
       "titleCN": "山女酱的园艺部参观",
       "titleJP": "山女ちゃんの園芸部ツアー",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1465,13 +2198,19 @@
         "优敷山女"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第8卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 66,
       "titleCN": "来吧……黑暗游戏开始了",
       "titleJP": "さぁ...闇のゲームの始まりだぜ！",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1494,13 +2233,19 @@
       "minorChars": [
         "企鹅太郎"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第8卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 67,
       "titleCN": "海獭火锅相扑大会（对海獭造成严重风评被害）",
       "titleJP": "ラッコ鍋相撲大会（深刻なラッコへの風評被害）",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1521,14 +2266,60 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "知与掉眼镜"
-      ]
+        "知与掉眼镜",
+        "第8卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "娜迪（大和抚子）",
+        "伊院知与",
+        "华暮爱爱",
+        "美杉美美美",
+        "原贺胡桃",
+        "花园羽羽里",
+        "药膳楠莉",
+        "好本静",
+        "花园羽香里"
+      ],
+      "groups": []
+    },
+    {
+      "number": 67.1,
+      "titleCN": "盂兰盆节特别番外篇恋太郎家族的暑假",
+      "titleJP": "お盆特別番外編 恋太郎ファミリーの夏休み",
+      "types": [
+        "团建"
+      ],
+      "category": "番外",
+      "mainChars": [
+        "娜迪（大和抚子）",
+        "伊院知与",
+        "华暮爱爱",
+        "美杉美美美",
+        "须藤育",
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "优敷山女"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 68,
       "titleCN": "再见，海獭火锅相扑大会",
       "titleJP": "さらばラッコ鍋相撲大会",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1548,27 +2339,71 @@
         "优敷山女"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第8卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "院田唐音",
+        "荣逢凪乃",
+        "铭户芽衣",
+        "须藤育",
+        "优敷山女"
+      ],
+      "groups": []
+    },
+    {
+      "number": 68.5,
+      "titleCN": "第一次杀生",
+      "titleJP": "はじめてのせっしょう",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "优敷山女",
+        "爱城恋太郎",
+        "药膳楠莉"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第8卷"
+      ],
+      "highlightChars": [
+        "优敷山女"
+      ],
+      "groups": []
     },
     {
       "number": 69,
       "titleCN": "茂见同学",
       "titleJP": "茂見さん",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
-        "茂见红叶"
+        "茂见红叶",
+        "爱城恋太郎"
       ],
       "minorChars": [
         "野泽老师"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第9卷"
+      ],
+      "highlightChars": [
+        "茂见红叶",
+        "爱城恋太郎"
+      ],
+      "groups": []
     },
     {
       "number": 70,
       "titleCN": "红叶酱的揉揉祭",
       "titleJP": "紅葉ちゃんのもみもみフェスティバル",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1589,13 +2424,22 @@
         "茂见红叶"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第9卷"
+      ],
+      "highlightChars": [
+        "原贺胡桃"
+      ],
+      "groups": []
     },
     {
       "number": 71,
       "titleCN": "娜迪老师的美利坚巡逻",
       "titleJP": "ナディー先生はアメーリカパトロール",
-      "type": "双人女友回",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1616,13 +2460,23 @@
         "茂见红叶"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第9卷"
+      ],
+      "highlightChars": [
+        "伊院知与",
+        "娜迪（大和抚子）"
+      ],
+      "groups": []
     },
     {
       "number": 72,
       "titleCN": "一寸凪乃师的王子大人",
       "titleJP": "一寸凪乃師の王子様",
-      "type": "团建回",
+      "types": [
+        "个人",
+        "其他"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1644,13 +2498,21 @@
         "茂见红叶"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第9卷"
+      ],
+      "highlightChars": [
+        "荣逢凪乃"
+      ],
+      "groups": []
     },
     {
       "number": 73,
       "titleCN": "可以听听你的恋爱故事吗？",
       "titleJP": "恋話、聞いてイイですか？",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1672,14 +2534,20 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "芽衣睁眼"
-      ]
+        "芽衣睁眼",
+        "第9卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 74,
       "titleCN": "野泽老师把羽香里的爸爸叫“爸爸里”，那会不会也把楠莉的爸爸叫“爸爸莉”呢？不会吧",
       "titleJP": "野澤先生羽香里のお父さんのこと「パパ里」って読んでるけど楠莉のお父さんのことも「パパ莉」って呼ぶのかな 呼ばないか",
-      "type": "个人约会回",
+      "types": [
+        "个人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1689,13 +2557,23 @@
         "楠莉妈妈",
         "楠莉爸爸"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第9卷"
+      ],
+      "highlightChars": [
+        "药膳楠莉",
+        "爱城恋太郎"
+      ],
+      "groups": []
     },
     {
       "number": 75,
       "titleCN": "楠莉前辈的奶奶",
       "titleJP": "楠莉先輩のおばあさん",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1705,13 +2583,22 @@
       "minorChars": [
         "楠莉妈妈"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第9卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "药膳屋久"
+      ],
+      "groups": []
     },
     {
       "number": 76,
       "titleCN": "屋久小姐的女友神经衰弱",
       "titleJP": "ヤクさんの彼女神経衰弱",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1733,13 +2620,19 @@
         "药膳屋久"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第9卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 77,
       "titleCN": "恋太郎家族的温泉约会",
       "titleJP": "恋太郎ファミリーの温泉デート",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1763,13 +2656,54 @@
       "minorChars": [
         "认真集团"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第9卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 77.5,
+      "titleCN": "第一次噗呢噗呢/童话之国的恋太郎家庭",
+      "titleJP": "はじめてのふわふわ/おとぎの国の恋太郎ファミリー",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "好本静",
+        "院田唐音",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "铭户芽衣",
+        "原贺胡桃",
+        "花园羽羽里",
+        "茂见红叶",
+        "优敷山女",
+        "娜迪（大和抚子）",
+        "伊院知与",
+        "华暮爱爱",
+        "美杉美美美",
+        "须藤育",
+        "药膳屋久"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第9卷"
+      ],
+      "highlightChars": [
+        "茂见红叶"
+      ],
+      "groups": []
     },
     {
       "number": 78,
       "titleCN": "嗯哼哼的豆",
       "titleJP": "むふふだど",
-      "type": "双人女友回",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1793,13 +2727,23 @@
       "minorChars": [
         "出场率蛮高的松鼠（山女）"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第10卷"
+      ],
+      "highlightChars": [
+        "花园羽香里",
+        "优敷山女"
+      ],
+      "groups": []
     },
     {
       "number": 79,
       "titleCN": "大家以前都是女高中生",
       "titleJP": "みんな昔はJKだった",
-      "type": "个人约会回",
+      "types": [
+        "个人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1822,14 +2766,22 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "恋太郎换装"
-      ]
+        "恋太郎换装",
+        "第10卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽羽里"
+      ],
+      "groups": []
     },
     {
       "number": 80,
       "titleCN": "恋太郎家族的徒步约会",
       "titleJP": "恋太郎ファミリーのハイキングデート",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1852,14 +2804,20 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "楠莉正常状态"
-      ]
+        "楠莉正常状态",
+        "第10卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 81,
       "titleCN": "剑道部的女骑士学姐",
       "titleJP": "剣道部の女騎士さん",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "土吕瀞骑士华",
@@ -1867,14 +2825,22 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "骑士华幼化"
-      ]
+        "骑士华幼化",
+        "第10卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "土吕瀞骑士华"
+      ],
+      "groups": []
     },
     {
       "number": 82,
       "titleCN": "女骑士的入队考试，或是像鬼灭的最终Boss战一样的东西",
       "titleJP": "女騎士の入団試験もしくは鬼滅のラスボス戦のようななにか",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1899,14 +2865,19 @@
       "minorChars": [],
       "otherTags": [
         "骑士华幼化",
-        "恋太郎换装"
-      ]
+        "恋太郎换装",
+        "第10卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 83,
       "titleCN": "恋太郎家族VS挑战拉面",
       "titleJP": "恋太郎ファミリーVSチャレンジラーメン",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1932,13 +2903,19 @@
         "出场率蛮高的松鼠（山女）",
         "拉面店老板"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第10卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 84,
       "titleCN": "大家以前都是小宝宝 Returns",
       "titleJP": "みんな昔はベイビーだったリターンズ",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1965,14 +2942,19 @@
         "骑士华幼化",
         "芽衣睁眼",
         "楠莉正常状态",
-        "知与掉眼镜"
-      ]
+        "知与掉眼镜",
+        "第10卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 85,
       "titleCN": "恋太郎的一天",
       "titleJP": "恋太郎の1日",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -1998,14 +2980,21 @@
       "otherTags": [
         "恋太郎换装",
         "骑士华幼化",
-        "楠莉正常状态"
-      ]
+        "楠莉正常状态",
+        "第10卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎"
+      ],
+      "groups": []
     },
     {
       "number": 86,
       "titleCN": "百奇游戏王",
       "titleJP": "ポッキーゲームロワイヤル",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2028,26 +3017,60 @@
         "土吕瀞骑士华"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第10卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 86.5,
+      "titleCN": "第一次软绵绵",
+      "titleJP": "はじめてのとろとろ",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "土吕瀞骑士华"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第10卷"
+      ],
+      "highlightChars": [
+        "土吕瀞骑士华"
+      ],
+      "groups": []
     },
     {
       "number": 87,
       "titleCN": "毛樽井同学",
       "titleJP": "毛樽井さん",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "毛樽井亚爱子（亚希）",
         "爱城恋太郎"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第11卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "毛樽井亚爱子（亚希）"
+      ],
+      "groups": []
     },
     {
       "number": 88,
       "titleCN": "欢迎来到恋太郎家族商店街",
       "titleJP": "ようこそ恋太郎ファミリー商店街",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2072,14 +3095,20 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "骑士华幼化"
-      ]
+        "骑士华幼化",
+        "第11卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 89,
       "titleCN": "修行回 feat. 完全没必要修行的两个人",
       "titleJP": "修行回 feat. 特にする必要のない2人",
-      "type": "双人女友回",
+      "types": [
+        "女友（互动）",
+        "双人"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2089,26 +3118,45 @@
       "minorChars": [
         "认真集团"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第11卷"
+      ],
+      "highlightChars": [
+        "铭户芽衣",
+        "须藤育"
+      ],
+      "groups": []
     },
     {
       "number": 90,
       "titleCN": "被书也被你拯救",
       "titleJP": "本にあなたに救われて",
-      "type": "个人约会回",
+      "types": [
+        "个人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
         "好本静"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第11卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "好本静"
+      ],
+      "groups": []
     },
     {
       "number": 91,
       "titleCN": "装备回",
       "titleJP": "装備回",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2135,14 +3183,20 @@
         "企鹅太郎"
       ],
       "otherTags": [
-        "骑士华幼化"
-      ]
+        "骑士华幼化",
+        "第11卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 92,
       "titleCN": "我永远的好朋友",
       "titleJP": "あーしのズッ友",
-      "type": null,
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2166,14 +3220,22 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "骑士华幼化"
-      ]
+        "骑士华幼化",
+        "第11卷"
+      ],
+      "highlightChars": [
+        "院田唐音",
+        "毛樽井亚爱子（亚希）"
+      ],
+      "groups": []
     },
     {
       "number": 93,
       "titleCN": "全员戴眼镜特写脸部鉴赏回",
       "titleJP": "皆が眼鏡かけたお顔ドアップで見るだけの回",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2198,14 +3260,20 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "骑士华幼化"
-      ]
+        "骑士华幼化",
+        "第11卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 94,
       "titleCN": "在水坑里钓鱼的少女",
       "titleJP": "水たまりで釣りをする少女",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "中二诗人",
@@ -2218,13 +3286,22 @@
       "minorChars": [
         "野泽老师"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第11卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "中二诗人"
+      ],
+      "groups": []
     },
     {
       "number": 95,
       "titleCN": "吟游诗人无所不在",
       "titleJP": "吟遊詩人はなんでも知っている",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2251,14 +3328,58 @@
       "minorChars": [],
       "otherTags": [
         "骑士华幼化",
-        "芽衣睁眼"
-      ]
+        "芽衣睁眼",
+        "第11卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 95.5,
+      "titleCN": "第一次卡哇伊/第一次吟游诗人",
+      "titleJP": "はじめてのかーいー/はじめてのぎんゆうしじん",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "爱城恋太郎",
+        "院田唐音",
+        "花园羽香里",
+        "花园羽羽里",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "药膳屋久",
+        "华暮爱爱",
+        "好本静",
+        "荣逢凪乃",
+        "土吕瀞骑士华",
+        "须藤育",
+        "美杉美美美",
+        "茂见红叶",
+        "铭户芽衣",
+        "药膳楠莉",
+        "优敷山女"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第11卷"
+      ],
+      "highlightChars": [
+        "毛樽井亚爱子（亚希）",
+        "中二诗人"
+      ],
+      "groups": []
     },
     {
       "number": 96,
       "titleCN": "恋太郎家族的蛊毒",
       "titleJP": "恋太郎ファミリーの蟲毒",
-      "type": "多人女友回",
+      "types": [
+        "多人",
+        "其他",
+        "女友（互动）"
+      ],
       "category": "正片",
       "mainChars": [
         "花园羽羽里",
@@ -2271,14 +3392,25 @@
       "minorChars": [],
       "otherTags": [
         "楠莉正常状态",
-        "骑士华幼化"
-      ]
+        "骑士华幼化",
+        "第12卷"
+      ],
+      "highlightChars": [
+        "药膳楠莉",
+        "花园羽羽里",
+        "须藤育",
+        "茂见红叶",
+        "土吕瀞骑士华"
+      ],
+      "groups": []
     },
     {
       "number": 97,
       "titleCN": "恋太郎家族VS四町对抗市民运动会",
       "titleJP": "恋太郎ファミリーVS四町対抗市民運動会",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2306,13 +3438,19 @@
         "伊院弘（舅舅）",
         "楠莉爸爸"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第12卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 98,
       "titleCN": "恋太郎家族VS木雷杉町运动员军团",
       "titleJP": "恋太郎ファミリーVS木雷杉町アスリート軍団",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2342,13 +3480,19 @@
         "楠莉爸爸",
         "认真集团"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第12卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 99,
       "titleCN": "连接起大家对他的心意",
       "titleJP": "彼の皆の 想いを繋いで",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2377,14 +3521,19 @@
         "伊院弘（舅舅）"
       ],
       "otherTags": [
-        "知与掉眼镜"
-      ]
+        "知与掉眼镜",
+        "第12卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 100,
       "titleCN": "能连载到第100话，实在幸福至极。真的非常感谢，今后也会继续努力",
       "titleJP": "第100話も連載できて幸せな限りです本当にありがとうございますこれからも頑張ります",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2421,20 +3570,26 @@
         "伊院弘（舅舅）",
         "楠莉爸爸",
         "楠莉妈妈",
-        "有钱人家的狗",
-        "有钱人家的猫",
+        "波奇（有钱人家的狗）",
+        "亚尔斯(有钱人家的猫)",
         "出场率蛮高的松鼠（山女）"
       ],
       "otherTags": [
         "恋太郎换装",
-        "恋太郎女装"
-      ]
+        "恋太郎女装",
+        "第12卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 101,
       "titleCN": "妹妹是姐姐大人的妹妹",
       "titleJP": "妹はお姉様の妹",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2444,13 +3599,22 @@
       "minorChars": [
         "妹的祖母（女仆）"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第12卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "女井户妹"
+      ],
+      "groups": []
     },
     {
       "number": 102,
       "titleCN": "妹的妹妹女仆课程",
       "titleJP": "妹の妹妹メイドレッスン",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2476,13 +3640,20 @@
         "须藤育"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第12卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 103,
       "titleCN": "羽香里的发情期",
       "titleJP": "羽香里の発情期",
-      "type": "个人约会回",
+      "types": [
+        "个人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2498,13 +3669,23 @@
         "女井户妹"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第12卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽香里"
+      ],
+      "groups": []
     },
     {
       "number": 104,
       "titleCN": "漂亮的100女友",
       "titleJP": "きれいな100カノ",
-      "type": "多人女友回",
+      "types": [
+        "多人",
+        "女友（互动）"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2515,13 +3696,48 @@
         "优敷山女"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第12卷"
+      ],
+      "highlightChars": [
+        "毛樽井亚爱子（亚希）",
+        "优敷山女",
+        "华暮爱爱",
+        "铭户芽衣",
+        "好本静"
+      ],
+      "groups": []
+    },
+    {
+      "number": 104.5,
+      "titleCN": "第一次姐姐大人",
+      "titleJP": "はじめてのおねえさま",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "花园羽羽里",
+        "铭户芽衣",
+        "女井户妹",
+        "原贺胡桃",
+        "伊院知与"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第12卷"
+      ],
+      "highlightChars": [
+        "女井户妹"
+      ],
+      "groups": []
     },
     {
       "number": 105,
       "titleCN": "屋久VS骑士华VS恋太郎",
       "titleJP": "ヤクVS騎士華VS恋太郎",
-      "type": "双人约会回",
+      "types": [
+        "双人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2541,14 +3757,23 @@
       ],
       "minorChars": [],
       "otherTags": [
-        "骑士华幼化"
-      ]
+        "骑士华幼化",
+        "第13卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "药膳屋久",
+        "土吕瀞骑士华"
+      ],
+      "groups": []
     },
     {
       "number": 106,
       "titleCN": "恋太郎家族的烤肉约会",
       "titleJP": "恋太郎ファミリーの焼肉デート",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2576,13 +3801,19 @@
       "minorChars": [
         "认真集团"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第13卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 107,
       "titleCN": "上瘾卷心菜是那个的味道",
       "titleJP": "やみつきキャベツはアレの味",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2610,13 +3841,20 @@
       "minorChars": [
         "认真集团"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第13卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 108,
       "titleCN": "盆能寺老师是废人",
       "titleJP": "盆能寺先生はダメ人間",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "盆能寺百八",
@@ -2627,13 +3865,22 @@
         "女井户妹"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第13卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "盆能寺百八"
+      ],
+      "groups": []
     },
     {
       "number": 109,
       "titleCN": "恋太郎家族的认真酒会过家家",
       "titleJP": "恋太郎ファミリーの本気飲み会ごっこ",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2662,13 +3909,19 @@
       "minorChars": [
         "出版社大佬"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第13卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 110,
       "titleCN": "未摄取酒精及与酒精有同等效果的东西",
       "titleJP": "アルコール及びアルコールと同様の効果があるものは摂取しておりません",
-      "type": "团建回",
+      "types": [
+        "团建"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2697,14 +3950,20 @@
       "minorChars": [],
       "otherTags": [
         "骑士华幼化",
-        "知与掉眼镜"
-      ]
+        "知与掉眼镜",
+        "第13卷"
+      ],
+      "highlightChars": [],
+      "groups": []
     },
     {
       "number": 111,
       "titleCN": "硬要说的话，是辣妹和吟游诗人的二重奏────吧",
       "titleJP": "あえて言うならギャルと吟遊詩人の二重奏────かな",
-      "type": "双人约会回",
+      "types": [
+        "双人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2733,14 +3992,25 @@
       "minorChars": [],
       "otherTags": [
         "恋太郎女装",
-        "恋太郎换装"
-      ]
+        "恋太郎换装",
+        "第13卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人"
+      ],
+      "groups": []
     },
     {
       "number": 112,
       "titleCN": "美々美学姐是美丽的女主角",
       "titleJP": "美々美先輩は美しいヒロイン",
-      "type": "其他个人回",
+      "types": [
+        "个人",
+        "其他",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2769,14 +4039,23 @@
       "minorChars": [],
       "otherTags": [
         "恋太郎换装",
-        "恋太郎女装"
-      ]
+        "恋太郎女装",
+        "第13卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "美杉美美美"
+      ],
+      "groups": []
     },
     {
       "number": 113,
       "titleCN": "春天彩灯约会效率最高",
       "titleJP": "春イルミデートは最高率に",
-      "type": "三人约会回",
+      "types": [
+        "三人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2794,13 +4073,43 @@
         "伊院知与"
       ],
       "minorChars": [],
-      "otherTags": []
+      "otherTags": [
+        "第13卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "荣逢凪乃",
+        "铭户芽衣",
+        "盆能寺百八"
+      ],
+      "groups": []
+    },
+    {
+      "number": 113.5,
+      "titleCN": "第一次赌博＆饮酒",
+      "titleJP": "はじめてのぎゃんぶる＆いんしゅ",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "盆能寺百八"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第13卷"
+      ],
+      "highlightChars": [
+        "盆能寺百八"
+      ],
+      "groups": []
     },
     {
       "number": 114,
       "titleCN": "傲娇色的约会",
       "titleJP": "ツンデレ色のデート",
-      "type": "三人约会回",
+      "types": [
+        "三人",
+        "约会"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2811,13 +4120,25 @@
       "minorChars": [
         "恋爱神社的神明"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第14卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "院田唐音",
+        "原贺胡桃",
+        "女井户妹"
+      ],
+      "groups": []
     },
     {
       "number": 115,
       "titleCN": "灰尾凛同学是小提琴少女",
       "titleJP": "灰尾凛さんはバイオリン少女",
-      "type": "参战回",
+      "types": [
+        "个人",
+        "参战"
+      ],
       "category": "正片",
       "mainChars": [
         "爱城恋太郎",
@@ -2826,31 +4147,7219 @@
       "minorChars": [
         "凛的父（母）亲"
       ],
-      "otherTags": []
+      "otherTags": [
+        "第14卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "灰尾凛"
+      ],
+      "groups": []
+    },
+    {
+      "number": 116,
+      "titleCN": "恋太郎家族的丧尸护士捉迷藏",
+      "titleJP": "恋太郎ファミリーのゾンビナース鬼ごっこ",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "楠莉正常状态",
+        "第14卷"
+      ],
+      "highlightChars": [
+        "好本静",
+        "院田唐音",
+        "美杉美美美",
+        "药膳楠莉",
+        "华暮爱爱",
+        "优敷山女",
+        "伊院知与",
+        "盆能寺百八",
+        "娜迪（大和抚子）",
+        "茂见红叶",
+        "毛樽井亚爱子（亚希）",
+        "原贺胡桃"
+      ],
+      "groups": []
+    },
+    {
+      "number": 117,
+      "titleCN": "在暴力的尽头",
+      "titleJP": "バイオレンスの果てに",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "恋太郎女装",
+        "恋太郎换装",
+        "楠莉正常状态",
+        "第14卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "铭户芽衣",
+        "花园羽羽里",
+        "中二诗人",
+        "荣逢凪乃",
+        "土吕瀞骑士华",
+        "须藤育",
+        "药膳屋久",
+        "女井户妹",
+        "灰尾凛"
+      ],
+      "groups": []
+    },
+    {
+      "number": 118,
+      "titleCN": "再见了娜迪语，eternal地",
+      "titleJP": "さらばナディー語よエターナルに",
+      "types": [
+        "个人",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "守北季鞠"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第14卷"
+      ],
+      "highlightChars": [
+        "娜迪（大和抚子）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 119,
+      "titleCN": "揉揉祭（第二部）",
+      "titleJP": "もみフェス（第二部）",
+      "types": [
+        "个人",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "楠莉正常状态",
+        "第14卷"
+      ],
+      "highlightChars": [
+        "茂见红叶"
+      ],
+      "groups": []
+    },
+    {
+      "number": 120,
+      "titleCN": "恋太郎家族的日常",
+      "titleJP": "恋太郎ファミリーの日常",
+      "types": [
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "楠莉正常状态",
+        "第14卷"
+      ],
+      "highlightChars": [
+        "院田唐音",
+        "毛樽井亚爱子（亚希）",
+        "女井户妹",
+        "盆能寺百八",
+        "好本静",
+        "华暮爱爱",
+        "中二诗人",
+        "灰尾凛",
+        "须藤育",
+        "铭户芽衣",
+        "荣逢凪乃",
+        "美杉美美美",
+        "药膳楠莉",
+        "药膳屋久",
+        "娜迪（大和抚子）",
+        "土吕瀞骑士华",
+        "花园羽香里",
+        "爱城恋太郎",
+        "花园羽羽里",
+        "优敷山女",
+        "茂见红叶",
+        "原贺胡桃",
+        "伊院知与"
+      ],
+      "groups": [
+        [
+          "毛樽井亚爱子（亚希）",
+          "院田唐音"
+        ],
+        [
+          "盆能寺百八",
+          "女井户妹",
+          "原贺胡桃"
+        ],
+        [
+          "华暮爱爱",
+          "好本静",
+          "灰尾凛"
+        ],
+        [
+          "中二诗人",
+          "灰尾凛",
+          "荣逢凪乃",
+          "美杉美美美",
+          "药膳楠莉",
+          "花园羽香里",
+          "院田唐音"
+        ],
+        [
+          "须藤育",
+          "灰尾凛",
+          "铭户芽衣",
+          "花园羽羽里",
+          "娜迪（大和抚子）",
+          "女井户妹",
+          "花园羽香里"
+        ],
+        [
+          "荣逢凪乃",
+          "美杉美美美"
+        ],
+        [
+          "药膳楠莉",
+          "药膳屋久",
+          "毛樽井亚爱子（亚希）",
+          "原贺胡桃",
+          "盆能寺百八",
+          "茂见红叶",
+          "伊院知与",
+          "好本静"
+        ],
+        [
+          "土吕瀞骑士华",
+          "娜迪（大和抚子）",
+          "原贺胡桃",
+          "院田唐音"
+        ],
+        [
+          "花园羽香里",
+          "花园羽羽里"
+        ],
+        [
+          "优敷山女",
+          "茂见红叶",
+          "须藤育",
+          "院田唐音"
+        ],
+        [
+          "伊院知与",
+          "原贺胡桃",
+          "女井户妹"
+        ],
+        [
+          "爱城恋太郎",
+          "中二诗人",
+          "药膳屋久",
+          "优敷山女",
+          "华暮爱爱",
+          "美杉美美美",
+          "毛樽井亚爱子（亚希）",
+          "花园羽香里",
+          "伊院知与",
+          "院田唐音",
+          "好本静",
+          "娜迪（大和抚子）",
+          "女井户妹",
+          "盆能寺百八",
+          "灰尾凛",
+          "荣逢凪乃",
+          "药膳楠莉",
+          "茂见红叶",
+          "花园羽羽里",
+          "原贺胡桃",
+          "土吕瀞骑士华",
+          "铭户芽衣",
+          "须藤育"
+        ]
+      ]
+    },
+    {
+      "number": 121,
+      "titleCN": "您喜欢大小姐约会吗？",
+      "titleJP": "お嬢様デートはお好きですか？",
+      "types": [
+        "三人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "花园羽香里",
+        "灰尾凛",
+        "美杉美美美",
+        "爱城恋太郎"
+      ],
+      "minorChars": [
+        "责任心过强的女童（总是想要去死的女童）"
+      ],
+      "otherTags": [
+        "第14卷"
+      ],
+      "highlightChars": [
+        "花园羽香里",
+        "美杉美美美",
+        "灰尾凛",
+        "爱城恋太郎"
+      ],
+      "groups": []
+    },
+    {
+      "number": 122,
+      "titleCN": "爱々酱和编织玩偶的室内约会",
+      "titleJP": "愛々ちゃんとあみぐるみお部屋デート",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "华暮爱爱"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第14卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "华暮爱爱"
+      ],
+      "groups": []
+    },
+    {
+      "number": 122.5,
+      "titleCN": "第一次「いひひ」（坏笑）",
+      "titleJP": "はじめてのいひひ",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "灰尾凛"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第14卷"
+      ],
+      "highlightChars": [
+        "灰尾凛"
+      ],
+      "groups": []
+    },
+    {
+      "number": 123,
+      "titleCN": "恋爱的少女",
+      "titleJP": "恋をする少女",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "一二三数",
+        "爱城恋太郎",
+        "好本静",
+        "荣逢凪乃",
+        "灰尾凛",
+        "女井户妹",
+        "伊院知与",
+        "原贺胡桃",
+        "优敷山女",
+        "院田唐音",
+        "土吕瀞骑士华"
+      ],
+      "minorChars": [
+        "恋爱神社的神明"
+      ],
+      "otherTags": [
+        "第15卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "一二三数"
+      ],
+      "groups": []
+    },
+    {
+      "number": 124,
+      "titleCN": "一年一班的1和1",
+      "titleJP": "1年1組の1と1",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第15卷"
+      ],
+      "highlightChars": [
+        "一二三数",
+        "毛樽井亚爱子（亚希）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 125,
+      "titleCN": "楠莉和骑士华是同班同学",
+      "titleJP": "楠莉と騎士華はクラスメイト",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "药膳楠莉",
+        "药膳屋久",
+        "土吕瀞骑士华"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "骑士华幼化",
+        "第15卷"
+      ],
+      "highlightChars": [
+        "土吕瀞骑士华",
+        "药膳楠莉"
+      ],
+      "groups": []
+    },
+    {
+      "number": 126,
+      "titleCN": "知与酱和成人的约会",
+      "titleJP": "知与ちゃんとオトナのデート",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "伊院知与"
+      ],
+      "minorChars": [
+        "伊院弘（舅舅）"
+      ],
+      "otherTags": [
+        "恋太郎换装",
+        "第15卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "伊院知与"
+      ],
+      "groups": []
+    },
+    {
+      "number": 127,
+      "titleCN": "夜间泳池",
+      "titleJP": "夜プ",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "恋太郎换装",
+        "骑士华幼化",
+        "知与掉眼镜",
+        "第15卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 128,
+      "titleCN": "总觉得是又小又可爱的回",
+      "titleJP": "なんか小さくてかわいい回",
+      "types": [
+        "多人",
+        "女友（互动）",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "伊院知与",
+        "茂见红叶",
+        "花园羽羽里",
+        "好本静",
+        "一二三数",
+        "药膳楠莉",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "娜迪（大和抚子）",
+        "毛樽井亚爱子（亚希）"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第15卷"
+      ],
+      "highlightChars": [
+        "伊院知与",
+        "一二三数",
+        "好本静",
+        "药膳屋久",
+        "药膳楠莉",
+        "茂见红叶"
+      ],
+      "groups": []
+    },
+    {
+      "number": 129,
+      "titleCN": "没救的3人",
+      "titleJP": "終わってる3人",
+      "types": [
+        "三人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "盆能寺百八",
+        "花园羽羽里",
+        "须藤育"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第15卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽羽里",
+        "须藤育",
+        "盆能寺百八"
+      ],
+      "groups": []
+    },
+    {
+      "number": 130,
+      "titleCN": "恋太郎家族的日常（其二）",
+      "titleJP": "恋太郎ファミリーの日常（その２）",
+      "types": [
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "恋太郎女装",
+        "恋太郎换装",
+        "第15卷"
+      ],
+      "highlightChars": [
+        "好本静",
+        "原贺胡桃",
+        "花园羽羽里",
+        "药膳屋久",
+        "爱城恋太郎",
+        "毛樽井亚爱子（亚希）",
+        "花园羽香里",
+        "盆能寺百八",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "中二诗人",
+        "院田唐音",
+        "铭户芽衣",
+        "女井户妹",
+        "药膳楠莉",
+        "茂见红叶",
+        "美杉美美美",
+        "须藤育",
+        "荣逢凪乃",
+        "土吕瀞骑士华",
+        "华暮爱爱",
+        "灰尾凛",
+        "一二三数"
+      ],
+      "groups": [
+        [
+          "爱城恋太郎",
+          "花园羽香里",
+          "优敷山女",
+          "娜迪（大和抚子）",
+          "药膳屋久",
+          "药膳楠莉",
+          "花园羽羽里",
+          "院田唐音",
+          "灰尾凛",
+          "伊院知与",
+          "须藤育",
+          "盆能寺百八",
+          "一二三数"
+        ],
+        [
+          "好本静",
+          "荣逢凪乃",
+          "原贺胡桃",
+          "土吕瀞骑士华",
+          "药膳楠莉"
+        ],
+        [
+          "药膳屋久",
+          "女井户妹",
+          "铭户芽衣",
+          "花园羽羽里"
+        ],
+        [
+          "毛樽井亚爱子（亚希）",
+          "爱城恋太郎"
+        ],
+        [
+          "花园羽香里",
+          "盆能寺百八",
+          "好本静"
+        ],
+        [
+          "娜迪（大和抚子）",
+          "伊院知与"
+        ],
+        [
+          "中二诗人",
+          "优敷山女",
+          "土吕瀞骑士华",
+          "荣逢凪乃",
+          "娜迪（大和抚子）",
+          "院田唐音",
+          "美杉美美美",
+          "茂见红叶",
+          "华暮爱爱"
+        ],
+        [
+          "女井户妹",
+          "院田唐音",
+          "花园羽羽里",
+          "花园羽香里",
+          "铭户芽衣"
+        ],
+        [
+          "茂见红叶",
+          "药膳楠莉"
+        ],
+        [
+          "土吕瀞骑士华",
+          "须藤育",
+          "美杉美美美"
+        ],
+        [
+          "灰尾凛",
+          "一二三数",
+          "毛樽井亚爱子（亚希）",
+          "原贺胡桃"
+        ],
+        [
+          "华暮爱爱",
+          "荣逢凪乃",
+          "花园羽羽里",
+          "好本静",
+          "院田唐音",
+          "花园羽香里",
+          "爱城恋太郎"
+        ]
+      ]
+    },
+    {
+      "number": 131,
+      "titleCN": "山茶屋危机重重",
+      "titleJP": "山茶屋はピンチがいっぱい",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "优敷山女"
+      ],
+      "minorChars": [
+        "出场率蛮高的松鼠（山女）"
+      ],
+      "otherTags": [
+        "第15卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "优敷山女"
+      ],
+      "groups": []
+    },
+    {
+      "number": 131.5,
+      "titleCN": "第一次分别",
+      "titleJP": "はじめてのさよなら",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "一二三数",
+        "爱城恋太郎"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第15卷"
+      ],
+      "highlightChars": [
+        "一二三数"
+      ],
+      "groups": []
+    },
+    {
+      "number": 132,
+      "titleCN": "卡波耶拉使者火保同学",
+      "titleJP": "カポエイラ使いの火保さん",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "火保耶拉"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第16卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "火保耶拉"
+      ],
+      "groups": []
+    },
+    {
+      "number": 133,
+      "titleCN": "和卡波耶拉姐姐一起玩吧",
+      "titleJP": "カポエイラお姉さんと遊ぼう",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "骑士华幼化",
+        "知与掉眼镜",
+        "第16卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 134,
+      "titleCN": "让我听听你的秘密",
+      "titleJP": "あなたの内緒を聞かせて",
+      "types": [
+        "个人",
+        "主线"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "好本静",
+        "荣逢凪乃",
+        "娜迪（大和抚子）",
+        "一二三数",
+        "毛樽井亚爱子（亚希）",
+        "火保耶拉",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "花园羽香里",
+        "院田唐音",
+        "华暮爱爱"
+      ],
+      "minorChars": [
+        "好本静妈妈"
+      ],
+      "otherTags": [
+        "第16卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "好本静"
+      ],
+      "groups": []
+    },
+    {
+      "number": 135,
+      "titleCN": "妈妈，那个啊……",
+      "titleJP": "お母さん、あのね",
+      "types": [
+        "个人",
+        "主线"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "好本静",
+        "荣逢凪乃"
+      ],
+      "minorChars": [
+        "好本静妈妈"
+      ],
+      "otherTags": [
+        "第16卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "好本静"
+      ],
+      "groups": []
+    },
+    {
+      "number": 136,
+      "titleCN": "恋太郎家族的学校怪谈",
+      "titleJP": "恋太郎ファミリーの学校の怪談",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第16卷"
+      ],
+      "highlightChars": [
+        "花园羽香里",
+        "院田唐音",
+        "一二三数",
+        "毛樽井亚爱子（亚希）",
+        "好本静",
+        "荣逢凪乃",
+        "盆能寺百八",
+        "优敷山女",
+        "铭户芽衣",
+        "须藤育",
+        "伊院知与",
+        "女井户妹"
+      ],
+      "groups": []
+    },
+    {
+      "number": 137,
+      "titleCN": "恋太郎家族VS妖怪（总之就是妖怪大战争）",
+      "titleJP": "恋太郎ファミリーVS妖怪（要するに妖怪大戦争）",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "骑士华幼化",
+        "第16卷"
+      ],
+      "highlightChars": [
+        "娜迪（大和抚子）",
+        "药膳屋久",
+        "火保耶拉",
+        "中二诗人",
+        "灰尾凛",
+        "药膳楠莉",
+        "美杉美美美",
+        "华暮爱爱",
+        "原贺胡桃",
+        "茂见红叶",
+        "花园羽羽里",
+        "土吕瀞骑士华"
+      ],
+      "groups": []
+    },
+    {
+      "number": 138,
+      "titleCN": "约会碰头事变",
+      "titleJP": "待ち合わせ事変",
+      "types": [
+        "多人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "中二诗人",
+        "火保耶拉",
+        "伊院知与",
+        "爱城恋太郎",
+        "灰尾凛"
+      ],
+      "minorChars": [
+        "耶拉爸爸"
+      ],
+      "otherTags": [
+        "第16卷"
+      ],
+      "highlightChars": [
+        "伊院知与",
+        "灰尾凛",
+        "火保耶拉",
+        "中二诗人"
+      ],
+      "groups": []
+    },
+    {
+      "number": 139,
+      "titleCN": "100女友春季面包祭",
+      "titleJP": "100カノ春のパンまつり",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第16卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 140,
+      "titleCN": "令人晕厥！屋久鉴定团",
+      "titleJP": "悶絶！ヤクさん鑑定団",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "药膳屋久"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第16卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "药膳屋久"
+      ],
+      "groups": []
+    },
+    {
+      "number": 140.5,
+      "titleCN": "第一次物理打不倒的敌人",
+      "titleJP": "はじめてのぶつりじゃたおせない",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "火保耶拉"
+      ],
+      "minorChars": [
+        "耶拉爸爸"
+      ],
+      "otherTags": [
+        "第16卷"
+      ],
+      "highlightChars": [
+        "火保耶拉"
+      ],
+      "groups": []
+    },
+    {
+      "number": 141,
+      "titleCN": "想要被捡的猫",
+      "titleJP": "拾われたい猫",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "猫成珠"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第17卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "猫成珠"
+      ],
+      "groups": []
+    },
+    {
+      "number": 142,
+      "titleCN": "喵喵祭",
+      "titleJP": "にゃんフェス",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "恋太郎换装",
+        "第17卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 143,
+      "titleCN": "姐妹三角形",
+      "titleJP": "姉妹三角形",
+      "types": [
+        "多人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "花园羽香里",
+        "铭户芽衣",
+        "女井户妹",
+        "花园羽羽里"
+      ],
+      "minorChars": [
+        "很强的医生"
+      ],
+      "otherTags": [
+        "第17卷"
+      ],
+      "highlightChars": [
+        "花园羽香里",
+        "铭户芽衣",
+        "女井户妹"
+      ],
+      "groups": []
+    },
+    {
+      "number": 144,
+      "titleCN": "院田家的秘密",
+      "titleJP": "院田家の秘密",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "猫成珠",
+        "铭户芽衣",
+        "女井户妹",
+        "花园羽香里",
+        "院田唐音",
+        "火保耶拉",
+        "毛樽井亚爱子（亚希）",
+        "药膳楠莉",
+        "伊院知与",
+        "原贺胡桃",
+        "娜迪（大和抚子）",
+        "盆能寺百八",
+        "优敷山女"
+      ],
+      "minorChars": [
+        "唐人（唐音弟弟）"
+      ],
+      "otherTags": [
+        "第17卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "院田唐音"
+      ],
+      "groups": []
+    },
+    {
+      "number": 145,
+      "titleCN": "恋太郎家族的理想婚姻生活",
+      "titleJP": "恋太郎ファミリーの理想の結婚生活",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "骑士华幼化",
+        "芽衣睁眼",
+        "第17卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 146,
+      "titleCN": "然后他们结婚了",
+      "titleJP": "そして彼らは結婚となる",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第17卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 147,
+      "titleCN": "有钱人家的小玉（是吉卜力吗？）",
+      "titleJP": "金持ちの家のタマ（ジブリかな？）",
+      "types": [
+        "个人",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "猫成珠",
+        "土吕瀞骑士华",
+        "优敷山女",
+        "一二三数",
+        "花园羽羽里",
+        "好本静",
+        "毛樽井亚爱子（亚希）",
+        "伊院知与",
+        "铭户芽衣",
+        "女井户妹",
+        "火保耶拉",
+        "茂见红叶",
+        "须藤育",
+        "盆能寺百八",
+        "药膳楠莉",
+        "美杉美美美",
+        "华暮爱爱",
+        "荣逢凪乃",
+        "花园羽香里",
+        "中二诗人",
+        "灰尾凛",
+        "娜迪（大和抚子）",
+        "药膳屋久",
+        "院田唐音",
+        "原贺胡桃"
+      ],
+      "minorChars": [
+        "亚尔斯(有钱人家的猫)",
+        "波奇（有钱人家的狗）"
+      ],
+      "otherTags": [
+        "第17卷"
+      ],
+      "highlightChars": [
+        "猫成珠",
+        "花园羽羽里"
+      ],
+      "groups": []
+    },
+    {
+      "number": 148,
+      "titleCN": "他的名字。Returns（前篇）",
+      "titleJP": "彼の名は。リターンズ（前半戦）",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "土吕瀞骑士华",
+        "盆能寺百八",
+        "美杉美美美",
+        "猫成珠",
+        "好本静",
+        "中二诗人",
+        "毛樽井亚爱子（亚希）",
+        "火保耶拉",
+        "茂见红叶",
+        "铭户芽衣",
+        "花园羽香里",
+        "女井户妹",
+        "花园羽羽里",
+        "药膳楠莉",
+        "娜迪（大和抚子）",
+        "药膳屋久",
+        "华暮爱爱",
+        "原贺胡桃"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第17卷"
+      ],
+      "highlightChars": [
+        "中二诗人",
+        "毛樽井亚爱子（亚希）",
+        "火保耶拉",
+        "茂见红叶",
+        "花园羽香里",
+        "铭户芽衣",
+        "女井户妹",
+        "花园羽羽里",
+        "药膳楠莉",
+        "娜迪（大和抚子）",
+        "药膳屋久",
+        "原贺胡桃"
+      ],
+      "groups": []
+    },
+    {
+      "number": 149,
+      "titleCN": "他的名字。Returns（后篇）",
+      "titleJP": "彼の名は。リターンズ（後半戦）",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "骑士华幼化",
+        "第17卷"
+      ],
+      "highlightChars": [
+        "院田唐音",
+        "须藤育",
+        "一二三数",
+        "灰尾凛",
+        "猫成珠",
+        "盆能寺百八",
+        "美杉美美美",
+        "伊院知与",
+        "荣逢凪乃",
+        "优敷山女",
+        "土吕瀞骑士华",
+        "好本静"
+      ],
+      "groups": []
+    },
+    {
+      "number": 149.5,
+      "titleCN": "第一次梦想",
+      "titleJP": "はじめてのゆめ",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "猫成珠",
+        "爱城恋太郎"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第17卷"
+      ],
+      "highlightChars": [
+        "猫成珠"
+      ],
+      "groups": []
+    },
+    {
+      "number": 150,
+      "titleCN": "在厕所唱歌的歌手",
+      "titleJP": "トイレで歌ってた歌手",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "才奇姬歌（奇姬）",
+        "爱城恋太郎"
+      ],
+      "minorChars": [
+        "教导主任"
+      ],
+      "otherTags": [
+        "第18卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "才奇姬歌（奇姬）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 151,
+      "titleCN": "目标是奇人大师",
+      "titleJP": "目指せ奇人マスター",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "骑士华幼化",
+        "第18卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 152,
+      "titleCN": "恋太郎家族偶像化计划（第二代）",
+      "titleJP": "恋太郎ファミリーアイドル化計画（二代目）",
+      "types": [
+        "多人",
+        "女友（互动）",
+        "团建",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）"
+      ],
+      "minorChars": [
+        "九织蒂娜（偶像教练）"
+      ],
+      "otherTags": [
+        "第18卷"
+      ],
+      "highlightChars": [
+        "才奇姬歌（奇姬）",
+        "猫成珠",
+        "火保耶拉",
+        "一二三数",
+        "灰尾凛",
+        "盆能寺百八",
+        "女井户妹",
+        "中二诗人",
+        "毛樽井亚爱子（亚希）",
+        "土吕瀞骑士华",
+        "药膳屋久",
+        "茂见红叶",
+        "优敷山女"
+      ],
+      "groups": []
+    },
+    {
+      "number": 153,
+      "titleCN": "向先代学习！恋太郎家族的练习风景",
+      "titleJP": "先代に学ぶ！恋太郎ファミリーの練習風景",
+      "types": [
+        "女友（互动）",
+        "单元剧",
+        "团建",
+        "多人"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "盆能寺百八",
+        "荣逢凪乃",
+        "好本静",
+        "院田唐音",
+        "须藤育",
+        "一二三数",
+        "花园羽羽里",
+        "猫成珠",
+        "原贺胡桃",
+        "茂见红叶",
+        "美杉美美美",
+        "灰尾凛",
+        "土吕瀞骑士华",
+        "药膳楠莉",
+        "铭户芽衣",
+        "女井户妹",
+        "花园羽香里",
+        "优敷山女",
+        "中二诗人",
+        "娜迪（大和抚子）",
+        "药膳屋久",
+        "伊院知与",
+        "火保耶拉",
+        "华暮爱爱",
+        "才奇姬歌（奇姬）",
+        "毛樽井亚爱子（亚希）"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第18卷"
+      ],
+      "highlightChars": [],
+      "groups": [
+        [
+          "盆能寺百八",
+          "荣逢凪乃"
+        ],
+        [
+          "院田唐音",
+          "毛樽井亚爱子（亚希）"
+        ],
+        [
+          "须藤育",
+          "一二三数"
+        ],
+        [
+          "花园羽羽里",
+          "猫成珠"
+        ],
+        [
+          "原贺胡桃",
+          "茂见红叶"
+        ],
+        [
+          "美杉美美美",
+          "灰尾凛"
+        ],
+        [
+          "土吕瀞骑士华",
+          "药膳楠莉"
+        ],
+        [
+          "铭户芽衣",
+          "女井户妹"
+        ],
+        [
+          "花园羽香里",
+          "优敷山女"
+        ],
+        [
+          "中二诗人",
+          "毛樽井亚爱子（亚希）",
+          "土吕瀞骑士华",
+          "好本静"
+        ],
+        [
+          "娜迪（大和抚子）",
+          "药膳屋久"
+        ],
+        [
+          "伊院知与",
+          "火保耶拉",
+          "花园羽羽里"
+        ],
+        [
+          "华暮爱爱",
+          "才奇姬歌（奇姬）",
+          "美杉美美美"
+        ]
+      ]
+    },
+    {
+      "number": 154,
+      "titleCN": "然后，迈向新的光辉",
+      "titleJP": "そして新たな輝きへ",
+      "types": [
+        "多人",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第18卷"
+      ],
+      "highlightChars": [
+        "才奇姬歌（奇姬）",
+        "猫成珠",
+        "火保耶拉",
+        "一二三数",
+        "灰尾凛",
+        "盆能寺百八",
+        "女井户妹",
+        "中二诗人",
+        "毛樽井亚爱子（亚希）",
+        "土吕瀞骑士华",
+        "药膳屋久",
+        "茂见红叶",
+        "优敷山女"
+      ],
+      "groups": []
+    },
+    {
+      "number": 155,
+      "titleCN": "排队生存战",
+      "titleJP": "行列サバイバル",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "原贺胡桃",
+        "茂见红叶"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第18卷"
+      ],
+      "highlightChars": [
+        "原贺胡桃",
+        "茂见红叶"
+      ],
+      "groups": []
+    },
+    {
+      "number": 156,
+      "titleCN": "娜迪老师的美利坚拥抱约会",
+      "titleJP": "ナディー先生のアメーリカハグデート",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "娜迪（大和抚子）"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第18卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "娜迪（大和抚子）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 157,
+      "titleCN": "恋太郎家族的日常（其三）",
+      "titleJP": "恋太郎ファミリーの日常（その３）",
+      "types": [
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "中二诗人",
+        "毛樽井亚爱子（亚希）",
+        "火保耶拉",
+        "药膳楠莉",
+        "药膳屋久",
+        "茂见红叶",
+        "土吕瀞骑士华",
+        "铭户芽衣",
+        "花园羽羽里",
+        "花园羽香里",
+        "好本静",
+        "荣逢凪乃",
+        "华暮爱爱",
+        "爱城恋太郎",
+        "娜迪（大和抚子）",
+        "伊院知与",
+        "猫成珠",
+        "盆能寺百八",
+        "女井户妹",
+        "美杉美美美",
+        "原贺胡桃",
+        "才奇姬歌（奇姬）",
+        "一二三数",
+        "院田唐音",
+        "灰尾凛",
+        "须藤育",
+        "优敷山女"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "骑士华幼化",
+        "楠莉正常状态",
+        "第18卷"
+      ],
+      "highlightChars": [
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "药膳屋久",
+        "茂见红叶",
+        "花园羽香里",
+        "花园羽羽里",
+        "土吕瀞骑士华",
+        "好本静",
+        "女井户妹",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "药膳楠莉",
+        "猫成珠",
+        "盆能寺百八",
+        "美杉美美美",
+        "火保耶拉",
+        "原贺胡桃",
+        "才奇姬歌（奇姬）",
+        "荣逢凪乃",
+        "一二三数",
+        "爱城恋太郎",
+        "院田唐音",
+        "灰尾凛",
+        "须藤育",
+        "优敷山女"
+      ],
+      "groups": [
+        [
+          "中二诗人",
+          "毛樽井亚爱子（亚希）"
+        ],
+        [
+          "火保耶拉",
+          "药膳楠莉",
+          "药膳屋久",
+          "茂见红叶"
+        ],
+        [
+          "土吕瀞骑士华",
+          "铭户芽衣",
+          "花园羽羽里",
+          "花园羽香里"
+        ],
+        [
+          "好本静",
+          "女井户妹",
+          "荣逢凪乃",
+          "华暮爱爱",
+          "爱城恋太郎",
+          "中二诗人"
+        ],
+        [
+          "娜迪（大和抚子）",
+          "伊院知与",
+          "药膳楠莉"
+        ],
+        [
+          "猫成珠",
+          "盆能寺百八",
+          "女井户妹"
+        ],
+        [
+          "美杉美美美",
+          "火保耶拉",
+          "华暮爱爱"
+        ],
+        [
+          "原贺胡桃",
+          "才奇姬歌（奇姬）",
+          "花园羽香里"
+        ],
+        [
+          "一二三数",
+          "荣逢凪乃",
+          "毛樽井亚爱子（亚希）",
+          "好本静",
+          "土吕瀞骑士华"
+        ],
+        [
+          "院田唐音",
+          "爱城恋太郎",
+          "灰尾凛"
+        ],
+        [
+          "须藤育",
+          "优敷山女"
+        ]
+      ]
+    },
+    {
+      "number": 158,
+      "titleCN": "歌姬奇姬与Master Uto的教诲",
+      "titleJP": "歌姫奇姫とマスター・ウトの教え",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "灰尾凛",
+        "才奇姬歌（奇姬）",
+        "中二诗人",
+        "毛樽井亚爱子（亚希）",
+        "好本静",
+        "荣逢凪乃",
+        "院田唐音",
+        "火保耶拉",
+        "花园羽香里",
+        "须藤育",
+        "优敷山女",
+        "铭户芽衣",
+        "盆能寺百八",
+        "伊院知与",
+        "原贺胡桃",
+        "土吕瀞骑士华"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第18卷"
+      ],
+      "highlightChars": [
+        "才奇姬歌（奇姬）",
+        "中二诗人"
+      ],
+      "groups": []
+    },
+    {
+      "number": 158.5,
+      "titleCN": "第一次的奇才（那之后）",
+      "titleJP": "はじめてのきさい(のそのご)",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "才奇姬歌（奇姬）"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第18卷"
+      ],
+      "highlightChars": [
+        "才奇姬歌（奇姬）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 159,
+      "titleCN": "哥特洛丽塔祭典少女",
+      "titleJP": "ゴスロリお祭り少女",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "出井祭李",
+        "爱城恋太郎"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第19卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "出井祭李"
+      ],
+      "groups": []
+    },
+    {
+      "number": 160,
+      "titleCN": "我们家的炒面超好吃的哦",
+      "titleJP": "あていの焼きそば食いねい",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第19卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 161,
+      "titleCN": "照亮一切的耀眼之美",
+      "titleJP": "すべてを照らす眩い美",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "美杉美美美",
+        "荣逢凪乃",
+        "好本静",
+        "药膳楠莉"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第19卷"
+      ],
+      "highlightChars": [
+        "荣逢凪乃",
+        "美杉美美美"
+      ],
+      "groups": []
+    },
+    {
+      "number": 162,
+      "titleCN": "爱恋频道的秘事",
+      "titleJP": "あーれんチャンネルの秘め事",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "一二三数"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第19卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "毛樽井亚爱子（亚希）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 163,
+      "titleCN": "晴天有时头饰",
+      "titleJP": "晴れ時々ヘッドドレス",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "恋太郎换装",
+        "第19卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 164,
+      "titleCN": "激情版「神灭之爱刃」无限神社篇",
+      "titleJP": "激情版「神滅の愛刃」無限神社編",
+      "types": [
+        "个人",
+        "其他",
+        "多人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "须藤育",
+        "药膳楠莉",
+        "好本静",
+        "一二三数",
+        "出井祭李",
+        "灰尾凛"
+      ],
+      "minorChars": [
+        "恋爱神社的神明"
+      ],
+      "otherTags": [
+        "第19卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "出井祭李"
+      ],
+      "groups": []
+    },
+    {
+      "number": 165,
+      "titleCN": "恋太郎家族的日常（其四）",
+      "titleJP": "恋太郎ファミリーの日常（その４）",
+      "types": [
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "花园羽香里",
+        "荣逢凪乃",
+        "原贺胡桃",
+        "优敷山女",
+        "盆能寺百八",
+        "药膳屋久",
+        "一二三数",
+        "毛樽井亚爱子（亚希）",
+        "土吕瀞骑士华",
+        "华暮爱爱",
+        "伊院知与",
+        "药膳楠莉",
+        "铭户芽衣",
+        "茂见红叶",
+        "娜迪（大和抚子）",
+        "灰尾凛",
+        "花园羽羽里",
+        "美杉美美美",
+        "火保耶拉",
+        "猫成珠",
+        "爱城恋太郎",
+        "须藤育",
+        "中二诗人",
+        "女井户妹",
+        "院田唐音",
+        "好本静",
+        "才奇姬歌（奇姬）",
+        "出井祭李"
+      ],
+      "minorChars": [
+        "伊院弘（舅舅）",
+        "楠莉爸爸"
+      ],
+      "otherTags": [
+        "骑士华幼化",
+        "第19卷"
+      ],
+      "highlightChars": [
+        "花园羽香里",
+        "荣逢凪乃",
+        "盆能寺百八",
+        "优敷山女",
+        "药膳屋久",
+        "原贺胡桃",
+        "一二三数",
+        "毛樽井亚爱子（亚希）",
+        "土吕瀞骑士华",
+        "华暮爱爱",
+        "药膳楠莉",
+        "伊院知与",
+        "铭户芽衣",
+        "茂见红叶",
+        "灰尾凛",
+        "娜迪（大和抚子）",
+        "美杉美美美",
+        "花园羽羽里",
+        "火保耶拉",
+        "猫成珠",
+        "爱城恋太郎",
+        "女井户妹",
+        "中二诗人",
+        "须藤育",
+        "院田唐音",
+        "好本静",
+        "才奇姬歌（奇姬）",
+        "出井祭李"
+      ],
+      "groups": [
+        [
+          "花园羽香里",
+          "荣逢凪乃"
+        ],
+        [
+          "原贺胡桃",
+          "优敷山女",
+          "盆能寺百八",
+          "药膳屋久"
+        ],
+        [
+          "一二三数",
+          "毛樽井亚爱子（亚希）",
+          "土吕瀞骑士华",
+          "华暮爱爱"
+        ],
+        [
+          "伊院知与",
+          "药膳楠莉"
+        ],
+        [
+          "铭户芽衣",
+          "茂见红叶",
+          "娜迪（大和抚子）",
+          "灰尾凛"
+        ],
+        [
+          "花园羽羽里",
+          "美杉美美美"
+        ],
+        [
+          "火保耶拉",
+          "猫成珠",
+          "药膳屋久"
+        ],
+        [
+          "爱城恋太郎",
+          "须藤育",
+          "中二诗人",
+          "女井户妹"
+        ],
+        [
+          "院田唐音",
+          "好本静"
+        ],
+        [
+          "出井祭李",
+          "才奇姬歌（奇姬）"
+        ]
+      ]
+    },
+    {
+      "number": 166,
+      "titleCN": "沙滩剑斗情侣双人锦标赛",
+      "titleJP": "ビーチチャンバラカップルタッグトーナメント",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "土吕瀞骑士华"
+      ],
+      "minorChars": [
+        "优君",
+        "吴莉罗总长（大猩猩）",
+        "教导主任"
+      ],
+      "otherTags": [
+        "骑士华幼化",
+        "第19卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "土吕瀞骑士华"
+      ],
+      "groups": []
+    },
+    {
+      "number": 167,
+      "titleCN": "大家以前都是小宝宝 Returns Returns",
+      "titleJP": "みんな昔はベイビーだったリターンズリターンズ",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "恋太郎换装",
+        "恋太郎女装",
+        "骑士华幼化",
+        "第19卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 167.5,
+      "titleCN": "第一次的笨蛋畜生勒",
+      "titleJP": "はじめてのばーろちくしょ",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "出井祭李"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第19卷"
+      ],
+      "highlightChars": [
+        "出井祭李"
+      ],
+      "groups": []
+    },
+    {
+      "number": 168,
+      "titleCN": "恋太郎写真照交换会",
+      "titleJP": "恋太郎ブロマイド交換会",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第20卷"
+      ],
+      "highlightChars": [
+        "宇佐美椎奈"
+      ],
+      "groups": []
+    },
+    {
+      "number": 169,
+      "titleCN": "混入恋太郎家族的女人",
+      "titleJP": "恋太郎ファミリーに紛れ込んでいた女",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈"
+      ],
+      "minorChars": [
+        "教导主任"
+      ],
+      "otherTags": [
+        "第20卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "宇佐美椎奈"
+      ],
+      "groups": []
+    },
+    {
+      "number": 170,
+      "titleCN": "妹妹和百八的女仆检定",
+      "titleJP": "妹と百八のメイド検定",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "女井户妹",
+        "盆能寺百八"
+      ],
+      "minorChars": [
+        "妹的祖母（女仆）"
+      ],
+      "otherTags": [
+        "第20卷"
+      ],
+      "highlightChars": [
+        "女井户妹",
+        "盆能寺百八"
+      ],
+      "groups": []
+    },
+    {
+      "number": 171,
+      "titleCN": "性感马尾针织回",
+      "titleJP": "セクシーポニテニット回",
+      "types": [
+        "多人",
+        "约会",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "药膳楠莉",
+        "花园羽羽里",
+        "宇佐美椎奈",
+        "荣逢凪乃",
+        "花园羽香里",
+        "茂见红叶",
+        "院田唐音",
+        "原贺胡桃",
+        "盆能寺百八",
+        "土吕瀞骑士华",
+        "华暮爱爱",
+        "优敷山女",
+        "猫成珠",
+        "娜迪（大和抚子）",
+        "火保耶拉"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "楠莉正常状态",
+        "第20卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "华暮爱爱",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "土吕瀞骑士华",
+        "盆能寺百八",
+        "火保耶拉",
+        "猫成珠"
+      ],
+      "groups": []
+    },
+    {
+      "number": 172,
+      "titleCN": "苗条双马尾家居服回",
+      "titleJP": "スレンダーおさげルームウェア回",
+      "types": [
+        "多人",
+        "约会",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "药膳楠莉",
+        "出井祭李",
+        "土吕瀞骑士华",
+        "优敷山女",
+        "火保耶拉",
+        "猫成珠",
+        "伊院知与",
+        "盆能寺百八",
+        "药膳屋久",
+        "娜迪（大和抚子）",
+        "须藤育",
+        "华暮爱爱",
+        "好本静",
+        "院田唐音",
+        "原贺胡桃",
+        "女井户妹",
+        "花园羽香里",
+        "毛樽井亚爱子（亚希）",
+        "茂见红叶",
+        "花园羽羽里",
+        "荣逢凪乃",
+        "铭户芽衣",
+        "中二诗人",
+        "美杉美美美",
+        "灰尾凛",
+        "宇佐美椎奈",
+        "才奇姬歌（奇姬）",
+        "一二三数"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第20卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "院田唐音",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "灰尾凛",
+        "才奇姬歌（奇姬）",
+        "宇佐美椎奈"
+      ],
+      "groups": []
+    },
+    {
+      "number": 173,
+      "titleCN": "萝莉丸子头工装裤回",
+      "titleJP": "ロリおだんごオーバーオール回",
+      "types": [
+        "多人",
+        "约会",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "药膳楠莉",
+        "盆能寺百八",
+        "娜迪（大和抚子）",
+        "毛樽井亚爱子（亚希）",
+        "花园羽羽里",
+        "土吕瀞骑士华",
+        "茂见红叶",
+        "药膳屋久",
+        "伊院知与",
+        "一二三数",
+        "好本静",
+        "出井祭李"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第20卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "好本静",
+        "药膳楠莉",
+        "伊院知与",
+        "茂见红叶",
+        "药膳屋久",
+        "一二三数",
+        "出井祭李"
+      ],
+      "groups": []
+    },
+    {
+      "number": 174,
+      "titleCN": "兔兔酱很粘人",
+      "titleJP": "うさちゃんはべったり",
+      "types": [
+        "个人",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第20卷"
+      ],
+      "highlightChars": [
+        "宇佐美椎奈",
+        "美杉美美美"
+      ],
+      "groups": []
+    },
+    {
+      "number": 175,
+      "titleCN": "恋太郎家族的日常（其五）",
+      "titleJP": "恋太郎ファミリーの日常（その５）",
+      "types": [],
+      "category": "正片",
+      "mainChars": [
+        "须藤育",
+        "华暮爱爱",
+        "茂见红叶",
+        "毛樽井亚爱子（亚希）",
+        "院田唐音",
+        "盆能寺百八",
+        "花园羽香里",
+        "火保耶拉",
+        "花园羽羽里",
+        "土吕瀞骑士华",
+        "原贺胡桃",
+        "猫成珠",
+        "铭户芽衣",
+        "宇佐美椎奈",
+        "好本静",
+        "女井户妹",
+        "爱城恋太郎",
+        "出井祭李",
+        "伊院知与",
+        "荣逢凪乃",
+        "灰尾凛",
+        "娜迪（大和抚子）",
+        "中二诗人",
+        "才奇姬歌（奇姬）",
+        "一二三数",
+        "优敷山女",
+        "美杉美美美",
+        "药膳屋久",
+        "药膳楠莉"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "骑士华幼化",
+        "第20卷"
+      ],
+      "highlightChars": [
+        "华暮爱爱",
+        "须藤育",
+        "毛樽井亚爱子（亚希）",
+        "茂见红叶",
+        "院田唐音",
+        "盆能寺百八",
+        "花园羽羽里",
+        "火保耶拉",
+        "原贺胡桃",
+        "猫成珠",
+        "铭户芽衣",
+        "土吕瀞骑士华",
+        "出井祭李",
+        "花园羽香里",
+        "荣逢凪乃",
+        "灰尾凛",
+        "娜迪（大和抚子）",
+        "女井户妹",
+        "中二诗人",
+        "好本静",
+        "才奇姬歌（奇姬）",
+        "一二三数",
+        "优敷山女",
+        "伊院知与",
+        "美杉美美美",
+        "宇佐美椎奈",
+        "药膳屋久",
+        "药膳楠莉"
+      ],
+      "groups": []
+    },
+    {
+      "number": 176,
+      "titleCN": "胡桃的吃货迪士尼",
+      "titleJP": "胡桃のくいだおれヂヅニー",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "宇佐美椎奈",
+        "女井户妹",
+        "原贺胡桃",
+        "伊院知与",
+        "毛樽井亚爱子（亚希）",
+        "华暮爱爱",
+        "火保耶拉",
+        "院田唐音",
+        "盆能寺百八",
+        "娜迪（大和抚子）",
+        "须藤育",
+        "才奇姬歌（奇姬）",
+        "花园羽香里",
+        "花园羽羽里"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第20卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "原贺胡桃"
+      ],
+      "groups": []
+    },
+    {
+      "number": 176.5,
+      "titleCN": "第一次孤独死",
+      "titleJP": "はじめてのさみしぬ",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "宇佐美椎奈",
+        "好本静",
+        "荣逢凪乃",
+        "土吕瀞骑士华",
+        "药膳楠莉",
+        "茂见红叶",
+        "花园羽羽里"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第20卷",
+        "楠莉正常状态"
+      ],
+      "highlightChars": [
+        "宇佐美椎奈"
+      ],
+      "groups": []
+    },
+    {
+      "number": 177,
+      "titleCN": "雪房田同学",
+      "titleJP": "雪房田さん",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "好本静",
+        "华暮爱爱",
+        "院田唐音",
+        "毛樽井亚爱子（亚希）",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "雪房田梦留",
+        "宇佐美椎奈"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第21卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "雪房田梦留"
+      ],
+      "groups": []
+    },
+    {
+      "number": 178,
+      "titleCN": "恋太郎家族所不知道的童话世界",
+      "titleJP": "恋太郎ファミリーの知らないメルヘンの世界",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第21卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 179,
+      "titleCN": "恋太郎家族的赏花",
+      "titleJP": "恋太郎ファミリーのお花見",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "楠莉正常状态",
+        "第21卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 180,
+      "titleCN": "恋太郎和女友（们）的日常（其一）",
+      "titleJP": "恋太郎と彼女の日常（その１）",
+      "types": [
+        "约会",
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "火保耶拉",
+        "须藤育",
+        "中二诗人",
+        "花园羽羽里",
+        "猫成珠",
+        "宇佐美椎奈",
+        "药膳楠莉",
+        "才奇姬歌（奇姬）",
+        "华暮爱爱",
+        "毛樽井亚爱子（亚希）",
+        "雪房田梦留",
+        "药膳屋久",
+        "花园羽香里",
+        "原贺胡桃",
+        "好本静"
+      ],
+      "minorChars": [
+        "波奇（有钱人家的狗）",
+        "企鹅太郎"
+      ],
+      "otherTags": [
+        "楠莉正常状态",
+        "第21卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "火保耶拉",
+        "须藤育",
+        "中二诗人",
+        "花园羽羽里",
+        "猫成珠",
+        "雪房田梦留",
+        "宇佐美椎奈",
+        "药膳楠莉",
+        "才奇姬歌（奇姬）",
+        "华暮爱爱",
+        "毛樽井亚爱子（亚希）",
+        "药膳屋久",
+        "花园羽香里",
+        "原贺胡桃",
+        "好本静"
+      ],
+      "groups": []
+    },
+    {
+      "number": 181,
+      "titleCN": "恋太郎和女友（们）的日常（其二）",
+      "titleJP": "恋太郎と彼女の日常（その２）",
+      "types": [
+        "单元剧",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "茂见红叶",
+        "盆能寺百八",
+        "出井祭李",
+        "娜迪（大和抚子）",
+        "女井户妹",
+        "一二三数",
+        "荣逢凪乃",
+        "灰尾凛",
+        "土吕瀞骑士华",
+        "铭户芽衣",
+        "美杉美美美",
+        "伊院知与",
+        "优敷山女",
+        "院田唐音"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第21卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "院田唐音",
+        "荣逢凪乃",
+        "铭户芽衣",
+        "美杉美美美",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "土吕瀞骑士华",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "出井祭李"
+      ],
+      "groups": []
+    },
+    {
+      "number": 182,
+      "titleCN": "拿起笔的两个人",
+      "titleJP": "筆をとって、ふたり",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "好本静",
+        "雪房田梦留",
+        "宇佐美椎奈",
+        "猫成珠",
+        "优敷山女",
+        "出井祭李",
+        "伊院知与",
+        "药膳楠莉",
+        "茂见红叶"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第21卷"
+      ],
+      "highlightChars": [
+        "好本静",
+        "雪房田梦留"
+      ],
+      "groups": []
+    },
+    {
+      "number": 183,
+      "titleCN": "恋太郎家族的愉快假期旅行",
+      "titleJP": "恋太郎ファミリーの楽しいバカンス旅行",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第21卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 184,
+      "titleCN": "恋太郎家族的空中岛脱出",
+      "titleJP": "恋太郎ファミリーの空の島脱出",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留"
+      ],
+      "minorChars": [
+        "恋爱神社的神明"
+      ],
+      "otherTags": [
+        "第21卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 185,
+      "titleCN": "艾拉和芽衣同岁",
+      "titleJP": "エイラと芽衣は同い年",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "铭户芽衣",
+        "花园羽香里",
+        "火保耶拉",
+        "原贺胡桃",
+        "花园羽羽里"
+      ],
+      "minorChars": [
+        "耶拉爸爸",
+        "认真集团"
+      ],
+      "otherTags": [
+        "芽衣睁眼",
+        "第21卷"
+      ],
+      "highlightChars": [
+        "火保耶拉",
+        "铭户芽衣"
+      ],
+      "groups": []
+    },
+    {
+      "number": 185.5,
+      "titleCN": "第一次童话",
+      "titleJP": "はじめてのめるへん",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "雪房田梦留",
+        "好本静",
+        "药膳楠莉",
+        "女井户妹",
+        "宇佐美椎奈",
+        "优敷山女",
+        "茂见红叶",
+        "灰尾凛",
+        "毛樽井亚爱子（亚希）",
+        "土吕瀞骑士华",
+        "美杉美美美",
+        "猫成珠",
+        "中二诗人",
+        "药膳屋久",
+        "爱城恋太郎",
+        "出井祭李",
+        "一二三数",
+        "伊院知与",
+        "华暮爱爱"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第21卷"
+      ],
+      "highlightChars": [
+        "雪房田梦留"
+      ],
+      "groups": []
+    },
+    {
+      "number": 186,
+      "titleCN": "花高的里番长",
+      "titleJP": "お花高の裏番長",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "辈先"
+      ],
+      "minorChars": [
+        "责任心过强的女童（总是想要去死的女童）"
+      ],
+      "otherTags": [
+        "第22卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "辈先"
+      ],
+      "groups": []
+    },
+    {
+      "number": 187,
+      "titleCN": "恋太郎家族的新番长",
+      "titleJP": "恋太郎ファミリーの新番長",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先"
+      ],
+      "minorChars": [
+        "出版社大佬"
+      ],
+      "otherTags": [
+        "第22卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 188,
+      "titleCN": "恋太郎和女友（们）的日常（其三）",
+      "titleJP": "恋太郎と彼女の日常（その３）",
+      "types": [
+        "单元剧",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "出井祭李",
+        "花园羽香里",
+        "中二诗人",
+        "优敷山女",
+        "宇佐美椎奈",
+        "猫成珠",
+        "药膳楠莉",
+        "辈先",
+        "灰尾凛",
+        "才奇姬歌（奇姬）",
+        "爱城恋太郎"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第22卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "出井祭李",
+        "中二诗人",
+        "花园羽香里",
+        "优敷山女",
+        "宇佐美椎奈",
+        "猫成珠",
+        "药膳楠莉",
+        "辈先",
+        "灰尾凛",
+        "才奇姬歌（奇姬）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 189,
+      "titleCN": "前辈的前辈和后辈",
+      "titleJP": "先の先輩と後輩",
+      "types": [
+        "多人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "药膳屋久",
+        "辈先",
+        "娜迪（大和抚子）",
+        "院田唐音",
+        "出井祭李",
+        "火保耶拉",
+        "土吕瀞骑士华",
+        "药膳楠莉",
+        "茂见红叶",
+        "须藤育"
+      ],
+      "minorChars": [
+        "认真集团"
+      ],
+      "otherTags": [
+        "第22卷"
+      ],
+      "highlightChars": [
+        "辈先",
+        "出井祭李",
+        "药膳屋久"
+      ],
+      "groups": []
+    },
+    {
+      "number": 190,
+      "titleCN": "红叶的不揉日常",
+      "titleJP": "紅葉の揉めない日々",
+      "types": [
+        "个人",
+        "其他",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "药膳楠莉",
+        "茂见红叶",
+        "一二三数",
+        "宇佐美椎奈",
+        "药膳屋久",
+        "毛樽井亚爱子（亚希）",
+        "荣逢凪乃",
+        "好本静",
+        "女井户妹",
+        "盆能寺百八",
+        "花园羽香里",
+        "花园羽羽里",
+        "华暮爱爱",
+        "须藤育",
+        "才奇姬歌（奇姬）",
+        "原贺胡桃",
+        "铭户芽衣",
+        "雪房田梦留",
+        "辈先",
+        "灰尾凛",
+        "土吕瀞骑士华",
+        "猫成珠",
+        "中二诗人",
+        "娜迪（大和抚子）",
+        "火保耶拉",
+        "美杉美美美",
+        "伊院知与",
+        "出井祭李",
+        "院田唐音",
+        "优敷山女"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第22卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "茂见红叶"
+      ],
+      "groups": []
+    },
+    {
+      "number": 191,
+      "titleCN": "恋太郎家族的流水素面",
+      "titleJP": "恋太郎ファミリーの流しそうめん",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先"
+      ],
+      "minorChars": [
+        "认真集团"
+      ],
+      "otherTags": [
+        "楠莉正常状态",
+        "第22卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 192,
+      "titleCN": "恋太郎家族的日常（其六）",
+      "titleJP": "恋太郎ファミリーの日常（その６）",
+      "types": [],
+      "category": "正片",
+      "mainChars": [
+        "院田唐音",
+        "毛樽井亚爱子（亚希）",
+        "花园羽羽里",
+        "优敷山女",
+        "原贺胡桃",
+        "药膳楠莉",
+        "猫成珠",
+        "娜迪（大和抚子）",
+        "盆能寺百八",
+        "女井户妹",
+        "爱城恋太郎",
+        "雪房田梦留",
+        "宇佐美椎奈",
+        "中二诗人",
+        "药膳屋久",
+        "伊院知与",
+        "好本静",
+        "荣逢凪乃",
+        "一二三数",
+        "铭户芽衣",
+        "茂见红叶",
+        "华暮爱爱",
+        "美杉美美美",
+        "须藤育",
+        "土吕瀞骑士华",
+        "火保耶拉",
+        "花园羽香里",
+        "出井祭李",
+        "才奇姬歌（奇姬）",
+        "灰尾凛",
+        "辈先"
+      ],
+      "minorChars": [
+        "伊院弘（舅舅）"
+      ],
+      "otherTags": [
+        "第22卷"
+      ],
+      "highlightChars": [
+        "院田唐音",
+        "毛樽井亚爱子（亚希）",
+        "原贺胡桃",
+        "辈先",
+        "盆能寺百八",
+        "娜迪（大和抚子）",
+        "花园羽羽里",
+        "女井户妹",
+        "雪房田梦留",
+        "宇佐美椎奈",
+        "伊院知与",
+        "火保耶拉",
+        "好本静",
+        "荣逢凪乃",
+        "铭户芽衣",
+        "一二三数",
+        "美杉美美美",
+        "华暮爱爱",
+        "土吕瀞骑士华",
+        "须藤育"
+      ],
+      "groups": []
+    },
+    {
+      "number": 193,
+      "titleCN": "编织爱爱和猫咪珠珠／爱爱与胡桃的巷弄探险队",
+      "titleJP": "あみあみ愛々と猫のタマ/愛々と胡桃の路地裏探検隊",
+      "types": [
+        "多人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "华暮爱爱",
+        "猫成珠",
+        "辈先",
+        "院田唐音",
+        "女井户妹",
+        "原贺胡桃"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第22卷"
+      ],
+      "highlightChars": [
+        "华暮爱爱",
+        "猫成珠",
+        "原贺胡桃"
+      ],
+      "groups": []
+    },
+    {
+      "number": 194,
+      "titleCN": "山女酱的外星人保护日记",
+      "titleJP": "山女ちゃんの宇宙人保護日記",
+      "types": [
+        "个人",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "优敷山女",
+        "花园羽香里",
+        "雪房田梦留",
+        "娜迪（大和抚子）",
+        "宇佐美椎奈",
+        "女井户妹",
+        "院田唐音",
+        "土吕瀞骑士华",
+        "原贺胡桃",
+        "中二诗人",
+        "荣逢凪乃",
+        "盆能寺百八",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "美杉美美美",
+        "药膳屋久",
+        "火保耶拉",
+        "毛樽井亚爱子（亚希）",
+        "一二三数",
+        "辈先",
+        "好本静",
+        "灰尾凛",
+        "药膳楠莉",
+        "出井祭李",
+        "华暮爱爱",
+        "花园羽羽里",
+        "铭户芽衣",
+        "须藤育",
+        "茂见红叶",
+        "伊院知与"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第22卷"
+      ],
+      "highlightChars": [
+        "优敷山女"
+      ],
+      "groups": []
+    },
+    {
+      "number": 194.5,
+      "titleCN": "第一次的前辈",
+      "titleJP": "はじめてのせんぱい",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "辈先",
+        "药膳楠莉",
+        "荣逢凪乃",
+        "出井祭李"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第22卷"
+      ],
+      "highlightChars": [
+        "辈先"
+      ],
+      "groups": []
+    },
+    {
+      "number": 195,
+      "titleCN": "困倦的少女",
+      "titleJP": "眠い少女",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "根向井宁梦",
+        "雪房田梦留"
+      ],
+      "minorChars": [
+        "宁梦（爷爷奶奶）"
+      ],
+      "otherTags": [
+        "第23卷"
+      ],
+      "highlightChars": [
+        "雪房田梦留",
+        "根向井宁梦"
+      ],
+      "groups": []
+    },
+    {
+      "number": 196,
+      "titleCN": "恋太郎家族的睡颜派对♡",
+      "titleJP": "恋太郎ファミリーの寝顔パーティー♡",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第23卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 197,
+      "titleCN": "恋太郎和女友（们）的日常（其四）",
+      "titleJP": "恋太郎と彼女の日常（その４）",
+      "types": [
+        "约会",
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "雪房田梦留",
+        "须藤育",
+        "好本静",
+        "铭户芽衣",
+        "盆能寺百八",
+        "根向井宁梦",
+        "女井户妹",
+        "花园羽羽里",
+        "美杉美美美",
+        "荣逢凪乃",
+        "花园羽香里"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "恋太郎换装",
+        "恋太郎女装",
+        "第23卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "雪房田梦留",
+        "根向井宁梦",
+        "盆能寺百八",
+        "女井户妹",
+        "美杉美美美",
+        "须藤育",
+        "铭户芽衣",
+        "花园羽羽里",
+        "荣逢凪乃",
+        "好本静"
+      ],
+      "groups": []
+    },
+    {
+      "number": 198,
+      "titleCN": "暴力剧场刺激满满",
+      "titleJP": "バイオレンスシアターは刺激がいっぱい",
+      "types": [
+        "多人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "根向井宁梦",
+        "灰尾凛",
+        "花园羽香里",
+        "中二诗人",
+        "药膳楠莉",
+        "院田唐音"
+      ],
+      "minorChars": [
+        "企鹅太郎"
+      ],
+      "otherTags": [
+        "第23卷"
+      ],
+      "highlightChars": [
+        "花园羽香里",
+        "院田唐音",
+        "灰尾凛",
+        "根向井宁梦"
+      ],
+      "groups": []
+    },
+    {
+      "number": 199,
+      "titleCN": "狗、女儿和父亲",
+      "titleJP": "犬と娘とお父さん",
+      "types": [
+        "个人",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "伊院知与"
+      ],
+      "minorChars": [
+        "伊院弘（舅舅）",
+        "汪太郎"
+      ],
+      "otherTags": [
+        "恋太郎换装",
+        "第23卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "伊院知与"
+      ],
+      "groups": []
+    },
+    {
+      "number": 200,
+      "titleCN": "100女友派对",
+      "titleJP": "100カノパーティ",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦"
+      ],
+      "minorChars": [
+        "出版社大佬",
+        "出场率蛮高的松鼠（山女）"
+      ],
+      "otherTags": [],
+      "highlightChars": [
+        "伊院知与",
+        "铭户芽衣",
+        "花园羽羽里",
+        "毛樽井亚爱子（亚希）",
+        "根向井宁梦",
+        "花园羽香里",
+        "优敷山女",
+        "女井户妹",
+        "药膳屋久",
+        "一二三数",
+        "猫成珠",
+        "茂见红叶"
+      ],
+      "groups": []
+    },
+    {
+      "number": 201,
+      "titleCN": "100女友派对（其二）",
+      "titleJP": "100カノパーティ（その２）",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "盆能寺百八",
+        "娜迪（大和抚子）",
+        "宇佐美椎奈",
+        "女井户妹",
+        "爱城恋太郎",
+        "伊院知与",
+        "药膳楠莉",
+        "出井祭李",
+        "毛樽井亚爱子（亚希）",
+        "院田唐音",
+        "才奇姬歌（奇姬）",
+        "土吕瀞骑士华",
+        "好本静",
+        "花园羽香里",
+        "美杉美美美",
+        "火保耶拉",
+        "华暮爱爱",
+        "灰尾凛",
+        "荣逢凪乃",
+        "须藤育",
+        "原贺胡桃",
+        "中二诗人",
+        "辈先",
+        "花园羽羽里",
+        "雪房田梦留",
+        "优敷山女",
+        "药膳屋久",
+        "根向井宁梦",
+        "一二三数",
+        "铭户芽衣",
+        "茂见红叶",
+        "猫成珠"
+      ],
+      "minorChars": [
+        "出版社大佬"
+      ],
+      "otherTags": [
+        "骑士华幼化",
+        "第23卷"
+      ],
+      "highlightChars": [
+        "盆能寺百八",
+        "院田唐音",
+        "灰尾凛",
+        "原贺胡桃",
+        "须藤育",
+        "才奇姬歌（奇姬）",
+        "雪房田梦留",
+        "药膳楠莉",
+        "美杉美美美",
+        "火保耶拉",
+        "荣逢凪乃",
+        "土吕瀞骑士华"
+      ],
+      "groups": []
+    },
+    {
+      "number": 202,
+      "titleCN": "100女友派对（其三）",
+      "titleJP": "100カノパーティ（その３）",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦"
+      ],
+      "minorChars": [
+        "出版社大佬"
+      ],
+      "otherTags": [
+        "第23卷"
+      ],
+      "highlightChars": [
+        "出井祭李",
+        "中二诗人",
+        "宇佐美椎奈",
+        "娜迪（大和抚子）",
+        "好本静",
+        "辈先",
+        "华暮爱爱",
+        "爱城恋太郎"
+      ],
+      "groups": []
+    },
+    {
+      "number": 203,
+      "titleCN": "恋太郎家族的日常（其七）",
+      "titleJP": "恋太郎ファミリーの日常（その７）",
+      "types": [
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第23卷"
+      ],
+      "highlightChars": [
+        "猫成珠",
+        "中二诗人",
+        "根向井宁梦",
+        "辈先",
+        "火保耶拉",
+        "毛樽井亚爱子（亚希）",
+        "药膳楠莉",
+        "一二三数",
+        "出井祭李",
+        "原贺胡桃",
+        "优敷山女",
+        "宇佐美椎奈",
+        "华暮爱爱",
+        "女井户妹",
+        "茂见红叶",
+        "须藤育",
+        "雪房田梦留",
+        "土吕瀞骑士华",
+        "才奇姬歌（奇姬）",
+        "药膳屋久"
+      ],
+      "groups": [
+        [
+          "中二诗人",
+          "猫成珠",
+          "荣逢凪乃",
+          "药膳楠莉",
+          "花园羽羽里",
+          "花园羽香里",
+          "院田唐音"
+        ],
+        [
+          "根向井宁梦",
+          "辈先"
+        ],
+        [
+          "火保耶拉",
+          "毛樽井亚爱子（亚希）",
+          "盆能寺百八",
+          "伊院知与",
+          "好本静",
+          "美杉美美美"
+        ],
+        [
+          "一二三数",
+          "药膳楠莉",
+          "毛樽井亚爱子（亚希）",
+          "药膳屋久"
+        ],
+        [
+          "原贺胡桃",
+          "出井祭李",
+          "花园羽羽里",
+          "娜迪（大和抚子）"
+        ],
+        [
+          "优敷山女",
+          "宇佐美椎奈"
+        ],
+        [
+          "华暮爱爱",
+          "女井户妹",
+          "爱城恋太郎"
+        ],
+        [
+          "茂见红叶",
+          "须藤育"
+        ],
+        [
+          "雪房田梦留",
+          "土吕瀞骑士华",
+          "根向井宁梦",
+          "铭户芽衣",
+          "好本静",
+          "荣逢凪乃",
+          "宇佐美椎奈",
+          "出井祭李",
+          "伊院知与",
+          "药膳楠莉",
+          "灰尾凛",
+          "中二诗人"
+        ]
+      ]
+    },
+    {
+      "number": 203.5,
+      "titleCN": "第一次制鞋",
+      "titleJP": "はじめてのくつづくり",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "根向井宁梦"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第23卷"
+      ],
+      "highlightChars": [
+        "根向井宁梦"
+      ],
+      "groups": []
+    },
+    {
+      "number": 204,
+      "titleCN": "名侦探端须同学",
+      "titleJP": "名探偵の端須さん",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "端须莲叶"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第24卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "端须莲叶"
+      ],
+      "groups": []
+    },
+    {
+      "number": 205,
+      "titleCN": "名侦探莲叶与恋太郎家族事件",
+      "titleJP": "名探偵蓮葉と恋太郎ファミリーの事件",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第24卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 206,
+      "titleCN": "恋太郎和女友（们）的日常（其五）",
+      "titleJP": "恋太郎と彼女の日常（その５）",
+      "types": [
+        "单元剧",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "一二三数",
+        "端须莲叶",
+        "原贺胡桃",
+        "火保耶拉",
+        "院田唐音",
+        "华暮爱爱",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "茂见红叶",
+        "毛樽井亚爱子（亚希）",
+        "药膳楠莉"
+      ],
+      "minorChars": [
+        "楠莉爸爸"
+      ],
+      "otherTags": [
+        "第24卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "端须莲叶",
+        "一二三数",
+        "火保耶拉",
+        "毛樽井亚爱子（亚希）",
+        "土吕瀞骑士华",
+        "药膳屋久",
+        "茂见红叶",
+        "华暮爱爱",
+        "原贺胡桃",
+        "院田唐音"
+      ],
+      "groups": []
+    },
+    {
+      "number": 207,
+      "titleCN": "一年三班的3个人",
+      "titleJP": "１年３組の３人",
+      "types": [
+        "三人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "优敷山女",
+        "须藤育",
+        "端须莲叶",
+        "盆能寺百八"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第24卷"
+      ],
+      "highlightChars": [
+        "须藤育",
+        "优敷山女",
+        "端须莲叶"
+      ],
+      "groups": []
+    },
+    {
+      "number": 208,
+      "titleCN": "我的回忆世界",
+      "titleJP": "私の思い出の世界",
+      "types": [
+        "个人",
+        "主线"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "荣逢凪乃",
+        "伊院知与",
+        "宇佐美椎奈",
+        "端须莲叶",
+        "药膳楠莉",
+        "女井户妹",
+        "好本静",
+        "辈先",
+        "出井祭李",
+        "火保耶拉",
+        "才奇姬歌（奇姬）",
+        "美杉美美美",
+        "原贺胡桃",
+        "院田唐音",
+        "华暮爱爱",
+        "花园羽香里",
+        "娜迪（大和抚子）"
+      ],
+      "minorChars": [
+        "教导主任"
+      ],
+      "otherTags": [
+        "第24卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "荣逢凪乃"
+      ],
+      "groups": []
+    },
+    {
+      "number": 209,
+      "titleCN": "就算世界忘了你",
+      "titleJP": "世界が君を忘れても",
+      "types": [
+        "个人",
+        "主线"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "荣逢凪乃",
+        "好本静",
+        "花园羽羽里",
+        "铭户芽衣",
+        "宇佐美椎奈",
+        "雪房田梦留"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第24卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "荣逢凪乃"
+      ],
+      "groups": []
+    },
+    {
+      "number": 210,
+      "titleCN": "寻找女友(仿海底总动员标题)",
+      "titleJP": "ファインディング・カノ",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶"
+      ],
+      "minorChars": [
+        "教导主任"
+      ],
+      "otherTags": [
+        "恋太郎换装",
+        "第24卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 211,
+      "titleCN": "恋太郎家族的日常（其八）",
+      "titleJP": "恋太郎ファミリーの日常（その８）",
+      "types": [
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶"
+      ],
+      "minorChars": [
+        "波奇（有钱人家的狗）",
+        "汪太郎"
+      ],
+      "otherTags": [
+        "第24卷"
+      ],
+      "highlightChars": [
+        "才奇姬歌（奇姬）",
+        "雪房田梦留",
+        "好本静",
+        "根向井宁梦",
+        "辈先",
+        "猫成珠",
+        "中二诗人",
+        "端须莲叶",
+        "药膳楠莉",
+        "盆能寺百八",
+        "花园羽香里",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "灰尾凛",
+        "美杉美美美",
+        "铭户芽衣",
+        "土吕瀞骑士华",
+        "女井户妹",
+        "出井祭李",
+        "宇佐美椎奈"
+      ],
+      "groups": [
+        [
+          "雪房田梦留",
+          "才奇姬歌（奇姬）"
+        ],
+        [
+          "辈先",
+          "出井祭李",
+          "好本静",
+          "火保耶拉",
+          "花园羽羽里"
+        ],
+        [
+          "猫成珠",
+          "根向井宁梦",
+          "药膳屋久"
+        ],
+        [
+          "端须莲叶",
+          "中二诗人",
+          "女井户妹"
+        ],
+        [
+          "药膳楠莉",
+          "盆能寺百八"
+        ],
+        [
+          "花园羽香里",
+          "伊院知与"
+        ],
+        [
+          "娜迪（大和抚子）",
+          "灰尾凛"
+        ],
+        [
+          "美杉美美美",
+          "一二三数",
+          "铭户芽衣",
+          "院田唐音",
+          "原贺胡桃"
+        ],
+        [
+          "女井户妹",
+          "土吕瀞骑士华",
+          "须藤育"
+        ],
+        [
+          "宇佐美椎奈",
+          "出井祭李"
+        ]
+      ]
+    },
+    {
+      "number": 212,
+      "titleCN": "大家以前都是小宝宝IV：Mother／把妈妈的心意，给你",
+      "titleJP": "みんな昔はベイビーだったIV:Mother/ままごころを、君に",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "恋太郎换装",
+        "第24卷"
+      ],
+      "highlightChars": [
+        "花园羽羽里"
+      ],
+      "groups": []
+    },
+    {
+      "number": 212.5,
+      "titleCN": "第一次的闻气味/难受太郎",
+      "titleJP": "はじめてのくぅ~ん/キツ太郎",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "端须莲叶",
+        "原贺胡桃",
+        "茂见红叶",
+        "须藤育",
+        "药膳屋久",
+        "灰尾凛",
+        "花园羽羽里"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第24卷"
+      ],
+      "highlightChars": [
+        "端须莲叶",
+        "须藤育"
+      ],
+      "groups": []
+    },
+    {
+      "number": 213,
+      "titleCN": "学生指导的守北老师",
+      "titleJP": "生徒指導の守北先生",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "守北季鞠",
+        "土吕瀞骑士华",
+        "药膳楠莉",
+        "伊院知与",
+        "辈先",
+        "原贺胡桃"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第25卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "守北季鞠"
+      ],
+      "groups": []
+    },
+    {
+      "number": 214,
+      "titleCN": "恋太郎家族的放学后边买边吃",
+      "titleJP": "恋太郎ファミリーの買い食い",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第25卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 215,
+      "titleCN": "恋太郎和女友（们）的日常（其六）",
+      "titleJP": "恋太郎と彼女の日常（その６）",
+      "types": [
+        "单元剧",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "好本静",
+        "优敷山女",
+        "守北季鞠",
+        "美杉美美美",
+        "娜迪（大和抚子）",
+        "铭户芽衣",
+        "药膳楠莉",
+        "花园羽香里",
+        "伊院知与",
+        "须藤育"
+      ],
+      "minorChars": [
+        "好本静妈妈",
+        "汪太郎",
+        "伊院弘（舅舅）",
+        "很强的医生"
+      ],
+      "otherTags": [
+        "知与掉眼镜",
+        "第25卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 215.5,
+      "titleCN": "第一次交到的朋友/季鞠的报恩",
+      "titleJP": "はじめてのともだち/きまの恩返",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "土吕瀞骑士华",
+        "守北季鞠",
+        "一二三数",
+        "铭户芽衣",
+        "端须莲叶",
+        "才奇姬歌（奇姬）",
+        "伊院知与",
+        "药膳楠莉",
+        "宇佐美椎奈",
+        "美杉美美美"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第25卷"
+      ],
+      "highlightChars": [
+        "守北季鞠"
+      ],
+      "groups": []
+    },
+    {
+      "number": 216,
+      "titleCN": "朋友的距离感",
+      "titleJP": "友達の距離感",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "守北季鞠",
+        "宇佐美椎奈",
+        "才奇姬歌（奇姬）",
+        "雪房田梦留"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第25卷"
+      ],
+      "highlightChars": [
+        "宇佐美椎奈",
+        "守北季鞠"
+      ],
+      "groups": []
+    },
+    {
+      "number": 217,
+      "titleCN": "我唱歌的理由",
+      "titleJP": "私の歌う理由",
+      "types": [
+        "个人",
+        "约会",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "才奇姬歌（奇姬）",
+        "爱城恋太郎",
+        "院田唐音",
+        "端须莲叶",
+        "守北季鞠",
+        "中二诗人",
+        "华暮爱爱",
+        "雪房田梦留",
+        "出井祭李"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第25卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "才奇姬歌（奇姬）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 218,
+      "titleCN": "100拼图回",
+      "titleJP": "100パズ回",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第25卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 219,
+      "titleCN": "噢—宁梦女孩是睡眠守护者哒—斯",
+      "titleJP": "オー寧夢ガールはスリープガーディアンデース",
+      "types": [
+        "女友（互动）",
+        "双人"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "根向井宁梦",
+        "灰尾凛",
+        "娜迪（大和抚子）",
+        "辈先"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第25卷"
+      ],
+      "highlightChars": [
+        "根向井宁梦",
+        "娜迪（大和抚子）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 220,
+      "titleCN": "恋太郎家族VS挑战拉面（第二回合）",
+      "titleJP": "恋太郎ファミリーVSチャレンジラーメン（Round2）",
+      "types": [
+        "单元剧",
+        "女友（互动）",
+        "多人"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "原贺胡桃",
+        "一二三数",
+        "宇佐美椎奈",
+        "灰尾凛",
+        "火保耶拉",
+        "才奇姬歌（奇姬）",
+        "雪房田梦留",
+        "毛樽井亚爱子（亚希）",
+        "猫成珠",
+        "中二诗人",
+        "女井户妹",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠",
+        "出井祭李",
+        "盆能寺百八"
+      ],
+      "minorChars": [
+        "拉面店老板",
+        "认真集团"
+      ],
+      "otherTags": [
+        "第25卷"
+      ],
+      "highlightChars": [],
+      "groups": [
+        [
+          "一二三数",
+          "宇佐美椎奈"
+        ],
+        [
+          "灰尾凛",
+          "火保耶拉"
+        ],
+        [
+          "才奇姬歌（奇姬）",
+          "雪房田梦留"
+        ],
+        [
+          "毛樽井亚爱子（亚希）",
+          "猫成珠"
+        ],
+        [
+          "中二诗人",
+          "女井户妹"
+        ],
+        [
+          "辈先",
+          "根向井宁梦"
+        ],
+        [
+          "端须莲叶",
+          "守北季鞠"
+        ],
+        [
+          "出井祭李",
+          "盆能寺百八"
+        ]
+      ]
+    },
+    {
+      "number": 221,
+      "titleCN": "名为启程的刘海～♪",
+      "titleJP": "旅立ちという名の前髪～♪",
+      "types": [
+        "个人",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第25卷"
+      ],
+      "highlightChars": [
+        "中二诗人"
+      ],
+      "groups": []
+    },
+    {
+      "number": 222,
+      "titleCN": "双马尾的少女",
+      "titleJP": "ツインテールの少女",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "双天彗流",
+        "爱城恋太郎"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第26卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "双天彗流"
+      ],
+      "groups": []
+    },
+    {
+      "number": 223,
+      "titleCN": "恋太郎家族的双马尾",
+      "titleJP": "恋太郎ファミリーのツインテール",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠",
+        "双天彗流"
+      ],
+      "minorChars": [
+        "很强的医生"
+      ],
+      "otherTags": [
+        "第26卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 224,
+      "titleCN": "恋太郎和女友（们）的日常（其七）",
+      "titleJP": "恋太郎と彼女の日常（その７）",
+      "types": [
+        "单元剧",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "才奇姬歌（奇姬）",
+        "宇佐美椎奈",
+        "辈先",
+        "双天彗流",
+        "猫成珠",
+        "出井祭李",
+        "中二诗人",
+        "灰尾凛",
+        "雪房田梦留",
+        "花园羽羽里"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第26卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 225,
+      "titleCN": "初一组的嫁人修行留宿女子会",
+      "titleJP": "中一組の花嫁修業お泊り女子会",
+      "types": [
+        "三人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "伊院知与",
+        "出井祭李",
+        "双天彗流",
+        "宇佐美椎奈",
+        "爱城恋太郎"
+      ],
+      "minorChars": [
+        "伊院弘（舅舅）",
+        "汪太郎"
+      ],
+      "otherTags": [
+        "第26卷"
+      ],
+      "highlightChars": [
+        "伊院知与",
+        "出井祭李",
+        "双天彗流"
+      ],
+      "groups": []
+    },
+    {
+      "number": 226,
+      "titleCN": "数的数学太烂了",
+      "titleJP": "数は数学がクソ",
+      "types": [
+        "个人",
+        "约会",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "一二三数",
+        "爱城恋太郎",
+        "毛樽井亚爱子（亚希）"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第26卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 227,
+      "titleCN": "恋太郎家族VS拉比尼乐园“复活节”",
+      "titleJP": "恋太郎ファミリーVSラヴィニーランド“イースター”",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠",
+        "双天彗流"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第26卷"
+      ],
+      "highlightChars": [
+        "女井户妹",
+        "盆能寺百八",
+        "好本静",
+        "荣逢凪乃",
+        "双天彗流",
+        "茂见红叶",
+        "中二诗人",
+        "毛樽井亚爱子（亚希）",
+        "华暮爱爱",
+        "猫成珠",
+        "出井祭李",
+        "辈先",
+        "一二三数",
+        "优敷山女",
+        "守北季鞠",
+        "宇佐美椎奈",
+        "原贺胡桃",
+        "才奇姬歌（奇姬）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 228,
+      "titleCN": "神龙终于出现了！？",
+      "titleJP": "ついに龍あらわる！？",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠",
+        "双天彗流"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "骑士华幼化",
+        "楠莉正常状态",
+        "第26卷"
+      ],
+      "highlightChars": [
+        "土吕瀞骑士华",
+        "雪房田梦留",
+        "须藤育",
+        "端须莲叶",
+        "花园羽羽里",
+        "药膳屋久",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "药膳楠莉",
+        "美杉美美美",
+        "铭户芽衣",
+        "火保耶拉",
+        "灰尾凛",
+        "根向井宁梦",
+        "花园羽香里",
+        "院田唐音",
+        "爱城恋太郎"
+      ],
+      "groups": []
+    },
+    {
+      "number": 229,
+      "titleCN": "百八老师是酒屋的女儿",
+      "titleJP": "百八先生は酒屋の娘",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "盆能寺百八"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第26卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "盆能寺百八"
+      ],
+      "groups": []
+    },
+    {
+      "number": 230,
+      "titleCN": "姐姐、长女和前辈",
+      "titleJP": "姉と長女と先輩",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "院田唐音",
+        "土吕瀞骑士华"
+      ],
+      "minorChars": [
+        "唐人（唐音弟弟）"
+      ],
+      "otherTags": [
+        "第26卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 230.5,
+      "titleCN": "三只小猪",
+      "titleJP": "3匹の子ブタ",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "荣逢凪乃",
+        "猫成珠",
+        "中二诗人",
+        "辈先",
+        "出井祭李"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第26卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 231,
+      "titleCN": "保健室的慈相老师",
+      "titleJP": "保健室の慈相先生",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "千优慈相",
+        "须藤育"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第27卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "千优慈相"
+      ],
+      "groups": []
+    },
+    {
+      "number": 232,
+      "titleCN": "恋太郎家族和保健室老师的一天",
+      "titleJP": "恋太郎ファミリーと保健室の先生の1日",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠",
+        "双天彗流",
+        "千优慈相"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第27卷"
+      ],
+      "highlightChars": [
+        "千优慈相"
+      ],
+      "groups": []
+    },
+    {
+      "number": 233,
+      "titleCN": "恋太郎和女友（们）的日常（其八）",
+      "titleJP": "恋太郎と彼女の日常（その8）",
+      "types": [
+        "约会",
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "盆能寺百八",
+        "女井户妹",
+        "千优慈相",
+        "荣逢凪乃",
+        "药膳屋久",
+        "原贺胡桃",
+        "根向井宁梦",
+        "茂见红叶",
+        "端须莲叶",
+        "火保耶拉"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第27卷"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 234,
+      "titleCN": "不良少女和保健室老师",
+      "titleJP": "不良少女と保健室の先生",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "千优慈相",
+        "辈先",
+        "守北季鞠",
+        "宇佐美椎奈",
+        "娜迪（大和抚子）",
+        "花园羽香里",
+        "爱城恋太郎",
+        "花园羽羽里",
+        "火保耶拉",
+        "须藤育",
+        "女井户妹",
+        "伊院知与",
+        "好本静",
+        "铭户芽衣",
+        "根向井宁梦",
+        "端须莲叶",
+        "出井祭李",
+        "药膳屋久",
+        "原贺胡桃",
+        "猫成珠",
+        "中二诗人",
+        "才奇姬歌（奇姬）",
+        "荣逢凪乃",
+        "盆能寺百八",
+        "药膳楠莉",
+        "雪房田梦留",
+        "华暮爱爱",
+        "茂见红叶",
+        "一二三数",
+        "院田唐音",
+        "优敷山女",
+        "灰尾凛",
+        "毛樽井亚爱子（亚希）",
+        "双天彗流",
+        "土吕瀞骑士华",
+        "美杉美美美"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第27卷"
+      ],
+      "highlightChars": [
+        "辈先",
+        "千优慈相"
+      ],
+      "groups": []
+    },
+    {
+      "number": 235,
+      "titleCN": "楠莉最喜欢的外婆",
+      "titleJP": "楠莉の大好きなおばあちゃん",
+      "types": [
+        "个人",
+        "主线"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "药膳楠莉",
+        "药膳屋久",
+        "娜迪（大和抚子）",
+        "土吕瀞骑士华",
+        "辈先",
+        "伊院知与"
+      ],
+      "minorChars": [
+        "楠莉爸爸",
+        "楠莉妈妈"
+      ],
+      "otherTags": [
+        "楠莉正常状态",
+        "第27卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "药膳楠莉"
+      ],
+      "groups": []
+    },
+    {
+      "number": 236,
+      "titleCN": "爱城恋太郎的愿望",
+      "titleJP": "爱城恋太郎の願い",
+      "types": [
+        "个人",
+        "主线"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "药膳楠莉",
+        "药膳屋久"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "楠莉正常状态",
+        "第27卷"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "药膳楠莉"
+      ],
+      "groups": []
+    },
+    {
+      "number": 237,
+      "titleCN": "妹妹的帅哥女主角天堂",
+      "titleJP": "妹のイケメンヒロインパラダイス",
+      "types": [
+        "个人",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠",
+        "双天彗流",
+        "千优慈相"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "骑士华幼化",
+        "第27卷"
+      ],
+      "highlightChars": [
+        "女井户妹"
+      ],
+      "groups": []
+    },
+    {
+      "number": 238,
+      "titleCN": "恋太郎家族的日常（其九）",
+      "titleJP": "恋太郎ファミリーの日常（その9）",
+      "types": [
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "毛樽井亚爱子（亚希）",
+        "雪房田梦留",
+        "双天彗流",
+        "千优慈相",
+        "才奇姬歌（奇姬）",
+        "爱城恋太郎",
+        "火保耶拉",
+        "宇佐美椎奈",
+        "好本静",
+        "华暮爱爱",
+        "花园羽香里",
+        "盆能寺百八",
+        "花园羽羽里",
+        "娜迪（大和抚子）",
+        "守北季鞠",
+        "猫成珠",
+        "中二诗人",
+        "灰尾凛"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第27卷"
+      ],
+      "highlightChars": [
+        "雪房田梦留",
+        "好本静",
+        "花园羽香里",
+        "华暮爱爱",
+        "守北季鞠",
+        "花园羽羽里",
+        "娜迪（大和抚子）",
+        "盆能寺百八",
+        "火保耶拉",
+        "猫成珠",
+        "中二诗人",
+        "灰尾凛"
+      ],
+      "groups": [
+        [
+          "毛樽井亚爱子（亚希）",
+          "雪房田梦留",
+          "双天彗流",
+          "千优慈相",
+          "才奇姬歌（奇姬）",
+          "爱城恋太郎",
+          "火保耶拉",
+          "宇佐美椎奈",
+          "好本静"
+        ],
+        [
+          "华暮爱爱",
+          "花园羽香里"
+        ],
+        [
+          "盆能寺百八",
+          "花园羽羽里",
+          "娜迪（大和抚子）",
+          "守北季鞠",
+          "猫成珠",
+          "千优慈相"
+        ],
+        [
+          "中二诗人",
+          "灰尾凛"
+        ]
+      ]
+    },
+    {
+      "number": 239,
+      "titleCN": "超级哼哼跌丝哇",
+      "titleJP": "マジふふーん",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "毛樽井亚爱子（亚希）",
+        "美杉美美美"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第27卷"
+      ],
+      "highlightChars": [
+        "美杉美美美",
+        "毛樽井亚爱子（亚希）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 239.1,
+      "titleCN": "番外篇",
+      "titleJP": "番外編",
+      "types": [],
+      "category": "正片",
+      "mainChars": [
+        "花园羽香里",
+        "花园羽羽里"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "花园羽香里"
+      ],
+      "groups": []
+    },
+    {
+      "number": 239.5,
+      "titleCN": "第一次双马尾/第一次的爆青筋/兔子和乌龟",
+      "titleJP": "はじめてのついんてーる/はじめてのびきびき/ウサギとカメ",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "双天彗流",
+        "千优慈相",
+        "毛樽井亚爱子（亚希）",
+        "宇佐美椎奈",
+        "铭户芽衣",
+        "须藤育",
+        "华暮爱爱",
+        "女井户妹",
+        "盆能寺百八",
+        "爱城恋太郎"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "第27卷"
+      ],
+      "highlightChars": [
+        "千优慈相",
+        "双天彗流"
+      ],
+      "groups": []
+    },
+    {
+      "number": 240,
+      "titleCN": "三白眼的同班同学",
+      "titleJP": "三白眼のクラスメイト",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "三白小小枝",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "华暮爱爱"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "百人女友特有的极端天气"
+      ],
+      "highlightChars": [
+        "爱城恋太郎",
+        "三白小小枝"
+      ],
+      "groups": []
+    },
+    {
+      "number": 240.1,
+      "titleCN": "番外篇2",
+      "titleJP": "番外編2",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "院田唐音"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "院田唐音"
+      ],
+      "groups": []
+    },
+    {
+      "number": 240.2,
+      "titleCN": "番外篇3",
+      "titleJP": "番外編3",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "好本静"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "好本静"
+      ],
+      "groups": []
+    },
+    {
+      "number": 241,
+      "titleCN": "恋太郎家族和小々枝喜欢的东西",
+      "titleJP": "恋太郎ファミリーと小々枝の好きなやつ",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠",
+        "双天彗流",
+        "千优慈相",
+        "三白小小枝"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 242,
+      "titleCN": "恋太郎和女友（们）的日常（其九）",
+      "titleJP": "恋太郎と彼女の日常（その9）",
+      "types": [
+        "约会",
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "毛樽井亚爱子（亚希）",
+        "须藤育",
+        "守北季鞠",
+        "三白小小枝",
+        "一二三数",
+        "优敷山女",
+        "院田唐音",
+        "娜迪（大和抚子）",
+        "土吕瀞骑士华",
+        "花园羽香里"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 243,
+      "titleCN": "编织、剪断、再纺成",
+      "titleJP": "編んだり切ったり紡がれて",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "三白小小枝",
+        "华暮爱爱",
+        "双天彗流",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "院田唐音",
+        "好本静",
+        "铭户芽衣"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "百人女友特有的极端天气"
+      ],
+      "highlightChars": [
+        "三白小小枝",
+        "华暮爱爱"
+      ],
+      "groups": []
+    },
+    {
+      "number": 244,
+      "titleCN": "梅露老师和天使的朗读会",
+      "titleJP": "める先生と天使の読み聞かせ会",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "雪房田梦留"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "爱城恋太郎",
+        "雪房田梦留"
+      ],
+      "groups": []
+    },
+    {
+      "number": 244.1,
+      "titleCN": "番外篇4",
+      "titleJP": "番外編4",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "荣逢凪乃"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "荣逢凪乃"
+      ],
+      "groups": []
+    },
+    {
+      "number": 244.2,
+      "titleCN": "番外篇5",
+      "titleJP": "番外編5",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "药膳楠莉"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "药膳楠莉"
+      ],
+      "groups": []
+    },
+    {
+      "number": 245,
+      "titleCN": "恋太郎家族的日常（其十）",
+      "titleJP": "恋太郎ファミリーの日常（その10）",
+      "types": [
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "荣逢凪乃",
+        "茂见红叶",
+        "院田唐音",
+        "根向井宁梦",
+        "才奇姬歌（奇姬）",
+        "原贺胡桃",
+        "宇佐美椎奈",
+        "千优慈相",
+        "双天彗流",
+        "三白小小枝",
+        "药膳楠莉",
+        "出井祭李",
+        "辈先",
+        "美杉美美美"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "荣逢凪乃",
+        "茂见红叶",
+        "院田唐音",
+        "才奇姬歌（奇姬）",
+        "原贺胡桃",
+        "宇佐美椎奈",
+        "根向井宁梦",
+        "双天彗流",
+        "千优慈相",
+        "三白小小枝",
+        "药膳楠莉",
+        "出井祭李",
+        "美杉美美美",
+        "辈先"
+      ],
+      "groups": [
+        [
+          "茂见红叶",
+          "荣逢凪乃",
+          "院田唐音"
+        ],
+        [
+          "根向井宁梦",
+          "才奇姬歌（奇姬）"
+        ],
+        [
+          "原贺胡桃",
+          "宇佐美椎奈"
+        ],
+        [
+          "千优慈相",
+          "双天彗流",
+          "三白小小枝"
+        ],
+        [
+          "药膳楠莉",
+          "出井祭李",
+          "辈先",
+          "美杉美美美"
+        ]
+      ]
+    },
+    {
+      "number": 245.1,
+      "titleCN": "番外篇6",
+      "titleJP": "番外編6",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "花园羽羽里"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "花园羽羽里"
+      ],
+      "groups": []
+    },
+    {
+      "number": 245.2,
+      "titleCN": "番外篇7",
+      "titleJP": "番外編7",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "原贺胡桃"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "原贺胡桃"
+      ],
+      "groups": []
+    },
+    {
+      "number": 245.3,
+      "titleCN": "恋太郎家族的家庭日常第1话",
+      "titleJP": "恋太郎ファミリーのファミリーの日常/1話",
+      "types": [
+        "单元剧"
+      ],
+      "category": "番外",
+      "mainChars": [
+        "荣逢凪乃",
+        "好本静",
+        "花园羽羽里",
+        "花园羽香里",
+        "爱城恋太郎",
+        "出井祭李"
+      ],
+      "minorChars": [
+        "中村",
+        "花园香(羽香里爸爸)"
+      ],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": [
+        [
+          "荣逢凪乃",
+          "好本静"
+        ],
+        [
+          "花园羽羽里",
+          "花园羽香里",
+          "爱城恋太郎"
+        ],
+        [
+          "出井祭李"
+        ]
+      ]
+    },
+    {
+      "number": 246,
+      "titleCN": "芽衣和电子宠物蛋连接的家庭",
+      "titleJP": "芽衣とたまごっぴと繋がるファミリー",
+      "types": [
+        "个人",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠",
+        "双天彗流",
+        "千优慈相",
+        "三白小小枝"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "铭户芽衣"
+      ],
+      "groups": []
+    },
+    {
+      "number": 246.1,
+      "titleCN": "番外篇8",
+      "titleJP": "番外編8",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "铭户芽衣"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "铭户芽衣"
+      ],
+      "groups": []
+    },
+    {
+      "number": 246.2,
+      "titleCN": "恋太郎家族的家庭日常第2话",
+      "titleJP": "恋太郎ファミリーのファミリーの日常/2話",
+      "types": [
+        "单元剧"
+      ],
+      "category": "番外",
+      "mainChars": [
+        "药膳楠莉",
+        "毛樽井亚爱子（亚希）"
+      ],
+      "minorChars": [
+        "楠莉爸爸",
+        "楠莉妈妈"
+      ],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": [
+        [
+          "药膳楠莉"
+        ],
+        [
+          "毛樽井亚爱子（亚希）"
+        ]
+      ]
+    },
+    {
+      "number": 247,
+      "titleCN": "文学少女又强又帅的朋友",
+      "titleJP": "文学少女の強くてかっこいい友達",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "好本静",
+        "守北季鞠"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "好本静",
+        "守北季鞠"
+      ],
+      "groups": []
+    },
+    {
+      "number": 247.1,
+      "titleCN": "番外篇9",
+      "titleJP": "番外編9",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "须藤育"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "须藤育"
+      ],
+      "groups": []
+    },
+    {
+      "number": 247.2,
+      "titleCN": "恋太郎家族的家庭日常第3话",
+      "titleJP": "恋太郎ファミリーのファミリーの日常/3話",
+      "types": [
+        "单元剧"
+      ],
+      "category": "番外",
+      "mainChars": [
+        "院田唐音",
+        "须藤育"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": [
+        [
+          "院田唐音"
+        ],
+        [
+          "须藤育"
+        ]
+      ]
+    },
+    {
+      "number": 248,
+      "titleCN": "艾拉和恋太郎怕幽灵",
+      "titleJP": "エイラと恋太郎は幽霊が怖い",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "火保耶拉"
+      ],
+      "minorChars": [
+        "耶拉爸爸"
+      ],
+      "otherTags": [],
+      "highlightChars": [
+        "爱城恋太郎",
+        "火保耶拉"
+      ],
+      "groups": []
+    },
+    {
+      "number": 248.1,
+      "titleCN": "恋太郎家族的家庭日常第4话",
+      "titleJP": "恋太郎ファミリーのファミリーの日常/4話",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "伊院知与"
+      ],
+      "minorChars": [
+        "伊院弘（舅舅）"
+      ],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 248.2,
+      "titleCN": "恋太郎家族的家庭日常第5话",
+      "titleJP": "恋太郎ファミリーのファミリーの日常/5話",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "药膳屋久"
+      ],
+      "minorChars": [
+        "妹的祖母（女仆）"
+      ],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 249,
+      "titleCN": "伏田同学不是不检点的班长",
+      "titleJP": "伏田さんはふしだらじゃない委員長",
+      "types": [
+        "个人",
+        "参战"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "伏田兰那",
+        "茂见红叶",
+        "原贺胡桃"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "爱城恋太郎",
+        "伏田兰那"
+      ],
+      "groups": []
+    },
+    {
+      "number": 249.1,
+      "titleCN": "番外篇10",
+      "titleJP": "番外編10",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "美杉美美美"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "美杉美美美"
+      ],
+      "groups": []
+    },
+    {
+      "number": 250,
+      "titleCN": "恋太郎家庭很不检点",
+      "titleJP": "恋太郎ファミリーはふしだら",
+      "types": [
+        "团建"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠",
+        "双天彗流",
+        "千优慈相",
+        "三白小小枝",
+        "伏田兰那"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 250.1,
+      "titleCN": "番外篇11",
+      "titleJP": "番外編11",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "华暮爱爱"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "华暮爱爱"
+      ],
+      "groups": []
+    },
+    {
+      "number": 251,
+      "titleCN": "恋太郎与女友的日常（其10)",
+      "titleJP": "恋太郎と彼女の日常 (その10)",
+      "types": [
+        "单元剧",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "伏田兰那",
+        "药膳楠莉",
+        "华暮爱爱",
+        "灰尾凛",
+        "好本静",
+        "铭户芽衣",
+        "双天彗流",
+        "伊院知与",
+        "花园羽羽里",
+        "美杉美美美"
+      ],
+      "minorChars": [
+        "吴莉罗总长（大猩猩）",
+        "优君",
+        "汪太郎",
+        "伊院弘（舅舅）"
+      ],
+      "otherTags": [
+        "楠莉正常状态",
+        "芽衣睁眼"
+      ],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 251.1,
+      "titleCN": "恋太郎家族的家庭日常第6话",
+      "titleJP": "恋太郎ファミリーのファミリーの日常/6話",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "荣逢凪乃"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 252,
+      "titleCN": "汗水与泪水的屁股训练",
+      "titleJP": "汗と涙のケツバット",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "须藤育",
+        "伏田兰那",
+        "原贺胡桃",
+        "茂见红叶",
+        "端须莲叶",
+        "爱城恋太郎"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "须藤育",
+        "伏田兰那"
+      ],
+      "groups": []
+    },
+    {
+      "number": 253,
+      "titleCN": "玉的领地争夺战",
+      "titleJP": "タマの縄張り争い",
+      "types": [
+        "个人",
+        "约会"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "猫成珠",
+        "优敷山女",
+        "火保耶拉"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "爱城恋太郎",
+        "猫成珠"
+      ],
+      "groups": []
+    },
+    {
+      "number": 253.1,
+      "titleCN": "番外篇12",
+      "titleJP": "番外編12",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "伊院知与"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "伊院知与"
+      ],
+      "groups": []
+    },
+    {
+      "number": 253.2,
+      "titleCN": "恋太郎家族的家庭日常第7话",
+      "titleJP": "恋太郎ファミリーのファミリーの日常/7話",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "院田唐音"
+      ],
+      "minorChars": [
+        "唐人（唐音弟弟）"
+      ],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 254,
+      "titleCN": "恋太郎家庭的日常（其11）",
+      "titleJP": "恋太郎ファミリーの日常 (その11)",
+      "types": [
+        "单元剧"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "伏田兰那",
+        "三白小小枝",
+        "优敷山女",
+        "土吕瀞骑士华",
+        "猫成珠",
+        "端须莲叶",
+        "守北季鞠",
+        "女井户妹",
+        "铭户芽衣",
+        "伊院知与",
+        "药膳屋久",
+        "须藤育",
+        "一二三数"
+      ],
+      "minorChars": [],
+      "otherTags": [
+        "骑士华幼化"
+      ],
+      "highlightChars": [
+        "三白小小枝",
+        "伏田兰那",
+        "优敷山女",
+        "土吕瀞骑士华",
+        "端须莲叶",
+        "守北季鞠",
+        "伊院知与",
+        "一二三数",
+        "药膳屋久"
+      ],
+      "groups": [
+        [
+          "爱城恋太郎",
+          "伏田兰那",
+          "三白小小枝"
+        ],
+        [
+          "优敷山女",
+          "土吕瀞骑士华",
+          "猫成珠"
+        ],
+        [
+          "端须莲叶",
+          "守北季鞠",
+          "女井户妹",
+          "铭户芽衣"
+        ],
+        [
+          "伊院知与",
+          "药膳屋久",
+          "一二三数",
+          "须藤育"
+        ]
+      ]
+    },
+    {
+      "number": 254.1,
+      "titleCN": "恋太郎家族的家庭日常第8话",
+      "titleJP": "恋太郎ファミリーのファミリーの日常/8話",
+      "types": [],
+      "category": "番外",
+      "mainChars": [],
+      "minorChars": [
+        "花园香(羽香里爸爸)"
+      ],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": []
+    },
+    {
+      "number": 255,
+      "titleCN": "胡桃的饥饿危机",
+      "titleJP": "クルクル・クライシス",
+      "types": [
+        "个人",
+        "其他"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "爱城恋太郎",
+        "花园羽香里",
+        "院田唐音",
+        "好本静",
+        "荣逢凪乃",
+        "药膳楠莉",
+        "花园羽羽里",
+        "原贺胡桃",
+        "铭户芽衣",
+        "须藤育",
+        "美杉美美美",
+        "华暮爱爱",
+        "伊院知与",
+        "娜迪（大和抚子）",
+        "优敷山女",
+        "茂见红叶",
+        "药膳屋久",
+        "土吕瀞骑士华",
+        "毛樽井亚爱子（亚希）",
+        "中二诗人",
+        "女井户妹",
+        "盆能寺百八",
+        "灰尾凛",
+        "一二三数",
+        "火保耶拉",
+        "猫成珠",
+        "才奇姬歌（奇姬）",
+        "出井祭李",
+        "宇佐美椎奈",
+        "雪房田梦留",
+        "辈先",
+        "根向井宁梦",
+        "端须莲叶",
+        "守北季鞠",
+        "双天彗流",
+        "千优慈相",
+        "三白小小枝",
+        "伏田兰那"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "原贺胡桃"
+      ],
+      "groups": []
+    },
+    {
+      "number": 256,
+      "titleCN": "数与凛与13号星期五",
+      "titleJP": "数と凛と13日の金曜日",
+      "types": [
+        "双人",
+        "女友（互动）"
+      ],
+      "category": "正片",
+      "mainChars": [
+        "灰尾凛",
+        "一二三数"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "灰尾凛",
+        "一二三数"
+      ],
+      "groups": []
+    },
+    {
+      "number": 256.1,
+      "titleCN": "番外篇13",
+      "titleJP": "番外編13",
+      "types": [],
+      "category": "番外",
+      "mainChars": [
+        "娜迪（大和抚子）"
+      ],
+      "minorChars": [],
+      "otherTags": [],
+      "highlightChars": [
+        "娜迪（大和抚子）"
+      ],
+      "groups": []
+    },
+    {
+      "number": 256.2,
+      "titleCN": "恋太郎家族的家庭日常第9话",
+      "titleJP": "恋太郎ファミリーのファミリーの日常/9話",
+      "types": [
+        "单元剧"
+      ],
+      "category": "番外",
+      "mainChars": [
+        "爱城恋太郎",
+        "好本静",
+        "华暮爱爱",
+        "花园羽羽里",
+        "花园羽香里"
+      ],
+      "minorChars": [
+        "好本静妈妈",
+        "妹的祖母（女仆）"
+      ],
+      "otherTags": [],
+      "highlightChars": [],
+      "groups": [
+        [
+          "爱城恋太郎",
+          "好本静"
+        ],
+        [
+          "华暮爱爱"
+        ],
+        [
+          "花园羽羽里",
+          "花园羽香里"
+        ]
+      ]
     }
   ],
   "colors": {
     "types": {
       "bg": "#ffe4ec",
-      "text": "#ff5c8a"
+      "text": "#ff5c8a",
+      "glow": "#ffe4ec",
+      "glowStrength": "weak"
     },
     "mainChars": {
       "bg": "#ff8fab",
-      "text": "#ffffff"
+      "text": "#ffffff",
+      "glow": "#ff8fab",
+      "glowStrength": "weak"
     },
     "minorChars": {
       "bg": "#cdcccb",
-      "text": "#ffffff"
+      "text": "#ffffff",
+      "glow": "#cdcccb",
+      "glowStrength": "weak"
     },
     "otherTags": {
       "bg": "#e4ecff",
-      "text": "#5c6a8a"
+      "text": "#5c6a8a",
+      "glow": "#e4ecff",
+      "glowStrength": "weak"
     }
   },
   "tagColors": {
     "types": {},
     "mainChars": {},
     "minorChars": {},
-    "otherTags": {}
+    "otherTags": {
+      "第1卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第2卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第3卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第4卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第5卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第6卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第7卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第8卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第9卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第10卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第11卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第12卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第13卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第14卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第15卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第16卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第17卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第18卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第19卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第20卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第21卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第22卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第23卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第24卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第25卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第26卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      },
+      "第27卷": {
+        "bg": "#5c6a89",
+        "text": "#ffffff"
+      }
+    }
   }
 }

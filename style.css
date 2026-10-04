@@ -151,3 +151,20 @@ footer {
     color: var(--pink-deep);
     font-size: 13px;
 }
+
+/* =====================================================
+   重点人物标签 · 光环（颜色 / 强度由 JS 内联控制）
+   光环通过 style="--glow-color: ...; --glow-strength: ..." 设置
+===================================================== */
+.mini-tag.highlight {
+    font-weight: bold;
+    box-shadow:
+        0 0 0 var(--glow-ring, 2px) var(--glow-color, currentColor),
+        0 0 var(--glow-blur, 8px) var(--glow-spread, 2px) var(--glow-color, currentColor);
+}
+.mini-tag.highlight:hover {
+    box-shadow:
+        0 0 0 var(--glow-ring, 2px) var(--glow-color, currentColor),
+        0 0 calc(var(--glow-blur, 8px) + 4px) calc(var(--glow-spread, 2px) + 1px) var(--glow-color, currentColor);
+    filter: brightness(0.96);
+}

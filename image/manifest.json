@@ -1,0 +1,21 @@
+{
+  "picture": [
+    "hakari.png",
+    "karane.png",
+    "shizuka.png"
+  ],
+  "hair": [
+    "hakari_twin_front.png",
+    "hakari_twin_back.png",
+    "hakari_long_front.png",
+    "hakari_long_back.png"
+  ],
+  "clothes": [
+    "hakari_uniform.png",
+    "hakari_swim.png"
+  ],
+  "body": [
+    "hakari_body.png",
+    "karane_body.png"
+  ]
+}

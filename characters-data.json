@@ -95293,637 +95293,1091 @@
     }
   },
   "globalUILayoutDesktop": {
-    "version": 5,
-    "modules": [
-      {
-        "id": "x1793187935105_izc75m",
-        "type": "title",
-        "alignX": "free",
-        "offsetX": 20,
-        "y": 10,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 400,
-        "height": 50,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_6kns2i",
-        "type": "button",
-        "alignX": "free",
-        "offsetX": 440,
-        "y": 15,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 130,
-        "height": 40,
-        "zIndex": 1,
-        "props": {
-          "action": "back"
+    "version": 7,
+    "tree": {
+      "id": "x1793379911532_42h49q",
+      "kind": "container",
+      "direction": "column",
+      "justify": "left",
+      "align": "stretch",
+      "wrap": false,
+      "gap": 8,
+      "padding": 8,
+      "bgColor": "",
+      "widthPercent": 100,
+      "heightRatio": null,
+      "alignSelf": "auto",
+      "children": [
+        {
+          "id": "x1793379911532_8n0xgo",
+          "kind": "container",
+          "direction": "row",
+          "justify": "space-between",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 6,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": [
+            {
+              "id": "x1793379911532_rdpt87",
+              "kind": "module",
+              "type": "title",
+              "props": {},
+              "widthPercent": 46,
+              "heightRatio": 0.12,
+              "alignSelf": "auto"
+            },
+            {
+              "id": "x1793379911532_y19a7d",
+              "kind": "module",
+              "type": "button",
+              "props": {
+                "action": "back"
+              },
+              "widthPercent": 24,
+              "heightRatio": 0.1,
+              "alignSelf": "auto"
+            },
+            {
+              "id": "x1793379911532_4xr3ub",
+              "kind": "module",
+              "type": "button",
+              "props": {
+                "action": "edit"
+              },
+              "widthPercent": 24,
+              "heightRatio": 0.1,
+              "alignSelf": "auto"
+            }
+          ]
+        },
+        {
+          "id": "x1793379911532_rp731q",
+          "kind": "container",
+          "direction": "row",
+          "justify": "center",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": []
+        },
+        {
+          "id": "x1793379911532_jhg0es",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": []
+        },
+        {
+          "id": "x1793379911532_dllfct",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": [
+            {
+              "id": "x1793379975243_0790m5",
+              "kind": "container",
+              "direction": "column",
+              "justify": "left",
+              "align": "stretch",
+              "wrap": false,
+              "gap": 6,
+              "padding": 6,
+              "bgColor": "",
+              "widthPercent": 100,
+              "heightRatio": null,
+              "alignSelf": "auto",
+              "children": [
+                {
+                  "id": "x1793380018499_xb426y",
+                  "kind": "container",
+                  "direction": "row",
+                  "justify": "left",
+                  "align": "stretch",
+                  "wrap": false,
+                  "gap": 6,
+                  "padding": 6,
+                  "bgColor": "",
+                  "widthPercent": 100,
+                  "heightRatio": null,
+                  "alignSelf": "auto",
+                  "children": [
+                    {
+                      "id": "x1793380138211_3vlqj2",
+                      "kind": "container",
+                      "direction": "column",
+                      "justify": "space-between",
+                      "align": "stretch",
+                      "wrap": false,
+                      "gap": 6,
+                      "padding": 6,
+                      "bgColor": "",
+                      "widthPercent": 20,
+                      "heightRatio": null,
+                      "alignSelf": "auto",
+                      "children": [
+                        {
+                          "id": "x1793379911532_ygs96p",
+                          "kind": "module",
+                          "type": "dressupNavPrevChar",
+                          "props": {},
+                          "widthPercent": 100,
+                          "heightRatio": 1,
+                          "alignSelf": "auto"
+                        },
+                        {
+                          "id": "x1793379911532_zn3xwm",
+                          "kind": "module",
+                          "type": "dressupNavPrevFace",
+                          "props": {},
+                          "widthPercent": 100,
+                          "heightRatio": 1,
+                          "alignSelf": "auto"
+                        },
+                        {
+                          "id": "x1793379911532_16m5u1",
+                          "kind": "module",
+                          "type": "dressupNavPrevHair",
+                          "props": {},
+                          "widthPercent": 100,
+                          "heightRatio": 1,
+                          "alignSelf": "auto"
+                        },
+                        {
+                          "id": "x1793380221876_uzwjqv",
+                          "kind": "module",
+                          "type": "spacer",
+                          "props": {},
+                          "widthPercent": 100,
+                          "heightRatio": 0.06,
+                          "alignSelf": "auto"
+                        },
+                        {
+                          "id": "x1793379911532_cdn4cc",
+                          "kind": "module",
+                          "type": "dressupNavPrevClothes",
+                          "props": {},
+                          "widthPercent": 100,
+                          "heightRatio": 1,
+                          "alignSelf": "auto"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "x1793380006731_zkfa87",
+                      "kind": "container",
+                      "direction": "column",
+                      "justify": "left",
+                      "align": "stretch",
+                      "wrap": false,
+                      "gap": 6,
+                      "padding": 6,
+                      "bgColor": "",
+                      "widthPercent": 100,
+                      "heightRatio": null,
+                      "alignSelf": "auto",
+                      "children": [
+                        {
+                          "id": "x1793379911532_j6ihan",
+                          "kind": "module",
+                          "type": "dressupStage",
+                          "props": {},
+                          "widthPercent": 100,
+                          "heightRatio": 1.5,
+                          "alignSelf": "auto"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "x1793380068811_gio1x7",
+                      "kind": "container",
+                      "direction": "column",
+                      "justify": "space-between",
+                      "align": "stretch",
+                      "wrap": false,
+                      "gap": 6,
+                      "padding": 6,
+                      "bgColor": "",
+                      "widthPercent": 20,
+                      "heightRatio": null,
+                      "alignSelf": "auto",
+                      "children": [
+                        {
+                          "id": "x1793379911532_l3rfhg",
+                          "kind": "module",
+                          "type": "dressupNavNextChar",
+                          "props": {},
+                          "widthPercent": 100,
+                          "heightRatio": 1,
+                          "alignSelf": "auto"
+                        },
+                        {
+                          "id": "x1793379911532_gj7wn6",
+                          "kind": "module",
+                          "type": "dressupNavNextFace",
+                          "props": {},
+                          "widthPercent": 100,
+                          "heightRatio": 1,
+                          "alignSelf": "auto"
+                        },
+                        {
+                          "id": "x1793379911532_ex33p1",
+                          "kind": "module",
+                          "type": "dressupNavNextHair",
+                          "props": {},
+                          "widthPercent": 100,
+                          "heightRatio": 1,
+                          "alignSelf": "auto"
+                        },
+                        {
+                          "id": "x1793380240332_6261hj",
+                          "kind": "module",
+                          "type": "spacer",
+                          "props": {},
+                          "widthPercent": 100,
+                          "heightRatio": 0.06,
+                          "alignSelf": "auto"
+                        },
+                        {
+                          "id": "x1793379911532_ghmttc",
+                          "kind": "module",
+                          "type": "dressupNavNextClothes",
+                          "props": {},
+                          "widthPercent": 100,
+                          "heightRatio": 1,
+                          "alignSelf": "auto"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x1793379911532_qc29tp",
+          "kind": "container",
+          "direction": "row",
+          "justify": "space-between",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": 0.3,
+          "alignSelf": "auto",
+          "children": [
+            {
+              "id": "x1793379911532_alykv8",
+              "kind": "module",
+              "type": "dressupNavPrevBody",
+              "props": {},
+              "widthPercent": 10,
+              "heightRatio": 1,
+              "alignSelf": "flex-start"
+            },
+            {
+              "id": "x1793379911532_lvr3u3",
+              "kind": "module",
+              "type": "dressupExtraBar",
+              "props": {},
+              "widthPercent": 100,
+              "heightRatio": 0.5,
+              "alignSelf": "auto"
+            },
+            {
+              "id": "x1793379911532_wi4j8j",
+              "kind": "module",
+              "type": "dressupNavNextBody",
+              "props": {},
+              "widthPercent": 10,
+              "heightRatio": 1,
+              "alignSelf": "flex-start"
+            }
+          ]
+        },
+        {
+          "id": "x1793379911532_mu7wje",
+          "kind": "container",
+          "direction": "column",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 6,
+          "padding": 6,
+          "bgColor": "#fff8fb",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": [
+            {
+              "id": "x1793379911532_wuanu0",
+              "kind": "container",
+              "direction": "row",
+              "justify": "center",
+              "align": "stretch",
+              "wrap": false,
+              "gap": 8,
+              "padding": 0,
+              "bgColor": "",
+              "widthPercent": 100,
+              "heightRatio": null,
+              "alignSelf": "auto",
+              "children": []
+            },
+            {
+              "id": "x1793379911532_12yetm",
+              "kind": "container",
+              "direction": "row",
+              "justify": "space-between",
+              "align": "stretch",
+              "wrap": false,
+              "gap": 3,
+              "padding": 0,
+              "bgColor": "",
+              "widthPercent": 100,
+              "heightRatio": null,
+              "alignSelf": "auto",
+              "children": []
+            },
+            {
+              "id": "x1793379911532_c6tmmp",
+              "kind": "container",
+              "direction": "row",
+              "justify": "space-between",
+              "align": "stretch",
+              "wrap": false,
+              "gap": 3,
+              "padding": 0,
+              "bgColor": "",
+              "widthPercent": 100,
+              "heightRatio": null,
+              "alignSelf": "auto",
+              "children": []
+            },
+            {
+              "id": "x1793379911532_5pwbzy",
+              "kind": "container",
+              "direction": "row",
+              "justify": "left",
+              "align": "stretch",
+              "wrap": false,
+              "gap": 8,
+              "padding": 0,
+              "bgColor": "",
+              "widthPercent": 100,
+              "heightRatio": null,
+              "alignSelf": "auto",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "x1793379911532_lcy4tl",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": [
+            {
+              "id": "x1793379911532_fhypgv",
+              "kind": "module",
+              "type": "infoField",
+              "props": {
+                "fieldId": "x1793110898299_xumbby"
+              },
+              "widthPercent": 100,
+              "heightRatio": 0.17,
+              "alignSelf": "auto"
+            }
+          ]
+        },
+        {
+          "id": "x1793379911532_krxpd2",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": [
+            {
+              "id": "x1793379911532_f4h0zl",
+              "kind": "module",
+              "type": "infoField",
+              "props": {
+                "fieldId": "x1793110898299_uwrrcn"
+              },
+              "widthPercent": 100,
+              "heightRatio": 0.17,
+              "alignSelf": "auto"
+            }
+          ]
+        },
+        {
+          "id": "x1793379911532_clcolr",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": [
+            {
+              "id": "x1793379911532_7riodu",
+              "kind": "module",
+              "type": "infoField",
+              "props": {
+                "fieldId": "x1793110898299_c1mnch"
+              },
+              "widthPercent": 100,
+              "heightRatio": 0.17,
+              "alignSelf": "auto"
+            }
+          ]
+        },
+        {
+          "id": "x1793379911532_9mgx2t",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": [
+            {
+              "id": "x1793379911532_k250ki",
+              "kind": "module",
+              "type": "infoField",
+              "props": {
+                "fieldId": "x1793110898299_tklj84"
+              },
+              "widthPercent": 100,
+              "heightRatio": 0.17,
+              "alignSelf": "auto"
+            }
+          ]
+        },
+        {
+          "id": "x1793379911532_emg4ux",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": [
+            {
+              "id": "x1793379911532_oi27l8",
+              "kind": "module",
+              "type": "infoField",
+              "props": {
+                "fieldId": "x1793110898299_elebri"
+              },
+              "widthPercent": 100,
+              "heightRatio": 0.17,
+              "alignSelf": "auto"
+            }
+          ]
+        },
+        {
+          "id": "x1793379911532_osmooe",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": [
+            {
+              "id": "x1793379911532_dfrtzv",
+              "kind": "module",
+              "type": "ownInfo",
+              "props": {},
+              "widthPercent": 100,
+              "heightRatio": 0.42,
+              "alignSelf": "auto"
+            }
+          ]
+        },
+        {
+          "id": "x1793379911532_bdfdf4",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "bgColor": "",
+          "widthPercent": 100,
+          "heightRatio": null,
+          "alignSelf": "auto",
+          "children": []
         }
-      },
-      {
-        "id": "x1793187935105_losv5q",
-        "type": "button",
-        "alignX": "free",
-        "offsetX": 580,
-        "y": 15,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 150,
-        "height": 40,
-        "zIndex": 1,
-        "props": {
-          "action": "edit"
-        }
-      },
-      {
-        "id": "x1793187935105_u1tfed",
-        "type": "button",
-        "alignX": "free",
-        "offsetX": 740,
-        "y": 15,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 120,
-        "height": 40,
-        "zIndex": 1,
-        "props": {
-          "action": "uidesign"
-        }
-      },
-      {
-        "id": "x1793187935105_80mgky",
-        "type": "avatar",
-        "alignX": "free",
-        "offsetX": 20,
-        "y": 80,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 220,
-        "height": 220,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_fh7pli",
-        "type": "name",
-        "alignX": "free",
-        "offsetX": 21,
-        "y": 317,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 221,
-        "height": 59,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_5wzd02",
-        "type": "tags",
-        "alignX": "free",
-        "offsetX": 19,
-        "y": 393,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 219,
-        "height": 264,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_hz94lo",
-        "type": "dressupNavPrevChar",
-        "alignX": "free",
-        "offsetX": 321,
-        "y": 83,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 90,
-        "height": 96,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_s52tro",
-        "type": "dressupNavPrevBody",
-        "alignX": "free",
-        "offsetX": 321,
-        "y": 180,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 90,
-        "height": 96,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_i1an4x",
-        "type": "dressupNavPrevHair",
-        "alignX": "free",
-        "offsetX": 322,
-        "y": 276,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 90,
-        "height": 96,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_8xzhck",
-        "type": "dressupNavPrevFace",
-        "alignX": "free",
-        "offsetX": 324,
-        "y": 375,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 90,
-        "height": 96,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_m1nxr0",
-        "type": "dressupNavPrevClothes",
-        "alignX": "free",
-        "offsetX": 323,
-        "y": 476,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 90,
-        "height": 96,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_uccpex",
-        "type": "dressupStage",
-        "alignX": "free",
-        "offsetX": 413,
-        "y": 77,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 413,
-        "height": 591,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_0i17tf",
-        "type": "dressupNavNextChar",
-        "alignX": "free",
-        "offsetX": 830,
-        "y": 76,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 90,
-        "height": 96,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_jszzvq",
-        "type": "dressupNavNextBody",
-        "alignX": "free",
-        "offsetX": 830,
-        "y": 176,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 90,
-        "height": 96,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_l5oq75",
-        "type": "dressupNavNextHair",
-        "alignX": "free",
-        "offsetX": 831,
-        "y": 276,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 90,
-        "height": 96,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_5bqfb9",
-        "type": "dressupNavNextFace",
-        "alignX": "free",
-        "offsetX": 832,
-        "y": 376,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 90,
-        "height": 96,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_4axi02",
-        "type": "dressupNavNextClothes",
-        "alignX": "free",
-        "offsetX": 832,
-        "y": 478,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 90,
-        "height": 96,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_uijqk2",
-        "type": "dressupExtraBar",
-        "alignX": "free",
-        "offsetX": 337,
-        "y": 681,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 561,
-        "height": 253,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793187935105_k8f6m1",
-        "type": "infoField",
-        "alignX": "free",
-        "offsetX": 20,
-        "y": 960,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 460,
-        "height": 60,
-        "zIndex": 1,
-        "props": {
-          "fieldId": "x1793110898299_xumbby"
-        }
-      },
-      {
-        "id": "x1793187935105_1zos9b",
-        "type": "infoField",
-        "alignX": "free",
-        "offsetX": 510,
-        "y": 960,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 460,
-        "height": 60,
-        "zIndex": 1,
-        "props": {
-          "fieldId": "x1793110898299_uwrrcn"
-        }
-      },
-      {
-        "id": "x1793187935105_jzo1yz",
-        "type": "infoField",
-        "alignX": "free",
-        "offsetX": 20,
-        "y": 1030,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 460,
-        "height": 60,
-        "zIndex": 1,
-        "props": {
-          "fieldId": "x1793110898299_c1mnch"
-        }
-      },
-      {
-        "id": "x1793187935105_lyun14",
-        "type": "infoField",
-        "alignX": "free",
-        "offsetX": 510,
-        "y": 1030,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 460,
-        "height": 60,
-        "zIndex": 1,
-        "props": {
-          "fieldId": "x1793110898299_tklj84"
-        }
-      },
-      {
-        "id": "x1793187935105_oj6j49",
-        "type": "infoField",
-        "alignX": "free",
-        "offsetX": 20,
-        "y": 1100,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 460,
-        "height": 60,
-        "zIndex": 1,
-        "props": {
-          "fieldId": "x1793110898299_elebri"
-        }
-      },
-      {
-        "id": "x1793187935105_7iz2p3",
-        "type": "ownInfo",
-        "alignX": "free",
-        "offsetX": 20,
-        "y": 1190,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 960,
-        "height": 150,
-        "zIndex": 1,
-        "props": {}
-      }
-    ]
+      ]
+    }
   },
   "globalUILayoutMobile": {
-    "version": 5,
-    "modules": [
-      {
-        "id": "x1793189216331_5vkfog",
-        "type": "title",
-        "alignX": "left",
-        "offsetX": 0,
-        "y": 2,
-        "widthMode": "percent",
-        "widthPercent": 90,
-        "widthFixed": 113,
-        "height": 49,
-        "zIndex": 2,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_yil0p1",
-        "type": "avatar",
-        "alignX": "left",
-        "offsetX": 10,
-        "y": 773,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 150,
-        "height": 150,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_d272bj",
-        "type": "tags",
-        "alignX": "right",
-        "offsetX": 10,
-        "y": 767,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 192,
-        "height": 202,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_qi14up",
-        "type": "dressupStage",
-        "alignX": "left",
-        "offsetX": 0,
-        "y": 53,
-        "widthMode": "percent",
-        "widthPercent": 90,
-        "widthFixed": 375,
-        "height": 530,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_8ubta6",
-        "type": "dressupNavPrevChar",
-        "alignX": "left",
-        "offsetX": 3,
-        "y": 54,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 50,
-        "height": 50,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_krf0c0",
-        "type": "dressupNavNextChar",
-        "alignX": "left",
-        "offsetX": 283,
-        "y": 54,
-        "widthMode": "fixed",
-        "widthPercent": 13,
-        "widthFixed": 50,
-        "height": 50,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_l4s8u3",
-        "type": "dressupNavPrevBody",
-        "alignX": "left",
-        "offsetX": 3,
-        "y": 591,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 50,
-        "height": 50,
-        "zIndex": 2,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_2cu3i9",
-        "type": "dressupNavNextBody",
-        "alignX": "left",
-        "offsetX": 283,
-        "y": 591,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 50,
-        "height": 50,
-        "zIndex": 2,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_zsse5i",
-        "type": "dressupNavPrevHair",
-        "alignX": "left",
-        "offsetX": 3,
-        "y": 109,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 50,
-        "height": 50,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_w07y1l",
-        "type": "dressupNavNextHair",
-        "alignX": "left",
-        "offsetX": 283,
-        "y": 109,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 50,
-        "height": 50,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_3scviv",
-        "type": "dressupNavPrevFace",
-        "alignX": "left",
-        "offsetX": 3,
-        "y": 164,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 50,
-        "height": 51,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_3goitr",
-        "type": "dressupNavNextFace",
-        "alignX": "left",
-        "offsetX": 283,
-        "y": 164,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 50,
-        "height": 50,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_i1q00o",
-        "type": "dressupNavPrevClothes",
-        "alignX": "left",
-        "offsetX": 3,
-        "y": 526,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 53,
-        "height": 54,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_fhojkl",
-        "type": "dressupNavNextClothes",
-        "alignX": "left",
-        "offsetX": 283,
-        "y": 526,
-        "widthMode": "fixed",
-        "widthPercent": 100,
-        "widthFixed": 52,
-        "height": 52,
-        "zIndex": 1,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_91zyno",
-        "type": "dressupExtraBar",
-        "alignX": "center",
-        "offsetX": -21,
-        "y": 593,
-        "widthMode": "percent",
-        "widthPercent": 67,
-        "widthFixed": 254,
-        "height": 138,
-        "zIndex": 0,
-        "props": {}
-      },
-      {
-        "id": "x1793189216331_nh58a2",
-        "type": "infoField",
-        "alignX": "center",
-        "offsetX": 0,
-        "y": 1172,
-        "widthMode": "percent",
-        "widthPercent": 88,
-        "widthFixed": 359,
-        "height": 55,
-        "zIndex": 1,
-        "props": {
-          "fieldId": "x1793110898299_xumbby"
+    "version": 7,
+    "tree": {
+      "id": "x1793288227858_1jgv4w",
+      "kind": "container",
+      "direction": "column",
+      "justify": "left",
+      "align": "stretch",
+      "wrap": false,
+      "gap": 6,
+      "padding": 8,
+      "widthPercent": 100,
+      "bgColor": "",
+      "children": [
+        {
+          "id": "x1793288227858_69em0f",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": [
+            {
+              "id": "x1793288227858_ulkt7h",
+              "kind": "module",
+              "type": "title",
+              "props": {},
+              "widthPercent": 90,
+              "alignSelf": "auto",
+              "heightRatio": 0.1361111111111111
+            }
+          ]
+        },
+        {
+          "id": "x1793288227858_4i8kn2",
+          "kind": "container",
+          "direction": "row",
+          "justify": "space-between",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": [
+            {
+              "id": "x1793288227858_6na48y",
+              "kind": "module",
+              "type": "dressupNavPrevChar",
+              "props": {},
+              "widthPercent": 25,
+              "alignSelf": "auto",
+              "heightRatio": 0.1388888888888889
+            },
+            {
+              "id": "x1793288227858_p5rpq6",
+              "kind": "module",
+              "type": "dressupNavNextChar",
+              "props": {},
+              "widthPercent": 25,
+              "alignSelf": "auto",
+              "heightRatio": 0.1388888888888889
+            }
+          ],
+          "heightRatio": 0.16
+        },
+        {
+          "id": "x1793288227858_ebqpgh",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": [
+            {
+              "id": "x1793381052765_8fuli6",
+              "kind": "container",
+              "direction": "column",
+              "justify": "left",
+              "align": "stretch",
+              "wrap": false,
+              "gap": 6,
+              "padding": 6,
+              "bgColor": "",
+              "widthPercent": 15,
+              "heightRatio": null,
+              "alignSelf": "auto",
+              "children": [
+                {
+                  "id": "x1793288227858_908vf8",
+                  "kind": "module",
+                  "type": "dressupNavPrevHair",
+                  "props": {},
+                  "widthPercent": 100,
+                  "alignSelf": "auto",
+                  "heightRatio": 3
+                },
+                {
+                  "id": "x1793288227858_xn4j1v",
+                  "kind": "module",
+                  "type": "dressupNavPrevFace",
+                  "props": {},
+                  "widthPercent": 100,
+                  "alignSelf": "auto",
+                  "heightRatio": 3
+                },
+                {
+                  "id": "x1793288227858_bpuxb3",
+                  "kind": "module",
+                  "type": "dressupNavPrevClothes",
+                  "props": {},
+                  "widthPercent": 100,
+                  "alignSelf": "auto",
+                  "heightRatio": 3
+                }
+              ]
+            },
+            {
+              "id": "x1793288227858_zrczeu",
+              "kind": "module",
+              "type": "dressupStage",
+              "props": {},
+              "widthPercent": 80,
+              "alignSelf": "auto",
+              "heightRatio": 1.4722222222222223
+            },
+            {
+              "id": "x1793381062365_h31pgg",
+              "kind": "container",
+              "direction": "column",
+              "justify": "left",
+              "align": "stretch",
+              "wrap": false,
+              "gap": 6,
+              "padding": 6,
+              "bgColor": "",
+              "widthPercent": 15,
+              "heightRatio": null,
+              "alignSelf": "auto",
+              "children": [
+                {
+                  "id": "x1793288227858_l9by0p",
+                  "kind": "module",
+                  "type": "dressupNavNextHair",
+                  "props": {},
+                  "widthPercent": 100,
+                  "alignSelf": "auto",
+                  "heightRatio": 3
+                },
+                {
+                  "id": "x1793288227858_sv1c2m",
+                  "kind": "module",
+                  "type": "dressupNavNextFace",
+                  "props": {},
+                  "widthPercent": 100,
+                  "alignSelf": "auto",
+                  "heightRatio": 3
+                },
+                {
+                  "id": "x1793288227858_j63kmb",
+                  "kind": "module",
+                  "type": "dressupNavNextClothes",
+                  "props": {},
+                  "widthPercent": 100,
+                  "alignSelf": "auto",
+                  "heightRatio": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x1793288227858_qmgg8f",
+          "kind": "container",
+          "direction": "row",
+          "justify": "space-between",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": [
+            {
+              "id": "x1793288227858_21i99z",
+              "kind": "module",
+              "type": "dressupNavPrevBody",
+              "props": {},
+              "widthPercent": 25,
+              "alignSelf": "auto",
+              "heightRatio": 0.1388888888888889
+            },
+            {
+              "id": "x1793288227858_cfskuy",
+              "kind": "module",
+              "type": "dressupNavNextBody",
+              "props": {},
+              "widthPercent": 25,
+              "alignSelf": "auto",
+              "heightRatio": 0.1388888888888889
+            }
+          ],
+          "heightRatio": 0.16
+        },
+        {
+          "id": "x1793288227858_6cx2d6",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": [
+            {
+              "id": "x1793288227858_ix87l1",
+              "kind": "module",
+              "type": "dressupExtraBar",
+              "props": {},
+              "widthPercent": 100,
+              "alignSelf": "auto",
+              "heightRatio": 1
+            }
+          ]
+        },
+        {
+          "id": "x1793288227858_fiz5fj",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": []
+        },
+        {
+          "id": "x1793288227858_v9nscx",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": []
+        },
+        {
+          "id": "x1793288227858_a85b3c",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": []
+        },
+        {
+          "id": "x1793288227858_cheikg",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": []
+        },
+        {
+          "id": "x1793288227858_x4t8lg",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": []
+        },
+        {
+          "id": "x1793288227858_a5jw75",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": []
+        },
+        {
+          "id": "x1793288227858_svl997",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": []
+        },
+        {
+          "id": "x1793288227858_p3bd1b",
+          "kind": "container",
+          "direction": "row",
+          "justify": "left",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": []
+        },
+        {
+          "id": "x1793288227858_41zotv",
+          "kind": "container",
+          "direction": "row",
+          "justify": "center",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": []
+        },
+        {
+          "id": "x1793288227858_mynksf",
+          "kind": "container",
+          "direction": "row",
+          "justify": "center",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": [
+            {
+              "id": "x1793288227858_mx2lxq",
+              "kind": "module",
+              "type": "infoField",
+              "props": {
+                "fieldId": "x1793110898299_xumbby"
+              },
+              "widthPercent": 88,
+              "alignSelf": "auto",
+              "heightRatio": 0.1527777777777778
+            }
+          ]
+        },
+        {
+          "id": "x1793288227858_wnpxrl",
+          "kind": "container",
+          "direction": "row",
+          "justify": "center",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": [
+            {
+              "id": "x1793288227858_itdr3y",
+              "kind": "module",
+              "type": "infoField",
+              "props": {
+                "fieldId": "x1793110898299_uwrrcn"
+              },
+              "widthPercent": 83,
+              "alignSelf": "auto",
+              "heightRatio": 0.1361111111111111
+            }
+          ]
+        },
+        {
+          "id": "x1793288227858_3bi4rz",
+          "kind": "container",
+          "direction": "row",
+          "justify": "center",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": [
+            {
+              "id": "x1793288227858_t1586u",
+              "kind": "module",
+              "type": "infoField",
+              "props": {
+                "fieldId": "x1793110898299_c1mnch"
+              },
+              "widthPercent": 75,
+              "alignSelf": "auto",
+              "heightRatio": 0.16666666666666666
+            }
+          ]
+        },
+        {
+          "id": "x1793288227858_dynuau",
+          "kind": "container",
+          "direction": "row",
+          "justify": "center",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": [
+            {
+              "id": "x1793288227858_io4bw1",
+              "kind": "module",
+              "type": "infoField",
+              "props": {
+                "fieldId": "x1793110898299_tklj84"
+              },
+              "widthPercent": 75,
+              "alignSelf": "auto",
+              "heightRatio": 0.16666666666666666
+            }
+          ]
+        },
+        {
+          "id": "x1793288227858_yc4jp2",
+          "kind": "container",
+          "direction": "row",
+          "justify": "center",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": [
+            {
+              "id": "x1793288227858_cmchyp",
+              "kind": "module",
+              "type": "infoField",
+              "props": {
+                "fieldId": "x1793110898299_elebri"
+              },
+              "widthPercent": 75,
+              "alignSelf": "auto",
+              "heightRatio": 0.16666666666666666
+            }
+          ]
+        },
+        {
+          "id": "x1793288227858_vdwvpr",
+          "kind": "container",
+          "direction": "row",
+          "justify": "center",
+          "align": "stretch",
+          "wrap": false,
+          "gap": 8,
+          "padding": 0,
+          "widthPercent": 100,
+          "bgColor": "",
+          "children": [
+            {
+              "id": "x1793288227858_3e70jf",
+              "kind": "module",
+              "type": "ownInfo",
+              "props": {},
+              "widthPercent": 75,
+              "alignSelf": "auto",
+              "heightRatio": 0.3888888888888889
+            }
+          ]
         }
-      },
-      {
-        "id": "x1793189216331_80a3k7",
-        "type": "infoField",
-        "alignX": "center",
-        "offsetX": 0,
-        "y": 1242,
-        "widthMode": "percent",
-        "widthPercent": 83,
-        "widthFixed": 359,
-        "height": 49,
-        "zIndex": 1,
-        "props": {
-          "fieldId": "x1793110898299_uwrrcn"
-        }
-      },
-      {
-        "id": "x1793189216331_x33hr2",
-        "type": "infoField",
-        "alignX": "center",
-        "offsetX": 0,
-        "y": 1312,
-        "widthMode": "percent",
-        "widthPercent": 75,
-        "widthFixed": 359,
-        "height": 60,
-        "zIndex": 1,
-        "props": {
-          "fieldId": "x1793110898299_c1mnch"
-        }
-      },
-      {
-        "id": "x1793189216331_xuusv3",
-        "type": "infoField",
-        "alignX": "center",
-        "offsetX": 0,
-        "y": 1385,
-        "widthMode": "percent",
-        "widthPercent": 75,
-        "widthFixed": 359,
-        "height": 60,
-        "zIndex": 1,
-        "props": {
-          "fieldId": "x1793110898299_tklj84"
-        }
-      },
-      {
-        "id": "x1793189216331_qckna6",
-        "type": "infoField",
-        "alignX": "center",
-        "offsetX": 0,
-        "y": 1453,
-        "widthMode": "percent",
-        "widthPercent": 75,
-        "widthFixed": 359,
-        "height": 60,
-        "zIndex": 1,
-        "props": {
-          "fieldId": "x1793110898299_elebri"
-        }
-      },
-      {
-        "id": "x1793189216331_buv9e2",
-        "type": "ownInfo",
-        "alignX": "center",
-        "offsetX": 0,
-        "y": 1544,
-        "widthMode": "percent",
-        "widthPercent": 75,
-        "widthFixed": 359,
-        "height": 140,
-        "zIndex": 1,
-        "props": {}
-      }
-    ]
+      ]
+    }
   }
 }
